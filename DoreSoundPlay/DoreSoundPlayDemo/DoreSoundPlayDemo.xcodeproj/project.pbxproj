@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		178F9B2981748F249A0D283E /* Pods_DoreSoundPlayDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC5C767BCD359AE49D75C042 /* Pods_DoreSoundPlayDemo.framework */; };
+		2240E9C123FFE20500A0B0A4 /* listening.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2240E9C023FFE20500A0B0A4 /* listening.jpg */; };
+		2262AF7B23C8928400D85296 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AF7A23C8928400D85296 /* AppDelegate.swift */; };
+		2262AF8423C8928600D85296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF8323C8928600D85296 /* Assets.xcassets */; };
+		2262AF8723C8928600D85296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF8523C8928600D85296 /* LaunchScreen.storyboard */; };
+		2262AF9523C8AA5700D85296 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AF8F23C8AA5600D85296 /* HomePage.swift */; };
+		2262AF9723C8AA5700D85296 /* SoundPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AF9123C8AA5700D85296 /* SoundPlayVC.swift */; };
+		2262AF9923C8AA5700D85296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF9323C8AA5700D85296 /* Main.storyboard */; };
+		2262AF9E23C8AA5B00D85296 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF9B23C8AA5B00D85296 /* logo_white.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2240E9C023FFE20500A0B0A4 /* listening.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = listening.jpg; sourceTree = "<group>"; };
+		2262AF7723C8928400D85296 /* DoreSoundPlayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreSoundPlayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2262AF7A23C8928400D85296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2262AF8323C8928600D85296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2262AF8623C8928600D85296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2262AF8823C8928600D85296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2262AF8F23C8AA5600D85296 /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		2262AF9123C8AA5700D85296 /* SoundPlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayVC.swift; sourceTree = "<group>"; };
+		2262AF9323C8AA5700D85296 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		2262AF9B23C8AA5B00D85296 /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
+		5F03E1BA82AABEB2C65C110F /* Pods-DoreHairSegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A052FBBD24A661EB3AA0224C /* Pods-DoreSoundPlayDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreSoundPlayDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo.release.xcconfig"; sourceTree = "<group>"; };
+		B5DCA16B16F1CBD7342727B8 /* Pods-DoreSoundPlayDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreSoundPlayDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		EC5C767BCD359AE49D75C042 /* Pods_DoreSoundPlayDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreSoundPlayDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5F687E79F7AF76FF2FCA75 /* Pods-DoreHairSegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2262AF7423C8928400D85296 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				178F9B2981748F249A0D283E /* Pods_DoreSoundPlayDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2262AF6E23C8928400D85296 = {
+			isa = PBXGroup;
+			children = (
+				2262AF7923C8928400D85296 /* DoreSoundPlayDemo */,
+				2262AF7823C8928400D85296 /* Products */,
+				6A1DABDF81FCE7DCE88E8AC3 /* Pods */,
+				3E9DF9F8A0C767B0DD705EFB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2262AF7823C8928400D85296 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2262AF7723C8928400D85296 /* DoreSoundPlayDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2262AF7923C8928400D85296 /* DoreSoundPlayDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2262AF9A23C8AA5B00D85296 /* assets */,
+				2262AF8F23C8AA5600D85296 /* HomePage.swift */,
+				2262AF9323C8AA5700D85296 /* Main.storyboard */,
+				2262AF9123C8AA5700D85296 /* SoundPlayVC.swift */,
+				2262AF7A23C8928400D85296 /* AppDelegate.swift */,
+				2262AF8323C8928600D85296 /* Assets.xcassets */,
+				2262AF8523C8928600D85296 /* LaunchScreen.storyboard */,
+				2262AF8823C8928600D85296 /* Info.plist */,
+			);
+			path = DoreSoundPlayDemo;
+			sourceTree = "<group>";
+		};
+		2262AF9A23C8AA5B00D85296 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				2240E9C023FFE20500A0B0A4 /* listening.jpg */,
+				2262AF9B23C8AA5B00D85296 /* logo_white.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		3E9DF9F8A0C767B0DD705EFB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC5C767BCD359AE49D75C042 /* Pods_DoreSoundPlayDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A1DABDF81FCE7DCE88E8AC3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F03E1BA82AABEB2C65C110F /* Pods-DoreHairSegmentDemo.debug.xcconfig */,
+				FE5F687E79F7AF76FF2FCA75 /* Pods-DoreHairSegmentDemo.release.xcconfig */,
+				B5DCA16B16F1CBD7342727B8 /* Pods-DoreSoundPlayDemo.debug.xcconfig */,
+				A052FBBD24A661EB3AA0224C /* Pods-DoreSoundPlayDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2262AF7623C8928400D85296 /* DoreSoundPlayDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2262AF8B23C8928600D85296 /* Build configuration list for PBXNativeTarget "DoreSoundPlayDemo" */;
+			buildPhases = (
+				089CD91F2E81099198D019FF /* [CP] Check Pods Manifest.lock */,
+				2262AF7323C8928400D85296 /* Sources */,
+				2262AF7423C8928400D85296 /* Frameworks */,
+				2262AF7523C8928400D85296 /* Resources */,
+				FBFF809B528AAC150812B26C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoreSoundPlayDemo;
+			productName = DoreHairSegmentDemo;
+			productReference = 2262AF7723C8928400D85296 /* DoreSoundPlayDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2262AF6F23C8928400D85296 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dore;
+				TargetAttributes = {
+					2262AF7623C8928400D85296 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2262AF7223C8928400D85296 /* Build configuration list for PBXProject "DoreSoundPlayDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2262AF6E23C8928400D85296;
+			productRefGroup = 2262AF7823C8928400D85296 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2262AF7623C8928400D85296 /* DoreSoundPlayDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2262AF7523C8928400D85296 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2240E9C123FFE20500A0B0A4 /* listening.jpg in Resources */,
+				2262AF9E23C8AA5B00D85296 /* logo_white.png in Resources */,
+				2262AF8723C8928600D85296 /* LaunchScreen.storyboard in Resources */,
+				2262AF8423C8928600D85296 /* Assets.xcassets in Resources */,
+				2262AF9923C8AA5700D85296 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		089CD91F2E81099198D019FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoreSoundPlayDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBFF809B528AAC150812B26C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2262AF7323C8928400D85296 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2262AF9723C8AA5700D85296 /* SoundPlayVC.swift in Sources */,
+				2262AF7B23C8928400D85296 /* AppDelegate.swift in Sources */,
+				2262AF9523C8AA5700D85296 /* HomePage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2262AF8523C8928600D85296 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2262AF8623C8928600D85296 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2262AF8923C8928600D85296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2262AF8A23C8928600D85296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2262AF8C23C8928600D85296 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5DCA16B16F1CBD7342727B8 /* Pods-DoreSoundPlayDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				INFOPLIST_FILE = DoreSoundPlayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.DoreSoundPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2262AF8D23C8928600D85296 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A052FBBD24A661EB3AA0224C /* Pods-DoreSoundPlayDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				INFOPLIST_FILE = DoreSoundPlayDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.DoreSoundPlayDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2262AF7223C8928400D85296 /* Build configuration list for PBXProject "DoreSoundPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262AF8923C8928600D85296 /* Debug */,
+				2262AF8A23C8928600D85296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2262AF8B23C8928600D85296 /* Build configuration list for PBXNativeTarget "DoreSoundPlayDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2262AF8C23C8928600D85296 /* Debug */,
+				2262AF8D23C8928600D85296 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2262AF6F23C8928400D85296 /* Project object */;
+}

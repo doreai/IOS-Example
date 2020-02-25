@@ -1,0 +1,6 @@
+framework module Pods_DoreHandTrackDemo {
+  umbrella header "Pods-DoreHandTrackDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

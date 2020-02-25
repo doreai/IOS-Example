@@ -1,0 +1,11 @@
+framework module DorePetSegment {
+  umbrella header "DorePetSegment.h"
+
+  export *
+  module * { export * }
+}
+
+module DorePetSegment.Swift {
+    header "DorePetSegment-Swift.h"
+    requires objc
+}

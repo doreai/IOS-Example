@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentLiteDemo/Pods-DoreHairSegmentLiteDemo-frameworks.sh
+${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework
+${PODS_ROOT}/DoreHairSegmentLite/Frameworks/DoreHairSegmentLite.framework

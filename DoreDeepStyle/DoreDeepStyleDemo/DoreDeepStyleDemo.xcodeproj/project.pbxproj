@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22A40E9323CC98A500800FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40E9223CC98A500800FCB /* AppDelegate.swift */; };
+		22A40E9C23CC98A600800FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E9B23CC98A600800FCB /* Assets.xcassets */; };
+		22A40E9F23CC98A600800FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E9D23CC98A600800FCB /* LaunchScreen.storyboard */; };
+		22A40EA723CC98F300800FCB /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EA623CC98F300800FCB /* HomePage.swift */; };
+		22A40EA923CC991000800FCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A40EA823CC991000800FCB /* Main.storyboard */; };
+		22A40EAD23CC991800800FCB /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 22A40EAB23CC991800800FCB /* logo_white.png */; };
+		22A40EB323CC992000800FCB /* ImageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EB023CC992000800FCB /* ImageFilter.swift */; };
+		22A40EB423CC992000800FCB /* RealTimeFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EB123CC992000800FCB /* RealTimeFilter.swift */; };
+		22A40EB623CCB07300800FCB /* ColCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EB523CCB07300800FCB /* ColCell.swift */; };
+		22A40EB823CD9D9100800FCB /* sample_image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A40EB723CD9D9100800FCB /* sample_image.jpg */; };
+		411860BBC956B86028ED0E6E /* Pods_DoreDeepStyleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 021BAE899BE375306413F73D /* Pods_DoreDeepStyleDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		021BAE899BE375306413F73D /* Pods_DoreDeepStyleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreDeepStyleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A40E8F23CC98A500800FCB /* DoreDeepStyleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreDeepStyleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A40E9223CC98A500800FCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22A40E9B23CC98A600800FCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A40E9E23CC98A600800FCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22A40EA023CC98A600800FCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A40EA623CC98F300800FCB /* HomePage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		22A40EA823CC991000800FCB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		22A40EAB23CC991800800FCB /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
+		22A40EB023CC992000800FCB /* ImageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageFilter.swift; sourceTree = "<group>"; };
+		22A40EB123CC992000800FCB /* RealTimeFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealTimeFilter.swift; sourceTree = "<group>"; };
+		22A40EB523CCB07300800FCB /* ColCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColCell.swift; sourceTree = SOURCE_ROOT; };
+		22A40EB723CD9D9100800FCB /* sample_image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_image.jpg; sourceTree = "<group>"; };
+		3F4468C911BA93629394C993 /* Pods-DoreDeepStyleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreDeepStyleDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		68540C5C83D2827735BC3852 /* Pods-DoreDeepStyleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreDeepStyleDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A40E8C23CC98A500800FCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411860BBC956B86028ED0E6E /* Pods_DoreDeepStyleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22A40E8623CC98A500800FCB = {
+			isa = PBXGroup;
+			children = (
+				22A40E9123CC98A500800FCB /* DoreDeepStyleDemo */,
+				22A40E9023CC98A500800FCB /* Products */,
+				35B0199C8405EB3ADA4203D0 /* Pods */,
+				8BFB6A0F3E94040F2FAA2628 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22A40E9023CC98A500800FCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A40E8F23CC98A500800FCB /* DoreDeepStyleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A40E9123CC98A500800FCB /* DoreDeepStyleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				22A40EAA23CC991800800FCB /* assets */,
+				22A40EB023CC992000800FCB /* ImageFilter.swift */,
+				22A40EB123CC992000800FCB /* RealTimeFilter.swift */,
+				22A40EA823CC991000800FCB /* Main.storyboard */,
+				22A40EA623CC98F300800FCB /* HomePage.swift */,
+				22A40E9223CC98A500800FCB /* AppDelegate.swift */,
+				22A40E9B23CC98A600800FCB /* Assets.xcassets */,
+				22A40E9D23CC98A600800FCB /* LaunchScreen.storyboard */,
+				22A40EA023CC98A600800FCB /* Info.plist */,
+				22A40EB523CCB07300800FCB /* ColCell.swift */,
+			);
+			path = DoreDeepStyleDemo;
+			sourceTree = "<group>";
+		};
+		22A40EAA23CC991800800FCB /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				22A40EB723CD9D9100800FCB /* sample_image.jpg */,
+				22A40EAB23CC991800800FCB /* logo_white.png */,
+			);
+			path = assets;
+			sourceTree = "<group>";
+		};
+		35B0199C8405EB3ADA4203D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68540C5C83D2827735BC3852 /* Pods-DoreDeepStyleDemo.debug.xcconfig */,
+				3F4468C911BA93629394C993 /* Pods-DoreDeepStyleDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8BFB6A0F3E94040F2FAA2628 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				021BAE899BE375306413F73D /* Pods_DoreDeepStyleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A40E8E23CC98A500800FCB /* DoreDeepStyleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A40EA323CC98A600800FCB /* Build configuration list for PBXNativeTarget "DoreDeepStyleDemo" */;
+			buildPhases = (
+				CCE03795A3311F457D21EF5B /* [CP] Check Pods Manifest.lock */,
+				22A40E8B23CC98A500800FCB /* Sources */,
+				22A40E8C23CC98A500800FCB /* Frameworks */,
+				22A40E8D23CC98A500800FCB /* Resources */,
+				0F994FC12943A6D9A3FF6BB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoreDeepStyleDemo;
+			productName = DoreDeepStyleDemo;
+			productReference = 22A40E8F23CC98A500800FCB /* DoreDeepStyleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A40E8723CC98A500800FCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = dore;
+				TargetAttributes = {
+					22A40E8E23CC98A500800FCB = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 22A40E8A23CC98A500800FCB /* Build configuration list for PBXProject "DoreDeepStyleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22A40E8623CC98A500800FCB;
+			productRefGroup = 22A40E9023CC98A500800FCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A40E8E23CC98A500800FCB /* DoreDeepStyleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A40E8D23CC98A500800FCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A40EA923CC991000800FCB /* Main.storyboard in Resources */,
+				22A40E9F23CC98A600800FCB /* LaunchScreen.storyboard in Resources */,
+				22A40EAD23CC991800800FCB /* logo_white.png in Resources */,
+				22A40E9C23CC98A600800FCB /* Assets.xcassets in Resources */,
+				22A40EB823CD9D9100800FCB /* sample_image.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0F994FC12943A6D9A3FF6BB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCE03795A3311F457D21EF5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoreDeepStyleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A40E8B23CC98A500800FCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A40EB423CC992000800FCB /* RealTimeFilter.swift in Sources */,
+				22A40EA723CC98F300800FCB /* HomePage.swift in Sources */,
+				22A40EB623CCB07300800FCB /* ColCell.swift in Sources */,
+				22A40E9323CC98A500800FCB /* AppDelegate.swift in Sources */,
+				22A40EB323CC992000800FCB /* ImageFilter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22A40E9D23CC98A600800FCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A40E9E23CC98A600800FCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A40EA123CC98A600800FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22A40EA223CC98A600800FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A40EA423CC98A600800FCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68540C5C83D2827735BC3852 /* Pods-DoreDeepStyleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				INFOPLIST_FILE = DoreDeepStyleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.DoreDeepStyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A40EA523CC98A600800FCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F4468C911BA93629394C993 /* Pods-DoreDeepStyleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INFOPLIST_FILE = DoreDeepStyleDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.DoreDeepStyleDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A40E8A23CC98A500800FCB /* Build configuration list for PBXProject "DoreDeepStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A40EA123CC98A600800FCB /* Debug */,
+				22A40EA223CC98A600800FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A40EA323CC98A600800FCB /* Build configuration list for PBXNativeTarget "DoreDeepStyleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A40EA423CC98A600800FCB /* Debug */,
+				22A40EA523CC98A600800FCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22A40E8723CC98A500800FCB /* Project object */;
+}

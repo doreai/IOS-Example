@@ -1,0 +1,6 @@
+framework module Pods_DoreHairSegmentDemo {
+  umbrella header "Pods-DoreHairSegmentDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

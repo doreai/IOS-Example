@@ -1,0 +1,11 @@
+framework module DoreHandTrack {
+  umbrella header "DoreHandTrack.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreHandTrack.Swift {
+    header "DoreHandTrack-Swift.h"
+    requires objc
+}

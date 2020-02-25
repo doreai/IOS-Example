@@ -1,0 +1,11 @@
+framework module DoreCoreAI {
+  umbrella header "DoreCoreAI.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreCoreAI.Swift {
+    header "DoreCoreAI-Swift.h"
+    requires objc
+}

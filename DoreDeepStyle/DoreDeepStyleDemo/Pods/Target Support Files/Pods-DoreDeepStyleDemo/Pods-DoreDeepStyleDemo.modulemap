@@ -1,0 +1,6 @@
+framework module Pods_DoreDeepStyleDemo {
+  umbrella header "Pods-DoreDeepStyleDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
