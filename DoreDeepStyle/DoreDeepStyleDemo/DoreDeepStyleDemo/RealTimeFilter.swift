@@ -50,7 +50,7 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
         }
         
         //cameraView.isHidden = true
-        // modelManager?.load_style(styleID: "s1")
+         //modelManager?.load_style(styleID: "s1")
         
         
     }
@@ -109,15 +109,16 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
         if(isStyleLoaded) {
             
             //run model and get result
-            let result:TextureOut  = TextureOut ( features: (modelManager?.run_model(onFrame: pixelBuffer))! )
-            let ciImage = CIImage(cvPixelBuffer: (result.semanticPredictions))
-            let context = CIContext()
-            guard let cgImage = context.createCGImage(ciImage, from: ciImage.extent) else { return  }
-            let setImage = UIImage(cgImage: cgImage)
-            
+           let result:TextureOut  = TextureOut ( features: (self.modelManager?.run_model(onFrame: pixelBuffer))! )
             
             DispatchQueue.main.async {
-                self.maskoutView.image = setImage
+                
+                let ciImage = CIImage(cvPixelBuffer: (result.semanticPredictions))
+                let context = CIContext()
+                guard let cgImage = context.createCGImage(ciImage, from: ciImage.extent) else { return  }
+                let setImage = UIImage(cgImage: cgImage)
+                let finalImage = setImage.resized(to: CGSize(width: self.maskoutView.frame.width, height: self.maskoutView.frame.height))
+                self.maskoutView.image = finalImage
             }
             
             
@@ -150,6 +151,7 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
         modelManager?.load_style(styleID: "s" + String((indexPath.item + 1)) )
+        //modelManager?.load_stylebyURL(URLPath: "https://xxx/deepstyle/ios/", styleID: "s" + String((indexPath.item + 1)))
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
