@@ -11,7 +11,6 @@ import Foundation
 import DoreCoreAI
 import DoreHairSegmentLite
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -110,18 +109,14 @@ class MaskView: UIViewController, CameraFeedManagerDelegate, HairSegmentLiteDele
         
         
         
-        //run model and get result
+        //run and get result
         let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: pixelBuffer))! )
         
         //mask image Black - bacground, White - foreground
         let ciImage:UIImage = getMaskBW(result.semanticPredictions)!
         
         DispatchQueue.main.async {
-            
             self.segmentView.image =  ciImage
-            
-            
-            
         }
         
     }

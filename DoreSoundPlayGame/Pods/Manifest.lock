@@ -1,0 +1,20 @@
+PODS:
+  - DoreCoreAI (1.0.11)
+  - DoreSoundPlay (1.0.12):
+    - DoreCoreAI
+
+DEPENDENCIES:
+  - DoreSoundPlay
+
+SPEC REPOS:
+  trunk:
+    - DoreCoreAI
+    - DoreSoundPlay
+
+SPEC CHECKSUMS:
+  DoreCoreAI: eabd2336831f3ab391d81d787f5fe33dfe289bd2
+  DoreSoundPlay: 7e997f786f7dea953a00bc9a4bcc6850009f4917
+
+PODFILE CHECKSUM: 57193d8a59be0f3319aba9c38d128519b6eda208
+
+COCOAPODS: 1.8.4

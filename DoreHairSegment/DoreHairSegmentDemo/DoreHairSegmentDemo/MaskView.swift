@@ -11,7 +11,6 @@ import Foundation
 import DoreCoreAI
 import DoreHairSegment
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -75,11 +74,7 @@ class MaskView: UIViewController, CameraFeedManagerDelegate {
         
         
         DispatchQueue.main.async {
-            
             self.segmentView.image =  ciImage
-            
-            
-            
         }
         
     }

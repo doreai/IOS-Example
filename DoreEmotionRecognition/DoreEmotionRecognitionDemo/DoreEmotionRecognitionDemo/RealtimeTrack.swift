@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreEmotionRecognition
 //======================
-import CoreML
 import AVFoundation
 
 

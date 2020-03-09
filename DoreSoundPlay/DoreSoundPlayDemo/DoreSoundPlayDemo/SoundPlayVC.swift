@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreSoundPlay
 //======================
-import CoreML
 import AVFoundation
 import AVKit
 import SoundAnalysis

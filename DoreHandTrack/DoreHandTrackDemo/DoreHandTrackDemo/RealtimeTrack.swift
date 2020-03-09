@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreHandTrack
 //======================
-import CoreML
 import AVFoundation
 
 

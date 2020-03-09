@@ -270,7 +270,7 @@
                                             <action selector="btnGallery_Action:" destination="TiQ-BQ-cku" id="MPE-YM-tL9"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem title="Run Segment" id="fh5-si-yGU">
+                                    <barButtonItem title="Change Color" id="fh5-si-yGU">
                                         <connections>
                                             <action selector="btnSegment_Action:" destination="TiQ-BQ-cku" id="X4H-V6-j9E"/>
                                         </connections>

@@ -1,0 +1,11 @@
+framework module DoreEmotionRecognition {
+  umbrella header "DoreEmotionRecognition.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreEmotionRecognition.Swift {
+    header "DoreEmotionRecognition-Swift.h"
+    requires objc
+}

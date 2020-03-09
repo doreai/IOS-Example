@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreDeepStyle
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -30,7 +29,7 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
     @IBOutlet weak var colView: UICollectionView!
     private var isBackCam = false
     
-    public lazy var cameraCapture = CameraFeedManager(previewView: cameraView, CameraPosition: AVCaptureDevice.Position.front )
+    public lazy var cameraCapture = CameraFeedManager(previewView: cameraView, CameraPosition: AVCaptureDevice.Position.back )
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -142,6 +141,15 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
         
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         cell.lbName.text = "Style-" + String(indexPath.item + 1)
+        
+       
+        
+        let bundle = Bundle(for: RealTimeFilter.self)
+        guard let thumbimage = UIImage(named: String(indexPath.item + 1) + ".png", in: bundle, compatibleWith: nil) else {
+          fatalError("Missing MyImage...")
+        }
+        cell.thumbImage.image = thumbimage
+
         //cell.backgroundColor = UIColor.blue // make cell more visible in our example project
         
         return cell
@@ -151,6 +159,8 @@ class RealTimeFilter : UIViewController, CameraFeedManagerDelegate, DoreDeepStyl
         // handle tap events
         print("You selected cell #\(indexPath.item)!")
         modelManager?.load_style(styleID: "s" + String((indexPath.item + 1)) )
+        
+        //---load style from your server url---
         //modelManager?.load_stylebyURL(URLPath: "https://xxx/deepstyle/ios/", styleID: "s" + String((indexPath.item + 1)))
     }
     

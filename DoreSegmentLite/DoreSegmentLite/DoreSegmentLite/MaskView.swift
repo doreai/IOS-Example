@@ -11,7 +11,6 @@ import Foundation
 import DoreCoreAI
 import DoreSegmentLite
 //======================
-import CoreML
 import AVFoundation
 
 

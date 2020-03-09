@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreDeepStyle
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -88,6 +87,11 @@ class ImageFilter: UIViewController, DoreDeepStyleLoadDelegate, UICollectionView
         // Use the outlet in our custom class to get a reference to the UILabel in the cell
         cell.lbName.text = "Style-" + String(indexPath.item + 1)
         //cell.backgroundColor = UIColor.blue // make cell more visible in our example project
+        let bundle = Bundle(for: RealTimeFilter.self)
+        guard let thumbimage = UIImage(named: String(indexPath.item + 1) + ".png", in: bundle, compatibleWith: nil) else {
+          fatalError("Missing MyImage...")
+        }
+        cell.thumbImage.image = thumbimage
         
         return cell
     }

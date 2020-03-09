@@ -1,0 +1,28 @@
+PODS:
+  - DoreCoreAI (1.0.11)
+  - DoreEmotionRecognition (1.0.11):
+    - DoreCoreAI
+    - TensorFlowLiteSwift (= 2.0.0)
+  - TensorFlowLiteC (2.0.0)
+  - TensorFlowLiteSwift (2.0.0):
+    - TensorFlowLiteC (= 2.0.0)
+
+DEPENDENCIES:
+  - DoreEmotionRecognition
+
+SPEC REPOS:
+  trunk:
+    - DoreCoreAI
+    - DoreEmotionRecognition
+    - TensorFlowLiteC
+    - TensorFlowLiteSwift
+
+SPEC CHECKSUMS:
+  DoreCoreAI: eabd2336831f3ab391d81d787f5fe33dfe289bd2
+  DoreEmotionRecognition: e2a235eecf46da1e28816aac9f5ee2258575b078
+  TensorFlowLiteC: d22a94f77938edb2dfcb9674937f9548a3fcdb23
+  TensorFlowLiteSwift: dcd91bd74091f8e3e1b9b28a7d789f635dc26bea
+
+PODFILE CHECKSUM: 6432cd403ca3c8320c5e87e8ec3b2f5759461235
+
+COCOAPODS: 1.8.4

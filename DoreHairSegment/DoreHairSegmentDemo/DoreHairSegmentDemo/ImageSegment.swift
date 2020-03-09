@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreHairSegment
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -24,6 +23,7 @@ class ImageSegment: UIViewController {
     }
     
     private var modelManager: HairSegmentManager?
+    private var imgpixelBuffer:CVPixelBuffer?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,20 +40,45 @@ class ImageSegment: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         
+         imgpixelBuffer = buffer(from: segmentView.image!)!
+        
     }
     override func viewWillDisappear(_ animated: Bool) {
         
     }
     
-    func run_segment(RGBCode:[Int]) {
+    func run_segment() {
         
-        let pixelBuffer:CVPixelBuffer = buffer(from: segmentView.image!)!
+        
         
         //run model and get result
-        let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: pixelBuffer))! )
+        let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: imgpixelBuffer!))! )
+        
+        //get random color
+        var RGBCode:[Int] = [155, 77, 243]
+        var randomColor: UIColor {
+            let hue : CGFloat = CGFloat(arc4random() % 256) / 256 // use 256 to get full range from 0.0 to 1.0
+            let saturation : CGFloat = CGFloat(arc4random() % 128) / 256 + 0.5 // from 0.5 to 1.0 to stay away from white
+            let brightness : CGFloat = CGFloat(arc4random() % 128) / 256 + 0.5 // from 0.5 to 1.0 to stay away from black
+            
+            return UIColor(hue: hue, saturation: saturation, brightness: brightness, alpha: 1)
+        }
+        
+        var red: CGFloat = 0
+        var green: CGFloat = 0
+        var blue: CGFloat = 0
+        var alpha: CGFloat = 0
+        
+        randomColor.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
+        
+        RGBCode[0] = Int(red * 256)
+        RGBCode[1] = Int(green * 256)
+        RGBCode[2] = Int(blue * 256)
+        
+        
         let ciImage:UIImage = getColorMask(result.semanticPredictions,R: RGBCode[0], G: RGBCode[1], B: RGBCode[2], A: 255)!
         
-        let rgbCIimage:CIImage = CIImage.init(cvPixelBuffer: pixelBuffer)
+        let rgbCIimage:CIImage = CIImage.init(cvPixelBuffer: imgpixelBuffer!)
         let img:UIImage = convertCItoUIimage(cmage: rgbCIimage)
         
         //you can change BlendMode and adjust alpha value (0.1 to 1)
@@ -61,7 +86,7 @@ class ImageSegment: UIViewController {
         
         DispatchQueue.main.async {
             self.segmentView.image = outputImage
-            self.btnSegment.isEnabled = false
+            //self.btnSegment.isEnabled = false
         }
         
     }
@@ -94,8 +119,8 @@ class ImageSegment: UIViewController {
     
     
     @IBAction func btnSegment_Action(_ sender: Any) {
-        let RGBCode:[Int] = [155, 77, 243]
-        run_segment(RGBCode: RGBCode)
+        //let RGBCode:[Int] = [155, 77, 243]
+        run_segment()
     }
     
     @IBAction func btnGallery_Action(_ sender: Any) {
@@ -110,6 +135,7 @@ extension ImageSegment: UIImagePickerControllerDelegate,UINavigationControllerDe
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
             self.segmentView.image = pickedImage.resize(size: CGSize(width: 1200, height: 1200 * (pickedImage.size.height / pickedImage.size.width)))
+             imgpixelBuffer = buffer(from: segmentView.image!)!
         }
         
         picker.dismiss(animated: true, completion: nil)

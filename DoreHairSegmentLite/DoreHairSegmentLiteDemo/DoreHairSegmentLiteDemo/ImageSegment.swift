@@ -11,7 +11,6 @@ import UIKit
 import DoreCoreAI
 import DoreHairSegmentLite
 //======================
-import CoreML
 import AVFoundation
 
 
@@ -70,22 +69,22 @@ class ImageSegment: UIViewController, HairSegmentLiteDelegate {
         
     }
     
-    //===DoreSegmentLiteDelegate===
+    //===DoreHairSegmentLiteDelegate===
     func onHairSegmentLiteSuccess(_ info: String) {
         self.alertView.dismiss(animated: true, completion: nil)
-        //DoreSegment Library files downloaded successfully...! Ready to run segment
+        //DoreHairSegment Library files downloaded successfully...! Ready to run segment
         self.btnSegment.isEnabled = true
         self.isLibLoaded = true
     }
     
     func onHairSegmentLiteFailure(_ error: String) {
         self.alertView.dismiss(animated: true, completion: nil)
-        //DoreSegment Library files downloading failed..!
+        //DoreHairSegment Library files downloading failed..!
         print(error)
     }
     
     func onHairSegmentLiteProgressUpdate(_ progress: String) {
-        //DoreSegment Library files downloading...!
+        //DoreHairSegment Library files downloading...!
         print(progress)
         self.progressView!.progress = Float(progress)!
     }

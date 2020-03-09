@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		229287C124128D9E00C3E60A /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287B824128D9E00C3E60A /* FaveButton.swift */; };
+		229287C224128D9E00C3E60A /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287B924128D9E00C3E60A /* FaveIcon.swift */; };
+		229287C324128D9E00C3E60A /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BB24128D9E00C3E60A /* Constraints+.swift */; };
+		229287C424128D9E00C3E60A /* Easing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BC24128D9E00C3E60A /* Easing.swift */; };
+		229287C524128D9E00C3E60A /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BD24128D9E00C3E60A /* Geometry.swift */; };
+		229287C624128D9E00C3E60A /* Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BE24128D9E00C3E60A /* Init.swift */; };
+		229287C724128D9E00C3E60A /* Ring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BF24128D9E00C3E60A /* Ring.swift */; };
+		229287C824128D9E00C3E60A /* Spark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287C024128D9E00C3E60A /* Spark.swift */; };
+		3B2C5A33B951EBECD47B35C9 /* Pods_EmotionRecognitionGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09E9992AF909F9D78585D65D /* Pods_EmotionRecognitionGame.framework */; };
+		B00E87FF23FD425C00016110 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E87FE23FD425C00016110 /* AppDelegate.swift */; };
+		B00E880123FD425C00016110 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E880023FD425C00016110 /* SceneDelegate.swift */; };
+		B00E880323FD425C00016110 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B00E880223FD425C00016110 /* ViewController.swift */; };
+		B00E880623FD425C00016110 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E880423FD425C00016110 /* Main.storyboard */; };
+		B00E880823FD425F00016110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00E880723FD425F00016110 /* Assets.xcassets */; };
+		B00E880B23FD425F00016110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E880923FD425F00016110 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		084C37FFFCE99F2C9B3D5A57 /* Pods-EmotionRecognitionGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionRecognitionGame.debug.xcconfig"; path = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame.debug.xcconfig"; sourceTree = "<group>"; };
+		09E9992AF909F9D78585D65D /* Pods_EmotionRecognitionGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmotionRecognitionGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		229287B824128D9E00C3E60A /* FaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveButton.swift; sourceTree = "<group>"; };
+		229287B924128D9E00C3E60A /* FaveIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaveIcon.swift; sourceTree = "<group>"; };
+		229287BB24128D9E00C3E60A /* Constraints+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraints+.swift"; sourceTree = "<group>"; };
+		229287BC24128D9E00C3E60A /* Easing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Easing.swift; sourceTree = "<group>"; };
+		229287BD24128D9E00C3E60A /* Geometry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		229287BE24128D9E00C3E60A /* Init.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Init.swift; sourceTree = "<group>"; };
+		229287BF24128D9E00C3E60A /* Ring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ring.swift; sourceTree = "<group>"; };
+		229287C024128D9E00C3E60A /* Spark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spark.swift; sourceTree = "<group>"; };
+		79511B8AA2D900C14CCE5DAF /* Pods-EmotionRecognitionGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmotionRecognitionGame.release.xcconfig"; path = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame.release.xcconfig"; sourceTree = "<group>"; };
+		B00E87FB23FD425C00016110 /* EmotionRecognitionGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmotionRecognitionGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B00E87FE23FD425C00016110 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B00E880023FD425C00016110 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B00E880223FD425C00016110 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B00E880523FD425C00016110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B00E880723FD425F00016110 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B00E880A23FD425F00016110 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B00E880C23FD425F00016110 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B00E87F823FD425C00016110 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2C5A33B951EBECD47B35C9 /* Pods_EmotionRecognitionGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		229287B724128D9E00C3E60A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				229287B824128D9E00C3E60A /* FaveButton.swift */,
+				229287B924128D9E00C3E60A /* FaveIcon.swift */,
+				229287BA24128D9E00C3E60A /* Helpers */,
+				229287BF24128D9E00C3E60A /* Ring.swift */,
+				229287C024128D9E00C3E60A /* Spark.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		229287BA24128D9E00C3E60A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				229287BB24128D9E00C3E60A /* Constraints+.swift */,
+				229287BC24128D9E00C3E60A /* Easing.swift */,
+				229287BD24128D9E00C3E60A /* Geometry.swift */,
+				229287BE24128D9E00C3E60A /* Init.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8B232F700E69EFBDA0322347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09E9992AF909F9D78585D65D /* Pods_EmotionRecognitionGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B00E87F223FD425C00016110 = {
+			isa = PBXGroup;
+			children = (
+				B00E87FD23FD425C00016110 /* EmotionRecognitionGame */,
+				B00E87FC23FD425C00016110 /* Products */,
+				E69B40D03AF8A5642FE22DAF /* Pods */,
+				8B232F700E69EFBDA0322347 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B00E87FC23FD425C00016110 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B00E87FB23FD425C00016110 /* EmotionRecognitionGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B00E87FD23FD425C00016110 /* EmotionRecognitionGame */ = {
+			isa = PBXGroup;
+			children = (
+				229287B724128D9E00C3E60A /* Source */,
+				B00E87FE23FD425C00016110 /* AppDelegate.swift */,
+				B00E880023FD425C00016110 /* SceneDelegate.swift */,
+				B00E880223FD425C00016110 /* ViewController.swift */,
+				B00E880423FD425C00016110 /* Main.storyboard */,
+				B00E880723FD425F00016110 /* Assets.xcassets */,
+				B00E880923FD425F00016110 /* LaunchScreen.storyboard */,
+				B00E880C23FD425F00016110 /* Info.plist */,
+			);
+			path = EmotionRecognitionGame;
+			sourceTree = "<group>";
+		};
+		E69B40D03AF8A5642FE22DAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				084C37FFFCE99F2C9B3D5A57 /* Pods-EmotionRecognitionGame.debug.xcconfig */,
+				79511B8AA2D900C14CCE5DAF /* Pods-EmotionRecognitionGame.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B00E87FA23FD425C00016110 /* EmotionRecognitionGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B00E880F23FD425F00016110 /* Build configuration list for PBXNativeTarget "EmotionRecognitionGame" */;
+			buildPhases = (
+				66E96CAB903244A5C10809E4 /* [CP] Check Pods Manifest.lock */,
+				B00E87F723FD425C00016110 /* Sources */,
+				B00E87F823FD425C00016110 /* Frameworks */,
+				B00E87F923FD425C00016110 /* Resources */,
+				C4DA21EFF5E184111F53EB1A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmotionRecognitionGame;
+			productName = CatchTheKennyGame;
+			productReference = B00E87FB23FD425C00016110 /* EmotionRecognitionGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B00E87F323FD425C00016110 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Hulya Aydogmus";
+				TargetAttributes = {
+					B00E87FA23FD425C00016110 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = B00E87F623FD425C00016110 /* Build configuration list for PBXProject "EmotionRecognitionGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B00E87F223FD425C00016110;
+			productRefGroup = B00E87FC23FD425C00016110 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B00E87FA23FD425C00016110 /* EmotionRecognitionGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B00E87F923FD425C00016110 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B00E880B23FD425F00016110 /* LaunchScreen.storyboard in Resources */,
+				B00E880823FD425F00016110 /* Assets.xcassets in Resources */,
+				B00E880623FD425C00016110 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		66E96CAB903244A5C10809E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EmotionRecognitionGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4DA21EFF5E184111F53EB1A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B00E87F723FD425C00016110 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				229287C424128D9E00C3E60A /* Easing.swift in Sources */,
+				B00E880323FD425C00016110 /* ViewController.swift in Sources */,
+				229287C224128D9E00C3E60A /* FaveIcon.swift in Sources */,
+				229287C624128D9E00C3E60A /* Init.swift in Sources */,
+				229287C124128D9E00C3E60A /* FaveButton.swift in Sources */,
+				B00E87FF23FD425C00016110 /* AppDelegate.swift in Sources */,
+				229287C524128D9E00C3E60A /* Geometry.swift in Sources */,
+				229287C724128D9E00C3E60A /* Ring.swift in Sources */,
+				229287C324128D9E00C3E60A /* Constraints+.swift in Sources */,
+				B00E880123FD425C00016110 /* SceneDelegate.swift in Sources */,
+				229287C824128D9E00C3E60A /* Spark.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B00E880423FD425C00016110 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00E880523FD425C00016110 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B00E880923FD425F00016110 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B00E880A23FD425F00016110 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B00E880D23FD425F00016110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B00E880E23FD425F00016110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B00E881023FD425F00016110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 084C37FFFCE99F2C9B3D5A57 /* Pods-EmotionRecognitionGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				INFOPLIST_FILE = EmotionRecognitionGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.emotionrecognitiongame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B00E881123FD425F00016110 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79511B8AA2D900C14CCE5DAF /* Pods-EmotionRecognitionGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AQ6532WWUX;
+				INFOPLIST_FILE = EmotionRecognitionGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dore.emotionrecognitiongame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B00E87F623FD425C00016110 /* Build configuration list for PBXProject "EmotionRecognitionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00E880D23FD425F00016110 /* Debug */,
+				B00E880E23FD425F00016110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B00E880F23FD425F00016110 /* Build configuration list for PBXNativeTarget "EmotionRecognitionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B00E881023FD425F00016110 /* Debug */,
+				B00E881123FD425F00016110 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B00E87F323FD425C00016110 /* Project object */;
+}
