@@ -1,6 +1,6 @@
 //
 //  VideoBackGround.swift
-//  DoreSegmentDemo
+//  DoreSegmentLiteDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

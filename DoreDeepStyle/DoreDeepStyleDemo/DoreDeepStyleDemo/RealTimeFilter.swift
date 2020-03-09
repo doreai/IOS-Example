@@ -1,6 +1,6 @@
 //
-//  VideoBackGround.swift
-//  DoreHairSegmentDemo
+//  RealTimeFilter.swift
+//  DoreDeepStyle
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

@@ -1,6 +1,6 @@
 //
-//  VideoBackGround.swift
-//  DoreSegmentDemo
+//  RealtimeTrack.swift
+//  DoreHandTrack
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

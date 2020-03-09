@@ -1,5 +1,5 @@
 //
-//  VideoBackGround.swift
+//  HairColor.swift
 //  DoreHairSegmentDemo
 //
 //  Copyright © 2020 dore. All rights reserved.

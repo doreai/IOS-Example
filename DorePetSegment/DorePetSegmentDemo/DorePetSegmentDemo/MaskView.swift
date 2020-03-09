@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  DoreSegmentDemo
+//  MaskView.swift
+//  DorePetSegmentDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

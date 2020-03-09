@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  DoreSegmentDemo
+//  MaskView.swift
+//  DorePetSegmentLiteDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //
@@ -75,13 +75,13 @@ class MaskView: UIViewController, CameraFeedManagerDelegate,  PetSegmentLiteDele
     }
     
     
-    //===DoreSegmentLiteDelegate===
+    //===DorePetSegmentLiteDelegate===
     func onPetSegmentLiteSuccess(_ info: String) {
         
         self.alertView.dismiss(animated: true, completion: nil)
         
         
-        //DoreSegment Library files downloaded successfully...! Ready to run segment
+        //DorePetSegment Library files downloaded successfully...! Ready to run segment
         cameraCapture.checkCameraConfigurationAndStartSession()
     }
     
@@ -90,12 +90,12 @@ class MaskView: UIViewController, CameraFeedManagerDelegate,  PetSegmentLiteDele
         self.alertView.dismiss(animated: true, completion: nil)
         
         
-        //DoreSegment Library files downloading failed..!
+        //DorePetSegment Library files downloading failed..!
         print(error)
     }
     
     func onPetSegmentLiteProgressUpdate(_ progress: String) {
-        //DoreSegment Library files downloading...!
+        //DorePetSegment Library files downloading...!
         print(progress)
         self.progressView!.progress = Float(progress)!
     }

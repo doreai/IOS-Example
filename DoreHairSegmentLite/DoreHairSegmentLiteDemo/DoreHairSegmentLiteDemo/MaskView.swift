@@ -1,6 +1,6 @@
 //
-//  ViewController.swift
-//  DoreHairSegmentDemo
+//  MaskView.swift
+//  DoreHairSegmentLiteDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

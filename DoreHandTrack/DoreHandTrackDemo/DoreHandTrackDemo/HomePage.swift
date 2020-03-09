@@ -1,6 +1,6 @@
 //
 //  HomePage.swift
-//  DoreSegmentDemo
+//  DoreHandTrack
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

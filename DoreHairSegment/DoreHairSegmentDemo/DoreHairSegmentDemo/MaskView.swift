@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  MaskView.swift
 //  DoreHairSegmentDemo
 //
 //  Copyright © 2020 dore. All rights reserved.

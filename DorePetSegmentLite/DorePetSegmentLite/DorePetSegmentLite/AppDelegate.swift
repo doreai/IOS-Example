@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  DoreSegmentLite
+//  DorePetSegmentLite
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

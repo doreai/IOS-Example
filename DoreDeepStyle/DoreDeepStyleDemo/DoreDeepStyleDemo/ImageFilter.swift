@@ -1,6 +1,6 @@
 //
-//  ImageSegment.swift
-//  DoreHairSegmentDemo
+//  ImageFilter.swift
+//  DoreDeepStyle
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

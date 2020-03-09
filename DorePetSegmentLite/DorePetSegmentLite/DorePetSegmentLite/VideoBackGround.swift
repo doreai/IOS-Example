@@ -1,6 +1,6 @@
 //
 //  VideoBackGround.swift
-//  DoreSegmentDemo
+//  DorePetSegmentLiteDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //
@@ -97,21 +97,21 @@ class VideoBackGround: UIViewController, CameraFeedManagerDelegate, PetSegmentLi
     }
     
     
-    //===DoreSegmentLiteDelegate===
+    //===DorePetSegmentLiteDelegate===
     func onPetSegmentLiteSuccess(_ info: String) {
         self.alertView.dismiss(animated: true, completion: nil)
-        //DoreSegment Library files downloaded successfully...! Ready to run segment
+        //DorePetSegment Library files downloaded successfully...! Ready to run segment
         cameraCapture.checkCameraConfigurationAndStartSession()
     }
     
     func onPetSegmentLiteFailure(_ error: String) {
         self.alertView.dismiss(animated: true, completion: nil)
-        //DoreSegment Library files downloading failed..!
+        //DorePetSegment Library files downloading failed..!
         print(error)
     }
     
     func onPetSegmentLiteProgressUpdate(_ progress: String) {
-        //DoreSegment Library files downloading...!
+        //DorePetSegment Library files downloading...!
         print(progress)
         self.progressView!.progress = Float(progress)!
     }

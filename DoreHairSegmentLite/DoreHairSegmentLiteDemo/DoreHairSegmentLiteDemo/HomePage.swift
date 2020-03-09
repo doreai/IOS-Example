@@ -1,6 +1,6 @@
 //
 //  HomePage.swift
-//  DoreHairSegmentDemo
+//  DoreHairSegmentLiteDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
 //

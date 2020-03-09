@@ -1,5 +1,5 @@
 //
-//  VideoBackGround.swift
+//  HairColor.swift
 //  DoreHairSegmentDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
@@ -74,7 +74,7 @@ class HairColor : UIViewController, CameraFeedManagerDelegate, HairSegmentLiteDe
     }
     
     
-    //===DoreSegmentLiteDelegate===
+    //===DoreHairSegmentLiteDelegate===
     func onHairSegmentLiteSuccess(_ info: String) {
         
         self.alertView.dismiss(animated: true, completion: nil)

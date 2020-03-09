@@ -1,5 +1,5 @@
 //
-//  VideoBackGround.swift
+//  SoundPlayVC.swift
 //  DoreSoundPlayDemo
 //
 //  Copyright © 2020 dore. All rights reserved.
