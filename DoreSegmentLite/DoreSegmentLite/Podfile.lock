@@ -1,6 +1,6 @@
 PODS:
-  - DoreCoreAI (1.0.11)
-  - DoreSegmentLite (1.0.11):
+  - DoreCoreAI (1.0.15)
+  - DoreSegmentLite (1.0.15):
     - DoreCoreAI
 
 DEPENDENCIES:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - DoreSegmentLite
 
 SPEC CHECKSUMS:
-  DoreCoreAI: eabd2336831f3ab391d81d787f5fe33dfe289bd2
-  DoreSegmentLite: 51f46255ce223a56e2df4f7f1226ee28f059a710
+  DoreCoreAI: e73eeab36b4a041fe3198d81a88d6a9b5db2f765
+  DoreSegmentLite: 4873747b160d374c586a28bf3351fb08884b1b46
 
 PODFILE CHECKSUM: 7d8abcd88b7faade0615a4fdcc7bf5a3387d1abc
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0
