@@ -7,7 +7,7 @@ target 'DoreHandTrackDemo' do
 
   # Pods for DoreSegmentDemo
 
-  pod 'DoreHandTrack'
+   pod 'DoreHandTrack'
 
 end
  

@@ -128,7 +128,7 @@
 				735EA7631FE2F0AB006B02E2 /* Sources */,
 				735EA7641FE2F0AB006B02E2 /* Frameworks */,
 				735EA7651FE2F0AB006B02E2 /* Resources */,
-				429FF903D8BC640BC4F7C094 /* [CP] Embed Pods Frameworks */,
+				3695E053E54D02FE05F540FC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -193,7 +193,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		429FF903D8BC640BC4F7C094 /* [CP] Embed Pods Frameworks */ = {
+		3695E053E54D02FE05F540FC /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -381,7 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = SoundPlayGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -401,7 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = SoundPlayGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

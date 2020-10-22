@@ -7,7 +7,7 @@ target 'EmotionRecognitionGame' do
 
   # Pods for DoreSegmentDemo
 
-  pod 'DoreEmotionRecognition'
+   pod 'DoreEmotionRecognition'
 
 end
  

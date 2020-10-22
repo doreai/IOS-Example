@@ -18,38 +18,38 @@
 		};
 		DE2C6C877A450A3800A9D03115135142 /* DoreSoundPlay */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 1409AC8A1CB837D3AA7CF7ACA1B7BB68 /* Build configuration list for PBXAggregateTarget "DoreSoundPlay" */;
+			buildConfigurationList = 017AFB072CF1DA7EC2BEBAC07D2749A5 /* Build configuration list for PBXAggregateTarget "DoreSoundPlay" */;
 			buildPhases = (
 			);
 			dependencies = (
-				8B66AB4F4C7631037839460460922B26 /* PBXTargetDependency */,
+				0EB6921CF11E5782ABE6F0465373D88F /* PBXTargetDependency */,
 			);
 			name = DoreSoundPlay;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		595F7931E0D00901936BE2B7611122B9 /* Pods-DoreSoundPlayGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8139BD6325DD2AE14084206DAB12E4A4 /* Pods-DoreSoundPlayGame-dummy.m */; };
-		CB4AFA22BF86BB42A78CF447BF55CF73 /* Pods-DoreSoundPlayGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C136A84ED015BEFBE4FBF998D4E685E4 /* Pods-DoreSoundPlayGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FD37CD771A2DD1F5C15F01A4106D553C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5575C80FF7D6CA8307A6935B37CC1E4F /* Pods-DoreSoundPlayGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8139BD6325DD2AE14084206DAB12E4A4 /* Pods-DoreSoundPlayGame-dummy.m */; };
+		5782C2CC8BDE079A3DB0E79BD2DA5368 /* Pods-DoreSoundPlayGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C136A84ED015BEFBE4FBF998D4E685E4 /* Pods-DoreSoundPlayGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		745EBEAC3FDB16B67CDA89614DFA56BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		AD8F58D09E5E64849948CD00B5152C59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
-			remoteInfo = DoreCoreAI;
-		};
-		B1DBBB34505907B13323118E8C2B0297 /* PBXContainerItemProxy */ = {
+		3883731DE0E7A0939C15C96CEA4D764C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DE2C6C877A450A3800A9D03115135142;
 			remoteInfo = DoreSoundPlay;
 		};
-		B2956B57584824F81533B5220973C137 /* PBXContainerItemProxy */ = {
+		93C4DD01389509C839782530FD367E0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
+			remoteInfo = DoreCoreAI;
+		};
+		A64DBFEA1C9F7E0E7EE4F610FC36CEEE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -59,30 +59,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C2047FD08BCE4A96690144A48B3AFE7 /* DoreSoundPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreSoundPlay.framework; path = Frameworks/DoreSoundPlay.framework; sourceTree = "<group>"; };
+		264DAA4582878E0B769F3B59D9A9272F /* DoreCoreAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.debug.xcconfig; sourceTree = "<group>"; };
 		2B0A52781CFA87298672D160C208B7B3 /* Pods-DoreSoundPlayGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSoundPlayGame.debug.xcconfig"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36FCE45D8A531A9539178E3F0C6AD20F /* Pods-DoreSoundPlayGame-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSoundPlayGame-acknowledgements.plist"; sourceTree = "<group>"; };
 		5988B6075316C76A3559B872EFD576BE /* Pods-DoreSoundPlayGame.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoreSoundPlayGame.modulemap"; sourceTree = "<group>"; };
+		61D45E245136E3CAC20277AF63687D92 /* DoreCoreAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreCoreAI.framework; path = Frameworks/DoreCoreAI.framework; sourceTree = "<group>"; };
+		68D017FC9F6F12B98B78218D0FBBCB20 /* DoreSoundPlay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreSoundPlay.debug.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77B0F6D855F1DC06397920CAFE5A098C /* Pods-DoreSoundPlayGame-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoreSoundPlayGame-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7A02A16AE0A5CEA34CB47EC3E9E5611D /* DoreCoreAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.xcconfig; sourceTree = "<group>"; };
+		811598913D23B84E1C4189F529463CF0 /* DoreCoreAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.release.xcconfig; sourceTree = "<group>"; };
 		8139BD6325DD2AE14084206DAB12E4A4 /* Pods-DoreSoundPlayGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoreSoundPlayGame-dummy.m"; sourceTree = "<group>"; };
-		85BE13F6BE195723721703D0C4D2653C /* DoreSoundPlay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreSoundPlay.framework; path = Frameworks/DoreSoundPlay.framework; sourceTree = "<group>"; };
+		82487F980ABF4E1F12A2CA60161CC0E7 /* DoreSoundPlay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreSoundPlay.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA2C0D1F4578E9E35320B0D81D1FABD2 /* Pods-DoreSoundPlayGame-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSoundPlayGame-Info.plist"; sourceTree = "<group>"; };
 		B33B20554972B8BDA7BA315F4BB2934E /* Pods_DoreSoundPlayGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DoreSoundPlayGame.framework; path = "Pods-DoreSoundPlayGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C136A84ED015BEFBE4FBF998D4E685E4 /* Pods-DoreSoundPlayGame-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoreSoundPlayGame-umbrella.h"; sourceTree = "<group>"; };
-		C98F0A325E7FFBCADA2AAFBBE7AE5589 /* DoreCoreAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreCoreAI.framework; path = Frameworks/DoreCoreAI.framework; sourceTree = "<group>"; };
-		EE3A6F17FA6D88F592DCCB4CE1E644ED /* DoreSoundPlay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreSoundPlay.xcconfig; sourceTree = "<group>"; };
 		F273F1B31A3DD5FCC5FAF3BA5416758C /* Pods-DoreSoundPlayGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSoundPlayGame.release.xcconfig"; sourceTree = "<group>"; };
 		F6F32AB77D9E8554C3E9B4B9E669070A /* Pods-DoreSoundPlayGame-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoreSoundPlayGame-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		65E1E32EAD42F86C604FDC9204AE9183 /* Frameworks */ = {
+		15A736CC7AA65B23C1E320DE580425A1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD37CD771A2DD1F5C15F01A4106D553C /* Foundation.framework in Frameworks */,
+				745EBEAC3FDB16B67CDA89614DFA56BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,10 +94,26 @@
 		0B51B8CBB18BA4C6F295E304416D3BF8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7BD909132AAC9D38531979625E154D64 /* DoreCoreAI */,
-				EF2B5D528399F13C75D72B8A9802967A /* DoreSoundPlay */,
+				6E9C5E9B82A865087954607530683A1B /* DoreCoreAI */,
+				8DAE250F75A6BD099773FA710A00A932 /* DoreSoundPlay */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		31D4617392716571F1233C167D2587CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1C2047FD08BCE4A96690144A48B3AFE7 /* DoreSoundPlay.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36F8F9B9D7D9ABF78B72947EED20DA82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61D45E245136E3CAC20277AF63687D92 /* DoreCoreAI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		3B60D6BF8D6DE56A9D83559BF37FFC38 /* Products */ = {
@@ -123,32 +141,32 @@
 			path = "Target Support Files/Pods-DoreSoundPlayGame";
 			sourceTree = "<group>";
 		};
-		53E3F0D16E33CC2DB8C5615D7E89C3FC /* Support Files */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				EE3A6F17FA6D88F592DCCB4CE1E644ED /* DoreSoundPlay.xcconfig */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/DoreSoundPlay";
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		611253FB2631B68E603B0C76B255002F /* Support Files */ = {
+		6E9C5E9B82A865087954607530683A1B /* DoreCoreAI */ = {
 			isa = PBXGroup;
 			children = (
-				7A02A16AE0A5CEA34CB47EC3E9E5611D /* DoreCoreAI.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DoreCoreAI";
-			sourceTree = "<group>";
-		};
-		7BD909132AAC9D38531979625E154D64 /* DoreCoreAI */ = {
-			isa = PBXGroup;
-			children = (
-				CE2519C2C01774D8595843FB1D01BB58 /* Frameworks */,
-				611253FB2631B68E603B0C76B255002F /* Support Files */,
+				36F8F9B9D7D9ABF78B72947EED20DA82 /* Frameworks */,
+				ADF983BC7C7245C1682A209427E280E1 /* Support Files */,
 			);
 			name = DoreCoreAI;
 			path = DoreCoreAI;
+			sourceTree = "<group>";
+		};
+		8DAE250F75A6BD099773FA710A00A932 /* DoreSoundPlay */ = {
+			isa = PBXGroup;
+			children = (
+				31D4617392716571F1233C167D2587CD /* Frameworks */,
+				EE7AC436B3DFAF4E96E24BC68FD29E49 /* Support Files */,
+			);
+			name = DoreSoundPlay;
+			path = DoreSoundPlay;
 			sourceTree = "<group>";
 		};
 		8E21C29524E8102C1389CD5E1552094A /* Targets Support Files */ = {
@@ -159,28 +177,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		AD428CBC82BDD5D042E245C404D8B35C /* Frameworks */ = {
+		ADF983BC7C7245C1682A209427E280E1 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				85BE13F6BE195723721703D0C4D2653C /* DoreSoundPlay.framework */,
+				264DAA4582878E0B769F3B59D9A9272F /* DoreCoreAI.debug.xcconfig */,
+				811598913D23B84E1C4189F529463CF0 /* DoreCoreAI.release.xcconfig */,
 			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CE2519C2C01774D8595843FB1D01BB58 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				C98F0A325E7FFBCADA2AAFBBE7AE5589 /* DoreCoreAI.framework */,
-			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/DoreCoreAI";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -197,29 +201,29 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		EF2B5D528399F13C75D72B8A9802967A /* DoreSoundPlay */ = {
+		EE7AC436B3DFAF4E96E24BC68FD29E49 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				AD428CBC82BDD5D042E245C404D8B35C /* Frameworks */,
-				53E3F0D16E33CC2DB8C5615D7E89C3FC /* Support Files */,
+				68D017FC9F6F12B98B78218D0FBBCB20 /* DoreSoundPlay.debug.xcconfig */,
+				82487F980ABF4E1F12A2CA60161CC0E7 /* DoreSoundPlay.release.xcconfig */,
 			);
-			name = DoreSoundPlay;
-			path = DoreSoundPlay;
+			name = "Support Files";
+			path = "../Target Support Files/DoreSoundPlay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		A3768C2BB88D1B388B3656D16F562E5C /* Headers */ = {
+		D3DBC0073262ECAE7B138E9AE91517A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4AFA22BF86BB42A78CF447BF55CF73 /* Pods-DoreSoundPlayGame-umbrella.h in Headers */,
+				5782C2CC8BDE079A3DB0E79BD2DA5368 /* Pods-DoreSoundPlayGame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,18 +232,18 @@
 /* Begin PBXNativeTarget section */
 		BA29174D939D3C478B76586CEF74CF69 /* Pods-DoreSoundPlayGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 466ABB9071CAC0F33AAC4DD79B5B894C /* Build configuration list for PBXNativeTarget "Pods-DoreSoundPlayGame" */;
+			buildConfigurationList = 8F5286A02D02708D7125283E070799C3 /* Build configuration list for PBXNativeTarget "Pods-DoreSoundPlayGame" */;
 			buildPhases = (
-				A3768C2BB88D1B388B3656D16F562E5C /* Headers */,
-				2144EBC493344572F0194A677700EC71 /* Sources */,
-				65E1E32EAD42F86C604FDC9204AE9183 /* Frameworks */,
-				13183D84BC2354F2289A80A0E4E5EE46 /* Resources */,
+				D3DBC0073262ECAE7B138E9AE91517A9 /* Headers */,
+				C24B61CB800A661D04FBBE893C62575C /* Sources */,
+				15A736CC7AA65B23C1E320DE580425A1 /* Frameworks */,
+				4F0C560326533AC0DA2C1A806DAC9D7A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				724E36C8BE8A6694BAF0FA58FA4DA926 /* PBXTargetDependency */,
-				4ABD22370C4FA799DB1BDD8CBDD4304D /* PBXTargetDependency */,
+				6BEA53AB25FBF2D694E696002F112717 /* PBXTargetDependency */,
+				916F7A6CB58C3B7DD97088219E1B92FA /* PBXTargetDependency */,
 			);
 			name = "Pods-DoreSoundPlayGame";
 			productName = "Pods-DoreSoundPlayGame";
@@ -276,7 +280,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		13183D84BC2354F2289A80A0E4E5EE46 /* Resources */ = {
+		4F0C560326533AC0DA2C1A806DAC9D7A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,141 +290,44 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2144EBC493344572F0194A677700EC71 /* Sources */ = {
+		C24B61CB800A661D04FBBE893C62575C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				595F7931E0D00901936BE2B7611122B9 /* Pods-DoreSoundPlayGame-dummy.m in Sources */,
+				5575C80FF7D6CA8307A6935B37CC1E4F /* Pods-DoreSoundPlayGame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4ABD22370C4FA799DB1BDD8CBDD4304D /* PBXTargetDependency */ = {
+		0EB6921CF11E5782ABE6F0465373D88F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreCoreAI;
+			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
+			targetProxy = A64DBFEA1C9F7E0E7EE4F610FC36CEEE /* PBXContainerItemProxy */;
+		};
+		6BEA53AB25FBF2D694E696002F112717 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreCoreAI;
+			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
+			targetProxy = 93C4DD01389509C839782530FD367E0B /* PBXContainerItemProxy */;
+		};
+		916F7A6CB58C3B7DD97088219E1B92FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DoreSoundPlay;
 			target = DE2C6C877A450A3800A9D03115135142 /* DoreSoundPlay */;
-			targetProxy = B1DBBB34505907B13323118E8C2B0297 /* PBXContainerItemProxy */;
-		};
-		724E36C8BE8A6694BAF0FA58FA4DA926 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreCoreAI;
-			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
-			targetProxy = AD8F58D09E5E64849948CD00B5152C59 /* PBXContainerItemProxy */;
-		};
-		8B66AB4F4C7631037839460460922B26 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreCoreAI;
-			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
-			targetProxy = B2956B57584824F81533B5220973C137 /* PBXContainerItemProxy */;
+			targetProxy = 3883731DE0E7A0939C15C96CEA4D764C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05B91988E96F7B552FAAFBF8FCDFB67E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE3A6F17FA6D88F592DCCB4CE1E644ED /* DoreSoundPlay.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		6668DA6126D022C520C596310EFA0504 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A02A16AE0A5CEA34CB47EC3E9E5611D /* DoreCoreAI.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		A0367E2A228DDC753812D778EADC805F /* Release */ = {
+		3444E82BC85ECD0636573A8C53BFC095 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F273F1B31A3DD5FCC5FAF3BA5416758C /* Pods-DoreSoundPlayGame.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -453,13 +360,47 @@
 			};
 			name = Release;
 		};
-		DCBC4F542550EAB05733CE9D5EF6420D /* Debug */ = {
+		5B8F73F37F5BC5A094CE9E354E3915A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D017FC9F6F12B98B78218D0FBBCB20 /* DoreSoundPlay.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E80A46213C709387C2EBC73BC400265 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 82487F980ABF4E1F12A2CA60161CC0E7 /* DoreSoundPlay.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		723599DB600105C875CA9198FCFCA91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2B0A52781CFA87298672D160C208B7B3 /* Pods-DoreSoundPlayGame.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -491,13 +432,13 @@
 			};
 			name = Debug;
 		};
-		DED7191A0BAD93CAB807DEBAD85815F7 /* Debug */ = {
+		725A3F6C44723189D42254D81C024124 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A02A16AE0A5CEA34CB47EC3E9E5611D /* DoreCoreAI.xcconfig */;
+			baseConfigurationReference = 264DAA4582878E0B769F3B59D9A9272F /* DoreCoreAI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -508,27 +449,11 @@
 			};
 			name = Debug;
 		};
-		E40D1C183EB457E492C792C138B70B56 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EE3A6F17FA6D88F592DCCB4CE1E644ED /* DoreSoundPlay.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -551,6 +476,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -589,23 +515,94 @@
 			};
 			name = Debug;
 		};
+		95D7E1C5789BB2BF41BC449726B29406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 811598913D23B84E1C4189F529463CF0 /* DoreCoreAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1409AC8A1CB837D3AA7CF7ACA1B7BB68 /* Build configuration list for PBXAggregateTarget "DoreSoundPlay" */ = {
+		017AFB072CF1DA7EC2BEBAC07D2749A5 /* Build configuration list for PBXAggregateTarget "DoreSoundPlay" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E40D1C183EB457E492C792C138B70B56 /* Debug */,
-				05B91988E96F7B552FAAFBF8FCDFB67E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		466ABB9071CAC0F33AAC4DD79B5B894C /* Build configuration list for PBXNativeTarget "Pods-DoreSoundPlayGame" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				DCBC4F542550EAB05733CE9D5EF6420D /* Debug */,
-				A0367E2A228DDC753812D778EADC805F /* Release */,
+				5B8F73F37F5BC5A094CE9E354E3915A5 /* Debug */,
+				6E80A46213C709387C2EBC73BC400265 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -613,8 +610,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
-				1422B121EAEAEA11307496903FA623C6 /* Release */,
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -622,8 +619,17 @@
 		5F2A1F14B402392060EA5E5733C087A2 /* Build configuration list for PBXAggregateTarget "DoreCoreAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DED7191A0BAD93CAB807DEBAD85815F7 /* Debug */,
-				6668DA6126D022C520C596310EFA0504 /* Release */,
+				725A3F6C44723189D42254D81C024124 /* Debug */,
+				95D7E1C5789BB2BF41BC449726B29406 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F5286A02D02708D7125283E070799C3 /* Build configuration list for PBXNativeTarget "Pods-DoreSoundPlayGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				723599DB600105C875CA9198FCFCA91A /* Debug */,
+				3444E82BC85ECD0636573A8C53BFC095 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

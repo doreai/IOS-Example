@@ -6,7 +6,7 @@ target 'DoreDeepStyleDemo' do
   use_frameworks!
 
   # Pods for DoreSegmentDemo
-   pod 'DoreDeepStyle'
+  pod 'DoreDeepStyle'
 
 end
  

@@ -129,7 +129,7 @@
 				2262AF0B23C49A9200D85296 /* Sources */,
 				2262AF0C23C49A9200D85296 /* Frameworks */,
 				2262AF0D23C49A9200D85296 /* Resources */,
-				DEB481E33BBFEE6944FDE051 /* [CP] Embed Pods Frameworks */,
+				A3C666A690D348D9C9CCA4B7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,7 +212,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DEB481E33BBFEE6944FDE051 /* [CP] Embed Pods Frameworks */ = {
+		A3C666A690D348D9C9CCA4B7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -386,7 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = "$(SRCROOT)/DorePetSegmentDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -406,7 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = "$(SRCROOT)/DorePetSegmentDemo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (

@@ -1,6 +1,6 @@
 PODS:
-  - DoreCoreAI (1.0.11)
-  - DoreSoundPlay (1.0.12):
+  - DoreCoreAI (1.0.16)
+  - DoreSoundPlay (1.0.16):
     - DoreCoreAI
 
 DEPENDENCIES:
@@ -12,9 +12,9 @@ SPEC REPOS:
     - DoreSoundPlay
 
 SPEC CHECKSUMS:
-  DoreCoreAI: eabd2336831f3ab391d81d787f5fe33dfe289bd2
-  DoreSoundPlay: 7e997f786f7dea953a00bc9a4bcc6850009f4917
+  DoreCoreAI: 88ae34bcfa2cf21ec1b956605362476cd28b9ec4
+  DoreSoundPlay: 57c27eda1ea0b9c85fe3144cbd78fdca95f0087a
 
 PODFILE CHECKSUM: 6fadca2e3e1b318813d3a542a930242c6e511c67
 
-COCOAPODS: 1.8.4
+COCOAPODS: 1.10.0

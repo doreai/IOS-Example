@@ -1,0 +1,123 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreEmotionRecognition
+import CoreImage
+import CoreML
+import DoreCoreAI
+@_exported import DoreEmotionRecognition
+import Foundation
+import Swift
+import TensorFlowLiteC
+import UIKit
+import VideoToolbox
+import Vision
+public struct EmotionRecOut {
+  public var emotionslist: [DoreEmotionRecognition.EmotionData]
+}
+@_hasMissingDesignatedInitializers public class EmotionData {
+  public var eValue: Swift.Float32
+  public var eID: Swift.Int
+  public var eTxt: Swift.String
+  @objc deinit
+}
+public protocol EmotionRecoDelegate : AnyObject {
+  func onEmotionRecoReceived(_ info: DoreEmotionRecognition.EmotionData)
+}
+public class EmotionRecognitionManager {
+  public init()
+  weak open var delegate: DoreEmotionRecognition.EmotionRecoDelegate?
+  public var em_array: [Swift.String]
+  public func init_data(licKey: Swift.String) -> Swift.Bool
+  public func resizeBuffer(pixelBuffer: CoreVideo.CVPixelBuffer) -> CoreVideo.CVPixelBuffer?
+  public func run_model(onFrame pixelBuffer: CoreVideo.CVPixelBuffer)
+  @objc deinit
+}
+public enum Runtime {
+  public static var version: Swift.String {
+    get
+  }
+}
+public struct Tensor {
+  public let name: Swift.String
+  public let dataType: DoreEmotionRecognition.TensorDataType
+  public let shape: DoreEmotionRecognition.TensorShape
+  public let data: Foundation.Data
+  public let quantizationParameters: DoreEmotionRecognition.QuantizationParameters?
+}
+public enum TensorDataType : Swift.Equatable {
+  case bool
+  case uInt8
+  case int16
+  case int32
+  case int64
+  case float16
+  case float32
+  public static func == (a: DoreEmotionRecognition.TensorDataType, b: DoreEmotionRecognition.TensorDataType) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public struct TensorShape {
+  public let rank: Swift.Int
+  public let dimensions: [Swift.Int]
+  public init(_ dimensions: [Swift.Int])
+  public init(_ elements: Swift.Int...)
+}
+extension TensorShape : Swift.ExpressibleByArrayLiteral {
+  public init(arrayLiteral: Swift.Int...)
+  public typealias ArrayLiteralElement = Swift.Int
+}
+public struct QuantizationParameters {
+  public let scale: Swift.Float
+  public let zeroPoint: Swift.Int
+}
+public struct InterpreterOptions : Swift.Equatable {
+  public var threadCount: Swift.Int?
+  public init()
+  public static func == (a: DoreEmotionRecognition.InterpreterOptions, b: DoreEmotionRecognition.InterpreterOptions) -> Swift.Bool
+}
+public enum InterpreterError : Swift.Error {
+  case invalidTensorIndex(index: Swift.Int, maxIndex: Swift.Int)
+  case invalidTensorDataCount(provided: Swift.Int, required: Swift.Int)
+  case invalidTensorDataType
+  case failedToLoadModel
+  case failedToCreateInterpreter
+  case failedToResizeInputTensor(index: Swift.Int)
+  case failedToCopyDataToInputTensor
+  case failedToAllocateTensors
+  case allocateTensorsRequired
+  case invokeInterpreterRequired
+  case tensorFlowLiteError(Swift.String)
+}
+extension InterpreterError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension InterpreterError : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension InterpreterError : Swift.Equatable {
+  public static func == (a: DoreEmotionRecognition.InterpreterError, b: DoreEmotionRecognition.InterpreterError) -> Swift.Bool
+}
+final public class Interpreter {
+  final public var inputTensorCount: Swift.Int {
+    get
+  }
+  final public var outputTensorCount: Swift.Int {
+    get
+  }
+  public init(modelPath: Swift.String, options: DoreEmotionRecognition.InterpreterOptions? = nil) throws
+  @objc deinit
+  final public func invoke() throws
+  final public func input(at index: Swift.Int) throws -> DoreEmotionRecognition.Tensor
+  final public func output(at index: Swift.Int) throws -> DoreEmotionRecognition.Tensor
+  final public func resizeInput(at index: Swift.Int, to shape: DoreEmotionRecognition.TensorShape) throws
+  @discardableResult
+  final public func copy(_ data: Foundation.Data, toInputAt index: Swift.Int) throws -> DoreEmotionRecognition.Tensor
+  final public func allocateTensors() throws
+}
+extension DoreEmotionRecognition.TensorDataType : Swift.Hashable {}

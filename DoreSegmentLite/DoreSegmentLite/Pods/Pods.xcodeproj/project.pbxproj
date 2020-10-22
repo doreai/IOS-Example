@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -30,8 +30,8 @@
 
 /* Begin PBXBuildFile section */
 		9E39CE2E0794DF19D043915DA597B8F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		AA348323BC46DD4EECBDA634802E2DE1 /* Pods-DoreSegmentLiteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 54000B79661660D6483624B4A58F3EEF /* Pods-DoreSegmentLiteDemo-dummy.m */; };
-		ED39F769C14977ADF511D0C892D49A36 /* Pods-DoreSegmentLiteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA13BDE056AA2873D23C0658EFC9CD60 /* Pods-DoreSegmentLiteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA348323BC46DD4EECBDA634802E2DE1 /* Pods-DoreSegmentLiteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2C8CF1815348E78C4C2182EF4E1AE4 /* Pods-DoreSegmentLiteDemo-dummy.m */; };
+		ED39F769C14977ADF511D0C892D49A36 /* Pods-DoreSegmentLiteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83FEEE82BB5F4E995550D853057971FE /* Pods-DoreSegmentLiteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,22 +60,23 @@
 
 /* Begin PBXFileReference section */
 		0351087E31074F456730CE65CBC2DBD3 /* DoreSegmentLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreSegmentLite.release.xcconfig; sourceTree = "<group>"; };
+		066655FD5023EDA5BA90BCB06BF15984 /* Pods-DoreSegmentLiteDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoreSegmentLiteDemo-frameworks.sh"; sourceTree = "<group>"; };
 		091CEC0D94650975A10F8492100756C6 /* DoreCoreAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreCoreAI.framework; path = Frameworks/DoreCoreAI.framework; sourceTree = "<group>"; };
-		37B6D7E82F35529F3E1581DD3C05509B /* Pods-DoreSegmentLiteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoreSegmentLiteDemo.modulemap"; sourceTree = "<group>"; };
+		16F0F8D8F2271F2AE2430680BEC7B4DD /* Pods-DoreSegmentLiteDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSegmentLiteDemo-Info.plist"; sourceTree = "<group>"; };
+		1B2C8CF1815348E78C4C2182EF4E1AE4 /* Pods-DoreSegmentLiteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoreSegmentLiteDemo-dummy.m"; sourceTree = "<group>"; };
+		2C2794DA3F7635100568306976566437 /* Pods-DoreSegmentLiteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoreSegmentLiteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		394F32C560F8843E0F65D62A82C28B26 /* DoreCoreAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.release.xcconfig; sourceTree = "<group>"; };
-		54000B79661660D6483624B4A58F3EEF /* Pods-DoreSegmentLiteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoreSegmentLiteDemo-dummy.m"; sourceTree = "<group>"; };
-		6447BA5C836DF177C23F20C0BB9B1380 /* Pods-DoreSegmentLiteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSegmentLiteDemo.release.xcconfig"; sourceTree = "<group>"; };
-		65BD5B82F7EBBF32AD8983EEC4CF4E17 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSegmentLiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A71584FE3FE02CB7ED0944DC47C83F8 /* Pods-DoreSegmentLiteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSegmentLiteDemo.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7568470FAB818A564DB65156AA9F2732 /* Pods-DoreSegmentLiteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoreSegmentLiteDemo.modulemap"; sourceTree = "<group>"; };
+		77AD728B3C1B3F4F467BC6473AB2D1CD /* Pods-DoreSegmentLiteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSegmentLiteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		83FEEE82BB5F4E995550D853057971FE /* Pods-DoreSegmentLiteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoreSegmentLiteDemo-umbrella.h"; sourceTree = "<group>"; };
 		8CCD62A126F69A90C749F86D47AEB617 /* Pods_DoreSegmentLiteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DoreSegmentLiteDemo.framework; path = "Pods-DoreSegmentLiteDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AEDBA4138EEDFA7A379A95943F03C228 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreSegmentLiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		B03E5EFCBE20CF740AAA269E917942AF /* DoreSegmentLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreSegmentLite.debug.xcconfig; sourceTree = "<group>"; };
 		B5E0B2EF19DFE5F25D493E7B5F064F1B /* DoreSegmentLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreSegmentLite.framework; path = Frameworks/DoreSegmentLite.framework; sourceTree = "<group>"; };
-		D0D365B7A12778CEF9CB28E473F5347A /* Pods-DoreSegmentLiteDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSegmentLiteDemo-Info.plist"; sourceTree = "<group>"; };
 		D98AA16E1B59FD335FF82C110E275207 /* DoreCoreAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.debug.xcconfig; sourceTree = "<group>"; };
-		EA13BDE056AA2873D23C0658EFC9CD60 /* Pods-DoreSegmentLiteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoreSegmentLiteDemo-umbrella.h"; sourceTree = "<group>"; };
-		F291CDEAE8F00F3D219937B4345BB0BC /* Pods-DoreSegmentLiteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreSegmentLiteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		F7D8C3669A3A0BB9D4C5608765BF2B52 /* Pods-DoreSegmentLiteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoreSegmentLiteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +117,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		326CA765A7B641DA93331DFB7B44CAAE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F69205A2EAD3C45015B38C4B689AF507 /* Pods-DoreSegmentLiteDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,22 +139,6 @@
 				B5E0B2EF19DFE5F25D493E7B5F064F1B /* DoreSegmentLite.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		8CED1C7D88CBE6E9A4C2E04E881A81B2 /* Pods-DoreSegmentLiteDemo */ = {
-			isa = PBXGroup;
-			children = (
-				37B6D7E82F35529F3E1581DD3C05509B /* Pods-DoreSegmentLiteDemo.modulemap */,
-				F7D8C3669A3A0BB9D4C5608765BF2B52 /* Pods-DoreSegmentLiteDemo-acknowledgements.markdown */,
-				F291CDEAE8F00F3D219937B4345BB0BC /* Pods-DoreSegmentLiteDemo-acknowledgements.plist */,
-				54000B79661660D6483624B4A58F3EEF /* Pods-DoreSegmentLiteDemo-dummy.m */,
-				D0D365B7A12778CEF9CB28E473F5347A /* Pods-DoreSegmentLiteDemo-Info.plist */,
-				EA13BDE056AA2873D23C0658EFC9CD60 /* Pods-DoreSegmentLiteDemo-umbrella.h */,
-				65BD5B82F7EBBF32AD8983EEC4CF4E17 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */,
-				6447BA5C836DF177C23F20C0BB9B1380 /* Pods-DoreSegmentLiteDemo.release.xcconfig */,
-			);
-			name = "Pods-DoreSegmentLiteDemo";
-			path = "Target Support Files/Pods-DoreSegmentLiteDemo";
 			sourceTree = "<group>";
 		};
 		939D294EBC210BE054EEC283423182BD /* Pods */ = {
@@ -177,14 +170,6 @@
 			path = DoreSegmentLite;
 			sourceTree = "<group>";
 		};
-		AD274DDE0DFFE37E9737DDA4755F220E /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				8CED1C7D88CBE6E9A4C2E04E881A81B2 /* Pods-DoreSegmentLiteDemo */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
 		B52536ED5BA51984FDFFBC976549C9DC /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,7 +187,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				939D294EBC210BE054EEC283423182BD /* Pods */,
 				2BB23DA6EC7FE9DE9B8868379DC3440B /* Products */,
-				AD274DDE0DFFE37E9737DDA4755F220E /* Targets Support Files */,
+				326CA765A7B641DA93331DFB7B44CAAE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -212,6 +197,23 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F69205A2EAD3C45015B38C4B689AF507 /* Pods-DoreSegmentLiteDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7568470FAB818A564DB65156AA9F2732 /* Pods-DoreSegmentLiteDemo.modulemap */,
+				2C2794DA3F7635100568306976566437 /* Pods-DoreSegmentLiteDemo-acknowledgements.markdown */,
+				77AD728B3C1B3F4F467BC6473AB2D1CD /* Pods-DoreSegmentLiteDemo-acknowledgements.plist */,
+				1B2C8CF1815348E78C4C2182EF4E1AE4 /* Pods-DoreSegmentLiteDemo-dummy.m */,
+				066655FD5023EDA5BA90BCB06BF15984 /* Pods-DoreSegmentLiteDemo-frameworks.sh */,
+				16F0F8D8F2271F2AE2430680BEC7B4DD /* Pods-DoreSegmentLiteDemo-Info.plist */,
+				83FEEE82BB5F4E995550D853057971FE /* Pods-DoreSegmentLiteDemo-umbrella.h */,
+				AEDBA4138EEDFA7A379A95943F03C228 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */,
+				5A71584FE3FE02CB7ED0944DC47C83F8 /* Pods-DoreSegmentLiteDemo.release.xcconfig */,
+			);
+			name = "Pods-DoreSegmentLiteDemo";
+			path = "Target Support Files/Pods-DoreSegmentLiteDemo";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,7 +260,7 @@
 				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 10.0";
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -322,7 +324,7 @@
 /* Begin XCBuildConfiguration section */
 		14B5A3523FBEA1CAD0ED32262111F17F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6447BA5C836DF177C23F20C0BB9B1380 /* Pods-DoreSegmentLiteDemo.release.xcconfig */;
+			baseConfigurationReference = 5A71584FE3FE02CB7ED0944DC47C83F8 /* Pods-DoreSegmentLiteDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -558,7 +560,7 @@
 		};
 		FA2F00CEF4D8C082282F5565BDE714AE /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 65BD5B82F7EBBF32AD8983EEC4CF4E17 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */;
+			baseConfigurationReference = AEDBA4138EEDFA7A379A95943F03C228 /* Pods-DoreSegmentLiteDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;

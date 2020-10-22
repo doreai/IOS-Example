@@ -2,13 +2,10 @@
 //  HomePage.swift
 //  DoreDeepStyle
 //
-//  Copyright © 2020 dore. All rights reserved.
-//
-
+//  Copyright © 2020 dore. All rights rese 
 import Foundation
 import UIKit
-
-
+import AVFoundation
 
 class HomePage: UIViewController {
     

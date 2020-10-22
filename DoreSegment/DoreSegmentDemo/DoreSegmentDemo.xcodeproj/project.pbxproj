@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -21,10 +21,24 @@
 		22D92AFA23F09B95000C673C /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 22D92AF923F09B95000C673C /* video2.mp4 */; };
 		22D92AFC23F0A0B3000C673C /* bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22D92AFB23F0A0B3000C673C /* bg.jpg */; };
 		22E3594823EF125600AE0379 /* VideoSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E3594723EF125600AE0379 /* VideoSegment.swift */; };
-		37ADC4DB97ED5227B98F20EA /* Pods_DoreSegmentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72A329D1CB422A53EF0D2A81 /* Pods_DoreSegmentDemo.framework */; };
+		5E3A4A545D57F51CFC25049C /* Pods_DoreSegmentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0298B2B91DF432C8B832F448 /* Pods_DoreSegmentDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		22AB72F825417A5C00DC58B2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0298B2B91DF432C8B832F448 /* Pods_DoreSegmentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreSegmentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AF0F23C49A9200D85296 /* DoreSegmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreSegmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AF1223C49A9200D85296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2262AF1623C49A9200D85296 /* MaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskView.swift; sourceTree = "<group>"; };
@@ -43,7 +57,6 @@
 		22E3594723EF125600AE0379 /* VideoSegment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSegment.swift; sourceTree = "<group>"; };
 		32D20127B7F8C7E6D58AC09F /* Pods-DoreSegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreSegmentDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreSegmentDemo/Pods-DoreSegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		520BFA44E39E08E0B8DD4B2D /* Pods-DoreSegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreSegmentDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreSegmentDemo/Pods-DoreSegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
-		72A329D1CB422A53EF0D2A81 /* Pods_DoreSegmentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreSegmentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37ADC4DB97ED5227B98F20EA /* Pods_DoreSegmentDemo.framework in Frameworks */,
+				5E3A4A545D57F51CFC25049C /* Pods_DoreSegmentDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +122,7 @@
 		6AEA1E46CC4693283B589DAA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				72A329D1CB422A53EF0D2A81 /* Pods_DoreSegmentDemo.framework */,
+				0298B2B91DF432C8B832F448 /* Pods_DoreSegmentDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +147,8 @@
 				2262AF0B23C49A9200D85296 /* Sources */,
 				2262AF0C23C49A9200D85296 /* Frameworks */,
 				2262AF0D23C49A9200D85296 /* Resources */,
+				22AB72F825417A5C00DC58B2 /* Embed Frameworks */,
+				C1A10A4C294BCD3993E889A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -216,6 +231,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1A10A4C294BCD3993E889A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreSegmentDemo/Pods-DoreSegmentDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreSegmentDemo/Pods-DoreSegmentDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreSegmentDemo/Pods-DoreSegmentDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -377,8 +409,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC3Y7G9T2N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DoreSegmentDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,8 +433,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DC3Y7G9T2N;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = DoreSegmentDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

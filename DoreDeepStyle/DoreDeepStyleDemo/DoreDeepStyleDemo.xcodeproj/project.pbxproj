@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -697,7 +697,7 @@
 				22A40E8B23CC98A500800FCB /* Sources */,
 				22A40E8C23CC98A500800FCB /* Frameworks */,
 				22A40E8D23CC98A500800FCB /* Resources */,
-				0F994FC12943A6D9A3FF6BB3 /* [CP] Embed Pods Frameworks */,
+				68F7BB14419032D58D9B8374 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -946,7 +946,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F994FC12943A6D9A3FF6BB3 /* [CP] Embed Pods Frameworks */ = {
+		68F7BB14419032D58D9B8374 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1134,7 +1134,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = DoreDeepStyleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1155,7 +1155,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INFOPLIST_FILE = DoreDeepStyleDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;

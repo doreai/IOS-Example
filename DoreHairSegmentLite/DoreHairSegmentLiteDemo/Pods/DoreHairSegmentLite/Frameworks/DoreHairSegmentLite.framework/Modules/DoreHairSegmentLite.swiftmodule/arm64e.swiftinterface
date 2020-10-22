@@ -1,0 +1,48 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.2.4 (swiftlang-1103.0.32.9 clang-1103.0.32.53)
+// swift-module-flags: -target arm64e-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreHairSegmentLite
+import CoreImage
+import CoreML
+import DoreCoreAI
+@_exported import DoreHairSegmentLite
+import Foundation
+import Swift
+import UIKit
+public struct Result {
+}
+public class segmentInput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  public init(image: CoreVideo.CVPixelBuffer)
+  @objc deinit
+}
+public class segmentOut : CoreML.MLFeatureProvider {
+  final public let provider: CoreML.MLFeatureProvider
+  public var semanticPredictions: CoreML.MLMultiArray {
+    get
+    set
+  }
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  public init(semanticPredictions: CoreML.MLMultiArray)
+  public init(features: CoreML.MLFeatureProvider)
+  @objc deinit
+}
+public protocol HairSegmentLiteDelegate : AnyObject {
+  func onHairSegmentLiteSuccess(_ info: Swift.String)
+  func onHairSegmentLiteFailure(_ error: Swift.String)
+  func onHairSegmentLiteProgressUpdate(_ progress: Swift.String)
+  func onHairSegmentLiteDownloadSpeed(_ dps: Swift.String)
+}
+public class HairSegmentLiteManager {
+  public init()
+  weak open var delegate: DoreHairSegmentLite.HairSegmentLiteDelegate?
+  public func init_data(licKey: Swift.String)
+  public func resizeBuffer(pixelBuffer: CoreVideo.CVPixelBuffer) -> CoreVideo.CVPixelBuffer?
+  public func run_model(onFrame pixelBuffer: CoreVideo.CVPixelBuffer) -> DoreHairSegmentLite.segmentOut?
+  @objc deinit
+}

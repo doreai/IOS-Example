@@ -142,7 +142,7 @@
 				B00E87F723FD425C00016110 /* Sources */,
 				B00E87F823FD425C00016110 /* Frameworks */,
 				B00E87F923FD425C00016110 /* Resources */,
-				C4DA21EFF5E184111F53EB1A /* [CP] Embed Pods Frameworks */,
+				9A1E9134A5C074A3761629DE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -222,7 +222,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C4DA21EFF5E184111F53EB1A /* [CP] Embed Pods Frameworks */ = {
+		9A1E9134A5C074A3761629DE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -402,7 +402,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = EmotionRecognitionGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -422,7 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AQ6532WWUX;
+				DEVELOPMENT_TEAM = DC3Y7G9T2N;
 				INFOPLIST_FILE = EmotionRecognitionGame/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (

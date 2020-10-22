@@ -18,71 +18,73 @@
 		};
 		6E5CC57ADAAF4FF9A82FF6C8475DDA4D /* DorePetSegmentLite */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D8E95D631849C86D8C092E6E9A4DBAA5 /* Build configuration list for PBXAggregateTarget "DorePetSegmentLite" */;
+			buildConfigurationList = 3B991BBB5B0C6164FE867DF4029C6CB4 /* Build configuration list for PBXAggregateTarget "DorePetSegmentLite" */;
 			buildPhases = (
 			);
 			dependencies = (
-				5DEE72EF44BA317FEA351F0BF31E7161 /* PBXTargetDependency */,
+				1AF2756CB2231D63F3F97948B3FFFFE1 /* PBXTargetDependency */,
 			);
 			name = DorePetSegmentLite;
 		};
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		8480F6F3D5201F6E05FCB7F34D2554CB /* Pods-DorePetSegmentLiteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C57CFA4651E5362142AAB12941FB4810 /* Pods-DorePetSegmentLiteDemo-dummy.m */; };
-		A0135C668D6343D40D0943981CFCDF26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		ABCFC9D84DF846F78C5C667396C5FEF6 /* Pods-DorePetSegmentLiteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F4F81116EF295290B8BDE8085B0BA1 /* Pods-DorePetSegmentLiteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1342FA37D05E706D32A38E51F736A83A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		DB8C77CEF0258F94865DFB366DD48363 /* Pods-DorePetSegmentLiteDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40F4F81116EF295290B8BDE8085B0BA1 /* Pods-DorePetSegmentLiteDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F505546CF49C0F3B82C565F25CB300 /* Pods-DorePetSegmentLiteDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C57CFA4651E5362142AAB12941FB4810 /* Pods-DorePetSegmentLiteDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D08301A402D44F30C4F860CCBA689CE /* PBXContainerItemProxy */ = {
+		36A9A76C881AC3A3691BA68DA82D6832 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
 			remoteInfo = DoreCoreAI;
 		};
-		2BDE3C1B40906E54CC4D732F1C380DA4 /* PBXContainerItemProxy */ = {
+		9AD04982CD7C1DB0D9DAFAEC8D7DA758 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
+			remoteInfo = DoreCoreAI;
+		};
+		ACD78710A095A53FF23316C4BB0EFC0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6E5CC57ADAAF4FF9A82FF6C8475DDA4D;
 			remoteInfo = DorePetSegmentLite;
 		};
-		F1F8F2855AF8BABCCA29D907FC4DFA3B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
-			remoteInfo = DoreCoreAI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09C521C7B55C5B293D75E9FF4528352D /* DorePetSegmentLite.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DorePetSegmentLite.debug.xcconfig; sourceTree = "<group>"; };
 		0A53D6135CAE66C419D7582F1A00B20E /* Pods-DorePetSegmentLiteDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DorePetSegmentLiteDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1993C3FA94AEA239F7F40CC04DBDE737 /* DorePetSegmentLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DorePetSegmentLite.framework; path = Frameworks/DorePetSegmentLite.framework; sourceTree = "<group>"; };
 		24ED2CECEC06842A49BD265E27D255BE /* Pods-DorePetSegmentLiteDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DorePetSegmentLiteDemo-Info.plist"; sourceTree = "<group>"; };
-		2F8AA5B010B651BEC004A1791BCA4FE5 /* DorePetSegmentLite.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DorePetSegmentLite.framework; path = Frameworks/DorePetSegmentLite.framework; sourceTree = "<group>"; };
-		2FAC64E1740ACA9EB7E4D3A360FF2FEB /* DoreCoreAI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.xcconfig; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3D306FDDF191CE4490A7F11A0C2F1EE5 /* Pods-DorePetSegmentLiteDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DorePetSegmentLiteDemo.modulemap"; sourceTree = "<group>"; };
 		40F4F81116EF295290B8BDE8085B0BA1 /* Pods-DorePetSegmentLiteDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DorePetSegmentLiteDemo-umbrella.h"; sourceTree = "<group>"; };
+		417C23EE2027AB1778C240111E52B100 /* DoreCoreAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.release.xcconfig; sourceTree = "<group>"; };
+		5971069D3681B490E18E7D4AB14F966C /* DorePetSegmentLite.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DorePetSegmentLite.release.xcconfig; sourceTree = "<group>"; };
 		66F53249E53037C1BA78CEB9294CB25C /* Pods_DorePetSegmentLiteDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DorePetSegmentLiteDemo.framework; path = "Pods-DorePetSegmentLiteDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6792B6DD3341C6F00652E5587AFA7E65 /* DoreCoreAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreCoreAI.framework; path = Frameworks/DoreCoreAI.framework; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7519197DACB63506A9FAADB70D1AB72C /* Pods-DorePetSegmentLiteDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DorePetSegmentLiteDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		8B0ABA9203EACC641EC7A24D39E2F7B9 /* Pods-DorePetSegmentLiteDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DorePetSegmentLiteDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A5DCAA2A19E2B914CFB319FBFB8971E /* DoreCoreAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.debug.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C57CFA4651E5362142AAB12941FB4810 /* Pods-DorePetSegmentLiteDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DorePetSegmentLiteDemo-dummy.m"; sourceTree = "<group>"; };
+		E301147DE57A4578B35395C72870F747 /* DoreCoreAI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DoreCoreAI.framework; path = Frameworks/DoreCoreAI.framework; sourceTree = "<group>"; };
 		F462F9C6E0B8C4A7C7C759C44A8EE3D6 /* Pods-DorePetSegmentLiteDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DorePetSegmentLiteDemo.release.xcconfig"; sourceTree = "<group>"; };
-		F75431E66B8807E96869E7F3C278138B /* DorePetSegmentLite.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DorePetSegmentLite.xcconfig; sourceTree = "<group>"; };
 		F8CDC182CEF1F91AD0E5E945A63F0CBC /* Pods-DorePetSegmentLiteDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DorePetSegmentLiteDemo-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B077648CE0DC1DD35F9D511EC78B836 /* Frameworks */ = {
+		C9B3DC992AFD00160125289C4891D630 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0135C668D6343D40D0943981CFCDF26 /* Foundation.framework in Frameworks */,
+				1342FA37D05E706D32A38E51F736A83A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,8 +94,8 @@
 		0B98BF54879FB3BD8ED9EDBB69E291BE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8AEE3B29A5087FE5FE84C79B91998E5C /* DoreCoreAI */,
-				5F9451A81B74487DFE6FB133F28DDE02 /* DorePetSegmentLite */,
+				847713FAE134786E9CC04910A7062C2F /* DoreCoreAI */,
+				D109D8E463168B461CB5458C0CA3AAE9 /* DorePetSegmentLite */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -106,22 +108,32 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		5F9451A81B74487DFE6FB133F28DDE02 /* DorePetSegmentLite */ = {
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				7495B73EBD15EA95FA901CCDEF0C28D4 /* Frameworks */,
-				9BD573634E783439197F4E80CBDA0C5D /* Support Files */,
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
-			name = DorePetSegmentLite;
-			path = DorePetSegmentLite;
+			name = iOS;
 			sourceTree = "<group>";
 		};
-		7495B73EBD15EA95FA901CCDEF0C28D4 /* Frameworks */ = {
+		847713FAE134786E9CC04910A7062C2F /* DoreCoreAI */ = {
 			isa = PBXGroup;
 			children = (
-				2F8AA5B010B651BEC004A1791BCA4FE5 /* DorePetSegmentLite.framework */,
+				9FB8E1C0A32E5BCEA387A46CF9CB824F /* Frameworks */,
+				891F4E803367E0AAD188A9A9200186F8 /* Support Files */,
 			);
-			name = Frameworks;
+			name = DoreCoreAI;
+			path = DoreCoreAI;
+			sourceTree = "<group>";
+		};
+		891F4E803367E0AAD188A9A9200186F8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A5DCAA2A19E2B914CFB319FBFB8971E /* DoreCoreAI.debug.xcconfig */,
+				417C23EE2027AB1778C240111E52B100 /* DoreCoreAI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DoreCoreAI";
 			sourceTree = "<group>";
 		};
 		895D35DE51C09984FB557258E1B39525 /* Products */ = {
@@ -132,48 +144,30 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8AEE3B29A5087FE5FE84C79B91998E5C /* DoreCoreAI */ = {
+		8B331AE75CC271A679E4F091A02EEE5A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B04D0AA43F9D7F95D8597D3C376513A6 /* Frameworks */,
-				CCD0E5725F9D6E26FA2A49C5F0D0099A /* Support Files */,
+				1993C3FA94AEA239F7F40CC04DBDE737 /* DorePetSegmentLite.framework */,
 			);
-			name = DoreCoreAI;
-			path = DoreCoreAI;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9BD573634E783439197F4E80CBDA0C5D /* Support Files */ = {
+		9708C6425911CC061BD83B9E65D10D45 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F75431E66B8807E96869E7F3C278138B /* DorePetSegmentLite.xcconfig */,
+				09C521C7B55C5B293D75E9FF4528352D /* DorePetSegmentLite.debug.xcconfig */,
+				5971069D3681B490E18E7D4AB14F966C /* DorePetSegmentLite.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DorePetSegmentLite";
 			sourceTree = "<group>";
 		};
-		B04D0AA43F9D7F95D8597D3C376513A6 /* Frameworks */ = {
+		9FB8E1C0A32E5BCEA387A46CF9CB824F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6792B6DD3341C6F00652E5587AFA7E65 /* DoreCoreAI.framework */,
+				E301147DE57A4578B35395C72870F747 /* DoreCoreAI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		CCD0E5725F9D6E26FA2A49C5F0D0099A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2FAC64E1740ACA9EB7E4D3A360FF2FEB /* DoreCoreAI.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DoreCoreAI";
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -187,10 +181,20 @@
 			);
 			sourceTree = "<group>";
 		};
+		D109D8E463168B461CB5458C0CA3AAE9 /* DorePetSegmentLite */ = {
+			isa = PBXGroup;
+			children = (
+				8B331AE75CC271A679E4F091A02EEE5A /* Frameworks */,
+				9708C6425911CC061BD83B9E65D10D45 /* Support Files */,
+			);
+			name = DorePetSegmentLite;
+			path = DorePetSegmentLite;
+			sourceTree = "<group>";
+		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -215,11 +219,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		AC4EAE50F8986A557C249564851A7271 /* Headers */ = {
+		D9FC01C6C3E1C3C5D8558013F0083AAC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABCFC9D84DF846F78C5C667396C5FEF6 /* Pods-DorePetSegmentLiteDemo-umbrella.h in Headers */,
+				DB8C77CEF0258F94865DFB366DD48363 /* Pods-DorePetSegmentLiteDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,18 +232,18 @@
 /* Begin PBXNativeTarget section */
 		457D113785099E264BC861067838057F /* Pods-DorePetSegmentLiteDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5E3D1CFBE40DCB5A5D0A74C3D82C4FF0 /* Build configuration list for PBXNativeTarget "Pods-DorePetSegmentLiteDemo" */;
+			buildConfigurationList = 42B550BBA78568F053F601691858FF42 /* Build configuration list for PBXNativeTarget "Pods-DorePetSegmentLiteDemo" */;
 			buildPhases = (
-				AC4EAE50F8986A557C249564851A7271 /* Headers */,
-				2F7185A056FC10CDF999F4219BED4261 /* Sources */,
-				7B077648CE0DC1DD35F9D511EC78B836 /* Frameworks */,
-				A5CA188B5F71C4402608BFAED2F0149D /* Resources */,
+				D9FC01C6C3E1C3C5D8558013F0083AAC /* Headers */,
+				810818824261F186ECEE673A36E94550 /* Sources */,
+				C9B3DC992AFD00160125289C4891D630 /* Frameworks */,
+				6FC7C19D870B69EB361548FD613491C8 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9FE215B0CD565B0A22E210E1D6A4BEC5 /* PBXTargetDependency */,
-				43B3EE207A402A0D7075A74512AA83E9 /* PBXTargetDependency */,
+				2800F7792DCAEE7819118C2DB6AA2405 /* PBXTargetDependency */,
+				C8EF5C5FFC96DB06F1C8E6DD877CC0B5 /* PBXTargetDependency */,
 			);
 			name = "Pods-DorePetSegmentLiteDemo";
 			productName = "Pods-DorePetSegmentLiteDemo";
@@ -276,7 +280,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A5CA188B5F71C4402608BFAED2F0149D /* Resources */ = {
+		6FC7C19D870B69EB361548FD613491C8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,42 +290,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2F7185A056FC10CDF999F4219BED4261 /* Sources */ = {
+		810818824261F186ECEE673A36E94550 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8480F6F3D5201F6E05FCB7F34D2554CB /* Pods-DorePetSegmentLiteDemo-dummy.m in Sources */,
+				F4F505546CF49C0F3B82C565F25CB300 /* Pods-DorePetSegmentLiteDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		43B3EE207A402A0D7075A74512AA83E9 /* PBXTargetDependency */ = {
+		1AF2756CB2231D63F3F97948B3FFFFE1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreCoreAI;
+			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
+			targetProxy = 36A9A76C881AC3A3691BA68DA82D6832 /* PBXContainerItemProxy */;
+		};
+		2800F7792DCAEE7819118C2DB6AA2405 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreCoreAI;
+			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
+			targetProxy = 9AD04982CD7C1DB0D9DAFAEC8D7DA758 /* PBXContainerItemProxy */;
+		};
+		C8EF5C5FFC96DB06F1C8E6DD877CC0B5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DorePetSegmentLite;
 			target = 6E5CC57ADAAF4FF9A82FF6C8475DDA4D /* DorePetSegmentLite */;
-			targetProxy = 2BDE3C1B40906E54CC4D732F1C380DA4 /* PBXContainerItemProxy */;
-		};
-		5DEE72EF44BA317FEA351F0BF31E7161 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreCoreAI;
-			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
-			targetProxy = F1F8F2855AF8BABCCA29D907FC4DFA3B /* PBXContainerItemProxy */;
-		};
-		9FE215B0CD565B0A22E210E1D6A4BEC5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreCoreAI;
-			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
-			targetProxy = 1D08301A402D44F30C4F860CCBA689CE /* PBXContainerItemProxy */;
+			targetProxy = ACD78710A095A53FF23316C4BB0EFC0E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+		1B3CB95C484BDCAF5BA32CB36F09D2BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09C521C7B55C5B293D75E9FF4528352D /* DorePetSegmentLite.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -344,6 +366,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -382,157 +405,11 @@
 			};
 			name = Debug;
 		};
-		40307B2B1E839D259C702AF83E45E2C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F462F9C6E0B8C4A7C7C759C44A8EE3D6 /* Pods-DorePetSegmentLiteDemo.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6668DA6126D022C520C596310EFA0504 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAC64E1740ACA9EB7E4D3A360FF2FEB /* DoreCoreAI.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		DED7191A0BAD93CAB807DEBAD85815F7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2FAC64E1740ACA9EB7E4D3A360FF2FEB /* DoreCoreAI.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		E94C2994B0FA688036D57DA17A0A437C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A53D6135CAE66C419D7582F1A00B20E /* Pods-DorePetSegmentLiteDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		EB9E130563AB3BE2D0C9152E47597A61 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F75431E66B8807E96869E7F3C278138B /* DorePetSegmentLite.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		EFAFC4199F13BD31E21CA35FF12CCD45 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F75431E66B8807E96869E7F3C278138B /* DorePetSegmentLite.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -555,6 +432,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -589,23 +467,160 @@
 			};
 			name = Release;
 		};
+		725A3F6C44723189D42254D81C024124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5DCAA2A19E2B914CFB319FBFB8971E /* DoreCoreAI.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A48BEFC2B8C71B86B1F054E6F45C7D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5971069D3681B490E18E7D4AB14F966C /* DorePetSegmentLite.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95D7E1C5789BB2BF41BC449726B29406 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417C23EE2027AB1778C240111E52B100 /* DoreCoreAI.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB37C9626CE18C82AA0B1449E2B877C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A53D6135CAE66C419D7582F1A00B20E /* Pods-DorePetSegmentLiteDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EB6E59EFCB103072D9CCB2DFD803FFF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F462F9C6E0B8C4A7C7C759C44A8EE3D6 /* Pods-DorePetSegmentLiteDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DorePetSegmentLiteDemo/Pods-DorePetSegmentLiteDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		3B991BBB5B0C6164FE867DF4029C6CB4 /* Build configuration list for PBXAggregateTarget "DorePetSegmentLite" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
-				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+				1B3CB95C484BDCAF5BA32CB36F09D2BE /* Debug */,
+				7A48BEFC2B8C71B86B1F054E6F45C7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5E3D1CFBE40DCB5A5D0A74C3D82C4FF0 /* Build configuration list for PBXNativeTarget "Pods-DorePetSegmentLiteDemo" */ = {
+		42B550BBA78568F053F601691858FF42 /* Build configuration list for PBXNativeTarget "Pods-DorePetSegmentLiteDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E94C2994B0FA688036D57DA17A0A437C /* Debug */,
-				40307B2B1E839D259C702AF83E45E2C3 /* Release */,
+				BB37C9626CE18C82AA0B1449E2B877C9 /* Debug */,
+				EB6E59EFCB103072D9CCB2DFD803FFF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -613,17 +628,8 @@
 		5F2A1F14B402392060EA5E5733C087A2 /* Build configuration list for PBXAggregateTarget "DoreCoreAI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DED7191A0BAD93CAB807DEBAD85815F7 /* Debug */,
-				6668DA6126D022C520C596310EFA0504 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D8E95D631849C86D8C092E6E9A4DBAA5 /* Build configuration list for PBXAggregateTarget "DorePetSegmentLite" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EB9E130563AB3BE2D0C9152E47597A61 /* Debug */,
-				EFAFC4199F13BD31E21CA35FF12CCD45 /* Release */,
+				725A3F6C44723189D42254D81C024124 /* Debug */,
+				95D7E1C5789BB2BF41BC449726B29406 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
