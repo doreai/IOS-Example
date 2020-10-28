@@ -1,0 +1,11 @@
+framework module DoreHairSegment {
+  umbrella header "DoreHairSegment.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreHairSegment.Swift {
+    header "DoreHairSegment-Swift.h"
+    requires objc
+}

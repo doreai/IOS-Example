@@ -1,6 +1,6 @@
 PODS:
-  - DoreCoreAI (1.0.16)
-  - DoreHandTrack (1.0.16):
+  - DoreCoreAI (1.0.17)
+  - DoreHandTrack (1.0.17):
     - DoreCoreAI
     - TensorFlowLiteSwift (= 2.0.0)
   - TensorFlowLiteC (2.0.0)
@@ -18,8 +18,8 @@ SPEC REPOS:
     - TensorFlowLiteSwift
 
 SPEC CHECKSUMS:
-  DoreCoreAI: 88ae34bcfa2cf21ec1b956605362476cd28b9ec4
-  DoreHandTrack: a532a4a82696ebf0a53f9863124cc1df7f6f2ad8
+  DoreCoreAI: b5cdb2a1b0a9befe8f945ad9d8e69ccd478985bb
+  DoreHandTrack: f71e9ce943285a63d49fd6614b78473c1b04e0e4
   TensorFlowLiteC: d22a94f77938edb2dfcb9674937f9548a3fcdb23
   TensorFlowLiteSwift: dcd91bd74091f8e3e1b9b28a7d789f635dc26bea
 

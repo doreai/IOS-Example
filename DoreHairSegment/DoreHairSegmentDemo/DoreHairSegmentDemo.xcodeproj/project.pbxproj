@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,11 +16,28 @@
 		2262AF9823C8AA5700D85296 /* ImageSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2262AF9223C8AA5700D85296 /* ImageSegment.swift */; };
 		2262AF9923C8AA5700D85296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF9323C8AA5700D85296 /* Main.storyboard */; };
 		2262AF9E23C8AA5B00D85296 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF9B23C8AA5B00D85296 /* logo_white.png */; };
+		226BBE712549CF130059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE702549CF130059666C /* DoreCoreAI.xcframework */; };
+		226BBE722549CF130059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE702549CF130059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22A40E5423CC61A800800FCB /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E5323CC61A800800FCB /* sample.jpg */; };
-		444FDEDD9D7DD7ED6051120B /* Pods_DoreHairSegmentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 368EF443AF4D195B2752A1C1 /* Pods_DoreHairSegmentDemo.framework */; };
+		465E58C8721BCB1A649DD4CE /* Pods_DoreHairSegmentDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17EE4D588A8AD3662C029690 /* Pods_DoreHairSegmentDemo.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		226BBDF12549C2DE0059666C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				226BBE722549CF130059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		17EE4D588A8AD3662C029690 /* Pods_DoreHairSegmentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreHairSegmentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AF7723C8928400D85296 /* DoreHairSegmentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreHairSegmentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2262AF7A23C8928400D85296 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2262AF8323C8928600D85296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -32,10 +49,10 @@
 		2262AF9223C8AA5700D85296 /* ImageSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageSegment.swift; sourceTree = "<group>"; };
 		2262AF9323C8AA5700D85296 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2262AF9B23C8AA5B00D85296 /* logo_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_white.png; sourceTree = "<group>"; };
+		226BBE702549CF130059666C /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCoreAI.xcframework; path = Pods/DoreCoreAI/Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
 		22A40E5323CC61A800800FCB /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
-		368EF443AF4D195B2752A1C1 /* Pods_DoreHairSegmentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreHairSegmentDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5F03E1BA82AABEB2C65C110F /* Pods-DoreHairSegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		FE5F687E79F7AF76FF2FCA75 /* Pods-DoreHairSegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		26B7901D51A4C61422BAAD60 /* Pods-DoreHairSegmentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4FEC604A8620DE4FB4C155F5 /* Pods-DoreHairSegmentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreHairSegmentDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +60,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				444FDEDD9D7DD7ED6051120B /* Pods_DoreHairSegmentDemo.framework in Frameworks */,
+				226BBE712549CF130059666C /* DoreCoreAI.xcframework in Frameworks */,
+				465E58C8721BCB1A649DD4CE /* Pods_DoreHairSegmentDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,8 +73,8 @@
 			children = (
 				2262AF7923C8928400D85296 /* DoreHairSegmentDemo */,
 				2262AF7823C8928400D85296 /* Products */,
-				6A1DABDF81FCE7DCE88E8AC3 /* Pods */,
-				3E9DF9F8A0C767B0DD705EFB /* Frameworks */,
+				3EBFDC4294BD66CF94A20BB2 /* Frameworks */,
+				4851B80BE7A56126FD2039E7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,19 +112,20 @@
 			path = assets;
 			sourceTree = "<group>";
 		};
-		3E9DF9F8A0C767B0DD705EFB /* Frameworks */ = {
+		3EBFDC4294BD66CF94A20BB2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				368EF443AF4D195B2752A1C1 /* Pods_DoreHairSegmentDemo.framework */,
+				226BBE702549CF130059666C /* DoreCoreAI.xcframework */,
+				17EE4D588A8AD3662C029690 /* Pods_DoreHairSegmentDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A1DABDF81FCE7DCE88E8AC3 /* Pods */ = {
+		4851B80BE7A56126FD2039E7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				5F03E1BA82AABEB2C65C110F /* Pods-DoreHairSegmentDemo.debug.xcconfig */,
-				FE5F687E79F7AF76FF2FCA75 /* Pods-DoreHairSegmentDemo.release.xcconfig */,
+				4FEC604A8620DE4FB4C155F5 /* Pods-DoreHairSegmentDemo.debug.xcconfig */,
+				26B7901D51A4C61422BAAD60 /* Pods-DoreHairSegmentDemo.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -118,11 +137,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2262AF8B23C8928600D85296 /* Build configuration list for PBXNativeTarget "DoreHairSegmentDemo" */;
 			buildPhases = (
-				089CD91F2E81099198D019FF /* [CP] Check Pods Manifest.lock */,
+				A9BF45A07A78CE689200EF81 /* [CP] Check Pods Manifest.lock */,
 				2262AF7323C8928400D85296 /* Sources */,
 				2262AF7423C8928400D85296 /* Frameworks */,
 				2262AF7523C8928400D85296 /* Resources */,
-				1E5793AF8BDC70D835744453 /* [CP] Embed Pods Frameworks */,
+				226BBDF12549C2DE0059666C /* Embed Frameworks */,
+				2967FCBD2E44E4AB2FB6B9BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -182,7 +202,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		089CD91F2E81099198D019FF /* [CP] Check Pods Manifest.lock */ = {
+		2967FCBD2E44E4AB2FB6B9BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BF45A07A78CE689200EF81 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,23 +239,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		1E5793AF8BDC70D835744453 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -366,7 +386,7 @@
 		};
 		2262AF8C23C8928600D85296 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F03E1BA82AABEB2C65C110F /* Pods-DoreHairSegmentDemo.debug.xcconfig */;
+			baseConfigurationReference = 4FEC604A8620DE4FB4C155F5 /* Pods-DoreHairSegmentDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -386,7 +406,7 @@
 		};
 		2262AF8D23C8928600D85296 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FE5F687E79F7AF76FF2FCA75 /* Pods-DoreHairSegmentDemo.release.xcconfig */;
+			baseConfigurationReference = 26B7901D51A4C61422BAAD60 /* Pods-DoreHairSegmentDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

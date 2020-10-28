@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-frameworks.sh
-${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework
 ${PODS_ROOT}/DoreEmotionRecognition/Frameworks/DoreEmotionRecognition.framework

@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-DoreHandTrackDemo/Pods-DoreHandTrackDemo-frameworks.sh
-${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework
 ${PODS_ROOT}/DoreHandTrack/Frameworks/DoreHandTrack.framework

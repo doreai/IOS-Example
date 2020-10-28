@@ -175,12 +175,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
-  install_framework "${PODS_ROOT}/DoreSoundPlay/Frameworks/DoreSoundPlay.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreSoundPlay/DoreSoundPlay.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
-  install_framework "${PODS_ROOT}/DoreSoundPlay/Frameworks/DoreSoundPlay.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreSoundPlay/DoreSoundPlay.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

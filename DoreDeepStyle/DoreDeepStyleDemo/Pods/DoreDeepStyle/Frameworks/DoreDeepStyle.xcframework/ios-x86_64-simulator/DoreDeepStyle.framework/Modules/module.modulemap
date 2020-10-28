@@ -1,0 +1,11 @@
+framework module DoreDeepStyle {
+  umbrella header "DoreDeepStyle.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreDeepStyle.Swift {
+    header "DoreDeepStyle-Swift.h"
+    requires objc
+}

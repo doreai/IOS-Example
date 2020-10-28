@@ -1,6 +1,6 @@
 PODS:
-  - DoreCoreAI (1.0.16)
-  - DoreHairSegment (1.0.16):
+  - DoreCoreAI (1.0.17)
+  - DoreHairSegment (1.0.17):
     - DoreCoreAI
 
 DEPENDENCIES:
@@ -12,8 +12,8 @@ SPEC REPOS:
     - DoreHairSegment
 
 SPEC CHECKSUMS:
-  DoreCoreAI: 88ae34bcfa2cf21ec1b956605362476cd28b9ec4
-  DoreHairSegment: 5eab2e19c6f883640979cc65f8c37d79eac6da6b
+  DoreCoreAI: b5cdb2a1b0a9befe8f945ad9d8e69ccd478985bb
+  DoreHairSegment: 82b0fd686368abe466861d164bdf706a28990230
 
 PODFILE CHECKSUM: 53de95966e3c9f433b13644d947ef1b871ef42e0
 

@@ -175,12 +175,10 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
-  install_framework "${PODS_ROOT}/DoreHairSegment/Frameworks/DoreHairSegment.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreHairSegment/DoreHairSegment.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
-  install_framework "${PODS_ROOT}/DoreHairSegment/Frameworks/DoreHairSegment.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreHairSegment/DoreHairSegment.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

@@ -1,0 +1,11 @@
+framework module DoreSoundPlay {
+  umbrella header "DoreSoundPlay.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreSoundPlay.Swift {
+    header "DoreSoundPlay-Swift.h"
+    requires objc
+}

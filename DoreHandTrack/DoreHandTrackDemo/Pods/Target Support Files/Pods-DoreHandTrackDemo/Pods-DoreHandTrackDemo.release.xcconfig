@@ -1,6 +1,7 @@
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TensorFlowLiteSwift" "${PODS_ROOT}/DoreCoreAI/Frameworks" "${PODS_ROOT}/DoreHandTrack/Frameworks" "${PODS_ROOT}/TensorFlowLiteC/Frameworks"
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TensorFlowLiteSwift" "${PODS_ROOT}/DoreCoreAI/Frameworks" "${PODS_ROOT}/DoreHandTrack/Frameworks" "${PODS_ROOT}/TensorFlowLiteC/Frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCoreAI"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = $(inherited) "${PODS_CONFIGURATION_BUILD_DIR}/TensorFlowLiteSwift/TensorFlowLite.framework/Headers"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'

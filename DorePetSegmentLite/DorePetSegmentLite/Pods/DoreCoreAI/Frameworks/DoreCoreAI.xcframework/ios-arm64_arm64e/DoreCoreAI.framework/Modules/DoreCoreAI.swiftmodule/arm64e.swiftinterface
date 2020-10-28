@@ -1,0 +1,420 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64e-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreCoreAI
+import AVFoundation
+import Accelerate
+import CoreGraphics
+import CoreImage
+import CoreML
+@_exported import DoreCoreAI
+import Foundation
+import Metal
+import MetalPerformanceShaders
+import Swift
+import UIKit
+import VideoToolbox
+import Vision
+extension CGImagePropertyOrientation {
+  public init(_ orientation: UIKit.UIImage.Orientation)
+}
+extension CGImagePropertyOrientation {
+  public init(_ orientation: UIKit.UIDeviceOrientation)
+}
+public protocol MultiArrayType : Swift.Comparable {
+  static var multiArrayDataType: CoreML.MLMultiArrayDataType { get }
+  static func + (lhs: Self, rhs: Self) -> Self
+  static func * (lhs: Self, rhs: Self) -> Self
+  init(_: Swift.Int)
+  var toUInt8: Swift.UInt8 { get }
+}
+extension Double : DoreCoreAI.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Float : DoreCoreAI.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Int32 : DoreCoreAI.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+public struct MultiArray<T> where T : DoreCoreAI.MultiArrayType {
+  public let array: CoreML.MLMultiArray
+  public let pointer: Swift.UnsafeMutablePointer<T>
+  public var strides: [Swift.Int] {
+    get
+  }
+  public var shape: [Swift.Int] {
+    get
+  }
+  public init(shape: [Swift.Int])
+  public init(shape: [Swift.Int], initial: T)
+  public init(_ array: CoreML.MLMultiArray)
+  public var count: Swift.Int {
+    get
+  }
+  public subscript(a: Swift.Int) -> T {
+    get
+    set
+  }
+  public subscript(a: Swift.Int, b: Swift.Int) -> T {
+    get
+    set
+  }
+  public subscript(a: Swift.Int, b: Swift.Int, c: Swift.Int) -> T {
+    get
+    set
+  }
+  public subscript(a: Swift.Int, b: Swift.Int, c: Swift.Int, d: Swift.Int) -> T {
+    get
+    set
+  }
+  public subscript(a: Swift.Int, b: Swift.Int, c: Swift.Int, d: Swift.Int, e: Swift.Int) -> T {
+    get
+    set
+  }
+  public subscript(indices: [Swift.Int]) -> T {
+    get
+    set
+  }
+  public func transposed(_ order: [Swift.Int]) -> DoreCoreAI.MultiArray<T>
+  public func reshaped(_ dimensions: [Swift.Int]) -> DoreCoreAI.MultiArray<T>
+}
+extension MultiArray : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension MultiArray {
+  public func image(offset: T, scale: T) -> UIKit.UIImage?
+  public func toRawBytesRGBA(offset: T, scale: T) -> (bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int)?
+  public func toRawBytesGray(offset: T, scale: T) -> (bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int)?
+  public func image(channel: Swift.Int, offset: T, scale: T) -> UIKit.UIImage?
+}
+extension CGImage {
+  @nonobjc public func toByteArrayRGBA() -> [Swift.UInt8]
+  @nonobjc public class func fromByteArrayRGBA(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int) -> CoreGraphics.CGImage?
+  @nonobjc public class func fromByteArrayGray(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int) -> CoreGraphics.CGImage?
+}
+public struct StringProxy {
+}
+extension String {
+  public typealias CompatibleType = DoreCoreAI.StringProxy
+  public var kf: Swift.String.CompatibleType {
+    get
+  }
+}
+public func pixToImage(_ softmax: CoreML.MLMultiArray, mView: UIKit.UIImageView)
+public func ImagetoPixelbuffer(from image: UIKit.UIImage) -> CoreVideo.CVPixelBuffer?
+public func cutoutmaskImage(image: UIKit.UIImage, mask: (UIKit.UIImage)) -> UIKit.UIImage
+public func convertCItoUIimage(cmage: CoreImage.CIImage) -> UIKit.UIImage
+public func maskblendImage(backgroundImage: UIKit.UIImage, maskImage: UIKit.UIImage, maskblendMode: CoreGraphics.CGBlendMode = CGBlendMode.lighten, blendAlpha: CoreGraphics.CGFloat = 1) -> UIKit.UIImage?
+public func getColorMask(_ softmax: CoreML.MLMultiArray, R: Swift.Int, G: Swift.Int, B: Swift.Int, A: Swift.Int) -> UIKit.UIImage?
+public func getMaskWB(_ softmax: CoreML.MLMultiArray) -> UIKit.UIImage?
+public func getMaskBW(_ softmax: CoreML.MLMultiArray) -> UIKit.UIImage?
+public func segCodeToImage(_ softmax: CoreML.MLMultiArray) -> UIKit.UIImage?
+public class decode_manager {
+  public init()
+  public func decode(binfile: Foundation.URL, destPath: Foundation.URL, overWrite: Swift.Bool, code: Swift.String?) -> Swift.Bool
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class DoreDiggerDelegate : ObjectiveC.NSObject {
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension DoreDiggerDelegate : Foundation.URLSessionDataDelegate, Foundation.URLSessionDelegate {
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive response: Foundation.URLResponse, completionHandler: @escaping (Foundation.URLSession.ResponseDisposition) -> Swift.Void)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, dataTask: Foundation.URLSessionDataTask, didReceive data: Foundation.Data)
+  @objc dynamic public func urlSession(_ session: Foundation.URLSession, task: Foundation.URLSessionTask, didCompleteWithError error: Swift.Error?)
+}
+extension DoreDiggerDelegate {
+  public func notifySpeedZeroCallback(_ DorediggerSeed: DoreCoreAI.DoreDiggerSeed)
+}
+extension UIImage {
+  @nonobjc public func toByteArrayRGBA() -> [Swift.UInt8]?
+  @nonobjc public class func fromByteArrayRGBA(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, scale: CoreGraphics.CGFloat = 0, orientation: UIKit.UIImage.Orientation = .up) -> UIKit.UIImage?
+  @nonobjc public class func fromByteArrayGray(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, scale: CoreGraphics.CGFloat = 0, orientation: UIKit.UIImage.Orientation = .up) -> UIKit.UIImage?
+}
+public protocol CameraFeedManagerDelegate : AnyObject {
+  func didOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
+  func presentCameraPermissionsDeniedAlert()
+  func presentVideoConfigurationErrorAlert()
+  func sessionRunTimeErrorOccured()
+  func sessionWasInterrupted(canResumeManually resumeManually: Swift.Bool)
+  func sessionInterruptionEnded()
+}
+public enum CameraConfiguration {
+  case success
+  case failed
+  case permissionDenied
+  public static func == (a: DoreCoreAI.CameraConfiguration, b: DoreCoreAI.CameraConfiguration) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+@objc public class CameraFeedManager : ObjectiveC.NSObject {
+  final public let session: AVFoundation.AVCaptureSession
+  final public let previewView: DoreCoreAI.CaptureView
+  final public let sessionQueue: Dispatch.DispatchQueue
+  public var cameraConfiguration: DoreCoreAI.CameraConfiguration
+  public var videoDataOutput: AVFoundation.AVCaptureVideoDataOutput {
+    get
+    set
+  }
+  public var isSessionRunning: Swift.Bool
+  public var CameraPosition: AVFoundation.AVCaptureDevice.Position
+  public var delegate: DoreCoreAI.CameraFeedManagerDelegate?
+  public init(previewView: DoreCoreAI.CaptureView, CameraPosition: AVFoundation.AVCaptureDevice.Position = AVCaptureDevice.Position.back)
+  public func checkCameraConfigurationAndStartSession()
+  public func stopSession()
+  public func resumeInterruptedSession(withCompletion completion: @escaping (Swift.Bool) -> ())
+  public func startSession()
+  public func attemptToConfigureSession()
+  public func requestCameraAccess(completion: @escaping (Swift.Bool) -> ())
+  public func configureSession()
+  public func addVideoDeviceInput() -> Swift.Bool
+  public func addVideoDataOutput() -> Swift.Bool
+  public func addObservers()
+  public func removeObservers()
+  @objc public func sessionWasInterrupted(notification: Foundation.Notification)
+  @objc public func sessionInterruptionEnded(notification: Foundation.Notification)
+  @objc public func sessionRuntimeErrorOccured(notification: Foundation.Notification)
+  @objc deinit
+  @objc override dynamic public init()
+}
+extension CameraFeedManager : AVFoundation.AVCaptureVideoDataOutputSampleBufferDelegate {
+  @objc dynamic public func captureOutput(_ output: AVFoundation.AVCaptureOutput, didOutput sampleBuffer: CoreMedia.CMSampleBuffer, from connection: AVFoundation.AVCaptureConnection)
+}
+extension CVBuffer {
+  public func resized(to size: CoreGraphics.CGSize) -> CoreVideo.CVPixelBuffer?
+  public func centerThumbnail(ofSize size: CoreGraphics.CGSize) -> CoreVideo.CVPixelBuffer?
+}
+@_hasMissingDesignatedInitializers public class DoreDiggerCache {
+  public static var cachesDirectory: Swift.String {
+    get
+    set
+  }
+  public static func downloadedFilesSize() -> Swift.Int64
+  public static func cleanDownloadTempFiles()
+  public static func cleanDownloadFiles()
+  public static func pathsOfDownloadedfiles() -> [Swift.String]
+  @objc deinit
+}
+extension DoreDiggerCache {
+  public static func isFileExist(atPath filePath: Swift.String) -> Swift.Bool
+  public static func fileSize(filePath: Swift.String) -> Swift.Int64
+  public static func moveItem(atPath: Swift.String, toPath: Swift.String)
+  public static func removeItem(atPath: Swift.String)
+  public static func createDirectory(atPath: Swift.String)
+  public static func systemFreeSize() -> Swift.Int64
+}
+extension String {
+  public var md5: Swift.String {
+    get
+  }
+  public var cacheDir: Swift.String {
+    get
+  }
+  public var docDir: Swift.String {
+    get
+  }
+  public var tmpDir: Swift.String {
+    get
+  }
+}
+public class lic_manager {
+  public init()
+  public func validate_lic(lickey: Swift.String, productName: Swift.String) -> Swift.Bool
+  @objc deinit
+}
+public func createPixelBuffer(width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+public func resizePixelBuffer(_ srcPixelBuffer: CoreVideo.CVPixelBuffer, cropX: Swift.Int, cropY: Swift.Int, cropWidth: Swift.Int, cropHeight: Swift.Int, scaleWidth: Swift.Int, scaleHeight: Swift.Int) -> CoreVideo.CVPixelBuffer?
+public func resizePixelBuffer(_ pixelBuffer: CoreVideo.CVPixelBuffer, width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+public func resizePixelBuffer(_ pixelBuffer: CoreVideo.CVPixelBuffer, width: Swift.Int, height: Swift.Int, output: CoreVideo.CVPixelBuffer, context: CoreImage.CIContext)
+public func rotate90PixelBuffer(_ srcPixelBuffer: CoreVideo.CVPixelBuffer, factor: Swift.UInt8) -> CoreVideo.CVPixelBuffer?
+extension CVBuffer {
+  public func copyToMetalCompatible() -> CoreVideo.CVPixelBuffer?
+  public func deepCopy(withAttributes attributes: [Swift.String : Any] = [:]) -> CoreVideo.CVPixelBuffer?
+}
+public protocol DoreDiggerManagerProtocol {
+  var logLevel: DoreCoreAI.LogLevel { get set }
+  var maxConcurrentTasksCount: Swift.Int { get set }
+  var allowsCellularAccess: Swift.Bool { get set }
+  var timeout: Foundation.TimeInterval { get set }
+  var startDownloadImmediately: Swift.Bool { get set }
+  func startTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  func stopTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  func cancelTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  func startAllTasks()
+  func stopAllTasks()
+  func cancelAllTasks()
+}
+@_hasMissingDesignatedInitializers open class DoreDiggerManager : DoreCoreAI.DoreDiggerManagerProtocol {
+  public static var shared: DoreCoreAI.DoreDiggerManager
+  public var logLevel: DoreCoreAI.LogLevel
+  open var startDownloadImmediately: Swift.Bool
+  open var timeout: Swift.Double
+  public var maxConcurrentTasksCount: Swift.Int {
+    get
+    set
+  }
+  public var allowsCellularAccess: Swift.Bool {
+    get
+    set
+  }
+  @objc deinit
+  @discardableResult
+  public func download(with DorediggerURL: DoreCoreAI.DoreDiggerURL) -> DoreCoreAI.DoreDiggerSeed
+}
+extension DoreDiggerManager {
+  public func removeDigeerSeed(for url: Foundation.URL)
+}
+extension DoreDiggerManager {
+  public func cancelTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  public func stopTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  public func startTask(for DorediggerURL: DoreCoreAI.DoreDiggerURL)
+  public func startAllTasks()
+  public func stopAllTasks()
+  public func cancelAllTasks()
+}
+extension URLSession {
+  public func dataTask(with url: Foundation.URL, timeout: Foundation.TimeInterval) -> Foundation.URLSessionDataTask
+}
+public func argmax(_ array: [Swift.Float], count: Swift.Int? = nil) -> (Swift.Int, Swift.Float)
+public func argmax(_ ptr: Swift.UnsafePointer<Swift.Float>, count: Swift.Int, stride: Swift.Int = 1) -> (Swift.Int, Swift.Float)
+public func argmax(_ array: [Swift.Double], count: Swift.Int? = nil) -> (Swift.Int, Swift.Double)
+public func argmax(_ ptr: Swift.UnsafePointer<Swift.Double>, count: Swift.Int, stride: Swift.Int = 1) -> (Swift.Int, Swift.Double)
+public func clamp<T>(_ x: T, min: T, max: T) -> T where T : Swift.Comparable
+public func sigmoid(_ x: Swift.Float) -> Swift.Float
+public func sigmoid(_ x: Swift.Double) -> Swift.Double
+public func sigmoid(_ x: Swift.UnsafeMutablePointer<Swift.Float>, count: Swift.Int)
+public func sigmoid(_ x: Swift.UnsafeMutablePointer<Swift.Double>, count: Swift.Int)
+public func softmax(_ x: [Swift.Float]) -> [Swift.Float]
+extension Array where Element : Swift.Comparable {
+  public func argmax() -> (Swift.Int, Element)
+  public func argsort(by areInIncreasingOrder: (Element, Element) -> Swift.Bool) -> [Swift.Array<Element>.Index]
+  public func gather(indices: [Swift.Array<Element>.Index]) -> [Element]
+}
+extension CGImage {
+  public func pixelBuffer(width: Swift.Int, height: Swift.Int, orientation: ImageIO.CGImagePropertyOrientation) -> CoreVideo.CVPixelBuffer?
+  public func pixelBufferGray(width: Swift.Int, height: Swift.Int, orientation: ImageIO.CGImagePropertyOrientation) -> CoreVideo.CVPixelBuffer?
+}
+extension CGImage {
+  public static func create(pixelBuffer: CoreVideo.CVPixelBuffer) -> CoreGraphics.CGImage?
+  public static func create(pixelBuffer: CoreVideo.CVPixelBuffer, context: CoreImage.CIContext) -> CoreGraphics.CGImage?
+}
+extension UIImage {
+  public func pixelBuffer(width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+  public func pixelBufferGray(width: Swift.Int, height: Swift.Int) -> CoreVideo.CVPixelBuffer?
+}
+extension UIImage {
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+  convenience public init?(pixelBuffer: CoreVideo.CVPixelBuffer, context: CoreImage.CIContext)
+}
+public typealias ProgressCallback = (Foundation.Progress) -> Swift.Void
+public typealias SpeedCallback = (Swift.Int64) -> Swift.Void
+public typealias CompletionCallback = (DoreCoreAI.Result<Foundation.URL>) -> Swift.Void
+public typealias Callback = (progress: DoreCoreAI.ProgressCallback?, speed: DoreCoreAI.SpeedCallback?, completion: DoreCoreAI.CompletionCallback?)
+@_hasMissingDesignatedInitializers public class DoreDiggerSeed {
+  @discardableResult
+  public func progress(_ progress: @escaping DoreCoreAI.ProgressCallback) -> Self
+  @discardableResult
+  public func speed(_ speed: @escaping DoreCoreAI.SpeedCallback) -> Self
+  @discardableResult
+  public func completion(_ completion: @escaping DoreCoreAI.CompletionCallback) -> Self
+  @objc deinit
+}
+extension UIImage {
+  @nonobjc public func resized(to newSize: CoreGraphics.CGSize, scale: CoreGraphics.CGFloat = 1) -> UIKit.UIImage
+}
+public let Doredigger: Swift.String
+@discardableResult
+public func download(_ url: DoreCoreAI.DoreDiggerURL) -> DoreCoreAI.DoreDiggerSeed
+public func top(_ k: Swift.Int, _ prob: [Swift.String : Swift.Double]) -> [(Swift.String, Swift.Double)]
+public func top(_ k: Swift.Int, _ observations: [Vision.VNClassificationObservation]) -> [(Swift.String, Swift.Double)]
+@objc @_inheritsConvenienceInitializers public class CaptureView : UIKit.UIView {
+  public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer {
+    get
+  }
+  public var session: AVFoundation.AVCaptureSession? {
+    get
+    set
+  }
+  @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @objc deinit
+  @objc override dynamic public init(frame: CoreGraphics.CGRect)
+  @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public struct BoundingBox {
+  public let classIndex: Swift.Int
+  public let score: Swift.Float
+  public let rect: CoreGraphics.CGRect
+  public init(classIndex: Swift.Int, score: Swift.Float, rect: CoreGraphics.CGRect)
+}
+public func IOU(_ a: CoreGraphics.CGRect, _ b: CoreGraphics.CGRect) -> Swift.Float
+public func nonMaxSuppression(boundingBoxes: [DoreCoreAI.BoundingBox], iouThreshold: Swift.Float, maxBoxes: Swift.Int) -> [Swift.Int]
+public func nonMaxSuppression(boundingBoxes: [DoreCoreAI.BoundingBox], indices: [Swift.Int], iouThreshold: Swift.Float, maxBoxes: Swift.Int) -> [Swift.Int]
+public func nonMaxSuppressionMultiClass(numClasses: Swift.Int, boundingBoxes: [DoreCoreAI.BoundingBox], scoreThreshold: Swift.Float, iouThreshold: Swift.Float, maxPerClass: Swift.Int, maxTotal: Swift.Int) -> [Swift.Int]
+extension MLMultiArray {
+  @nonobjc public func reshaped(to dimensions: [Swift.Int]) throws -> CoreML.MLMultiArray
+  @nonobjc public func transposed(to order: [Swift.Int]) throws -> CoreML.MLMultiArray
+}
+public enum Result<T> {
+  case failure(Swift.Error)
+  case success(T)
+}
+public let DoreDiggerErrorDomain: Swift.String
+public enum DoreDiggerError : Swift.Int {
+  case badURL
+  case fileIsExist
+  case fileInfoError
+  case invalidStatusCode
+  case diskOutOfSpace
+  case downloadCanceled
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+}
+public enum LogLevel {
+  case high, low, none
+  public static func == (a: DoreCoreAI.LogLevel, b: DoreCoreAI.LogLevel) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+  public func hash(into hasher: inout Swift.Hasher)
+}
+public func DorediggerLog<T>(_ info: T, file: Foundation.NSString = #file, method: Swift.String = #function, line: Swift.Int = #line)
+public protocol DoreDiggerURL {
+  func asURL() throws -> Foundation.URL
+}
+extension String : DoreCoreAI.DoreDiggerURL {
+  public func asURL() throws -> Foundation.URL
+}
+extension URL : DoreCoreAI.DoreDiggerURL {
+  public func asURL() throws -> Foundation.URL
+}
+extension DoreCoreAI.CameraConfiguration : Swift.Equatable {}
+extension DoreCoreAI.CameraConfiguration : Swift.Hashable {}
+extension DoreCoreAI.DoreDiggerError : Swift.Equatable {}
+extension DoreCoreAI.DoreDiggerError : Swift.Hashable {}
+extension DoreCoreAI.DoreDiggerError : Swift.RawRepresentable {}
+extension DoreCoreAI.LogLevel : Swift.Equatable {}
+extension DoreCoreAI.LogLevel : Swift.Hashable {}

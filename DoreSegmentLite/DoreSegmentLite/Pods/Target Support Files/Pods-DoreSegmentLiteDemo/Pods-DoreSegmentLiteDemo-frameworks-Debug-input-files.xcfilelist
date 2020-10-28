@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-DoreSegmentLiteDemo/Pods-DoreSegmentLiteDemo-frameworks.sh
-${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework
-${PODS_ROOT}/DoreSegmentLite/Frameworks/DoreSegmentLite.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreSegmentLite/DoreSegmentLite.framework/DoreSegmentLite

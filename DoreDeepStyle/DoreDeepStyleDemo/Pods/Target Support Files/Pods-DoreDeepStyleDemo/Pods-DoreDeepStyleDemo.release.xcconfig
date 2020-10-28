@@ -1,5 +1,6 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DoreCoreAI/Frameworks" "${PODS_ROOT}/DoreDeepStyle/Frameworks"
+EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DoreCoreAI/Frameworks" "${PODS_ROOT}/DoreDeepStyle/Frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCoreAI" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreDeepStyle"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accelerate" -framework "CoreImage" -framework "DoreCoreAI" -framework "DoreDeepStyle" -framework "Foundation" -framework "UIKit" -framework "VideoToolbox" -weak_framework "CoreML" -weak_framework "Vision"

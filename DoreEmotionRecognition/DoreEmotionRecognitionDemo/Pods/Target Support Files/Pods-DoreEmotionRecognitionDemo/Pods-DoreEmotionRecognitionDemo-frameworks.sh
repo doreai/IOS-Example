@@ -175,11 +175,9 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
   install_framework "${PODS_ROOT}/DoreEmotionRecognition/Frameworks/DoreEmotionRecognition.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework"
   install_framework "${PODS_ROOT}/DoreEmotionRecognition/Frameworks/DoreEmotionRecognition.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

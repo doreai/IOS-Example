@@ -1,3 +1,2 @@
 ${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentDemo/Pods-DoreHairSegmentDemo-frameworks.sh
-${PODS_ROOT}/DoreCoreAI/Frameworks/DoreCoreAI.framework
-${PODS_ROOT}/DoreHairSegment/Frameworks/DoreHairSegment.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreHairSegment/DoreHairSegment.framework/DoreHairSegment

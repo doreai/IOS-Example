@@ -1,0 +1,39 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.3 (swiftlang-1200.0.29.2 clang-1200.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreSoundPlay
+import AVKit
+import CoreImage
+import CoreML
+import DoreCoreAI
+@_exported import DoreSoundPlay
+import Foundation
+import SoundAnalysis
+import Swift
+import UIKit
+@_hasMissingDesignatedInitializers @available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+public class soundplayInput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @available(OSX 10.15, iOS 13.0, tvOS 13.0, watchOS 6.0, *)
+public class soundplayOutput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  @objc deinit
+}
+public protocol SoundPlayDelegate : AnyObject {
+  func onSoundPlayReceived(_ info: Swift.String)
+}
+public class SoundPlayManager : DoreSoundPlay.SoundPlayDelegate {
+  weak open var delegate: DoreSoundPlay.SoundPlayDelegate?
+  public init()
+  public func init_data(licKey: Swift.String) -> Swift.Bool
+  public func onSoundPlayReceived(_ info: Swift.String)
+  public func soundplay_model(analyzer: SoundAnalysis.SNAudioStreamAnalyzer!)
+  @objc deinit
+}
