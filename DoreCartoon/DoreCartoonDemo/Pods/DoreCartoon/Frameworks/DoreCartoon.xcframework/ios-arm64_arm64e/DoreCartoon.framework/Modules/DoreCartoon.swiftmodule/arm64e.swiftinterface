@@ -1,0 +1,88 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)
+// swift-module-flags: -target arm64e-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreCartoon
+import Accelerate
+import CoreImage
+import CoreML
+@_exported import DoreCartoon
+import DoreCoreAI
+import Foundation
+import Swift
+import UIKit
+import _Concurrency
+public class CartoonManager {
+  public init()
+  public enum CartoonVariantType : Swift.String {
+    case Standard
+    case Medium
+    case High
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func init_data(licKey: Swift.String) -> Swift.Bool
+  public func run_model(onFrame imageBuffer: CoreVideo.CVPixelBuffer, variantType: DoreCartoon.CartoonManager.CartoonVariantType = CartoonVariantType.Standard) -> DoreCartoon.cartoonOutput?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class cartoonOutput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  public func GeneratedImage(Width: Swift.Int, Height: Swift.Int) -> UIKit.UIImage
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class cartoonInput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  @objc deinit
+}
+public protocol MultiArrayType : Swift.Comparable {
+  static var multiArrayDataType: CoreML.MLMultiArrayDataType { get }
+  static func + (lhs: Self, rhs: Self) -> Self
+  static func - (lhs: Self, rhs: Self) -> Self
+  static func * (lhs: Self, rhs: Self) -> Self
+  static func / (lhs: Self, rhs: Self) -> Self
+  init(_: Swift.Int)
+  var toUInt8: Swift.UInt8 { get }
+}
+extension Swift.Double : DoreCartoon.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Swift.Float : DoreCartoon.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Swift.Int32 : DoreCartoon.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension CoreML.MLMultiArray {
+  public func cgImage(min: Swift.Double = 0, max: Swift.Double = 255, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil) -> CoreGraphics.CGImage?
+  public func toRawBytes<T>(min: T, max: T, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil) -> (bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, channels: Swift.Int)? where T : DoreCartoon.MultiArrayType
+}
+public func createCGImage(fromFloatArray features: CoreML.MLMultiArray, min: Swift.Float = 0, max: Swift.Float = 255) -> CoreGraphics.CGImage?
+extension CoreML.MLMultiArray {
+  public func image(min: Swift.Double = 0, max: Swift.Double = 255, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil) -> UIKit.UIImage?
+}
+public func createUIImage(fromFloatArray features: CoreML.MLMultiArray, min: Swift.Float = 0, max: Swift.Float = 255) -> UIKit.UIImage?
+extension DoreCartoon.CartoonManager.CartoonVariantType : Swift.Equatable {}
+extension DoreCartoon.CartoonManager.CartoonVariantType : Swift.Hashable {}
+extension DoreCartoon.CartoonManager.CartoonVariantType : Swift.RawRepresentable {}

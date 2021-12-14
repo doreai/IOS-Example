@@ -1,0 +1,11 @@
+framework module DoreCartoon {
+  umbrella header "DoreCartoon.h"
+
+  export *
+  module * { export * }
+}
+
+module DoreCartoon.Swift {
+    header "DoreCartoon-Swift.h"
+    requires objc
+}

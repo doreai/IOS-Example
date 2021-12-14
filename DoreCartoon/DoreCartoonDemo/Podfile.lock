@@ -1,0 +1,20 @@
+PODS:
+  - DoreCartoon (1.0.17):
+    - DoreCoreAI
+  - DoreCoreAI (1.0.17)
+
+DEPENDENCIES:
+  - DoreCartoon
+
+SPEC REPOS:
+  trunk:
+    - DoreCartoon
+    - DoreCoreAI
+
+SPEC CHECKSUMS:
+  DoreCartoon: cc0db2f9b488000b89b0d4aec850e91f843e0bf2
+  DoreCoreAI: b5cdb2a1b0a9befe8f945ad9d8e69ccd478985bb
+
+PODFILE CHECKSUM: 884679bc42620ba8653eba03a9868b88ebe06bf5
+
+COCOAPODS: 1.11.2
