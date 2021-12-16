@@ -13,7 +13,7 @@ import UIKit
 class HomePage: UIViewController {
     
     //DoreCartoon License key (for com.dore.cartoondemo)
-    static var lickey:String = "bP5n1mMJVGq9hNr9JcQQQiiu/kTdFMe/YndUWosG7nSziAcXrz/dI9m2sQ6sxINFGXMT7hpuZaPilBmpsI2d4r52U9WeqXaVv23ZSTxFtJbNiNVLgB2vK9X/h6IwFhJ+QxhmGNX2YQYeAIF+OOzxvdnzKR2FoXnZiFJzX9YoJg4z/PJ+LE/z1+JCmoOBtvqY3uN+Av+90m9klgSFYilung=="
+    static var lickey:String = "1ir3bdFjtAyQtgIF7Zm+qc1pVMnFj8fUOmR9QkZr5dGXs591Dt5MgcP9UyOw95NfwhsLVa2aDKgh1BKedtG/spotHrHOEsQsY8XkQ/9/nGm6aFz3cZBeHm6s+clCimlcjN2AZPYbijnQ9te+LH8YrKvhjrDtV60sntZr5bI74ru1WnEAdPhu953rzo8VPtyKYm8vWT95wKrx7nNPifeNGg=="
     
     
 }
