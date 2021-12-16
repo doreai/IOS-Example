@@ -119,7 +119,7 @@ class Videocartoon: UIViewController {
         DispatchQueue.main.async {
             self.segmentView.image = ciImage
             self.segmentView.contentMode = .scaleAspectFit
-            //self.btnSegment.isEnabled = false
+            
         }
         
     }
@@ -145,12 +145,9 @@ extension Videocartoon: UIImagePickerControllerDelegate,UINavigationControllerDe
         playerController.player = player
         playerController.player?.play()
         
-        //        if let pickedImage = info[UIImagePickerController.InfoKey.originalImage] as? UIImage {
-        //            self.segmentView.image = pickedImage.resize(size: CGSize(width: 1200, height: 1200 * (pickedImage.size.height / pickedImage.size.width)))
-        //        }
-        //
+     
         picker.dismiss(animated: true, completion: nil)
-        // self.btnSegment.isEnabled = true
+         
     }
     
 }

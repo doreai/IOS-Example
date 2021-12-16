@@ -53,7 +53,7 @@ class Picturecartoon: UIViewController {
         //run model and get result
        
         
-        //mask image White - bacground, Black - foreground
+       // mask image White - bacground, Black - foreground
         let ciImage:UIImage = result.GeneratedImage(Width: Int(segmentView.image?.size.width ?? 0), Height: Int(segmentView.image?.size.height ?? 0))
         
         
