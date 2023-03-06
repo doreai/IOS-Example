@@ -12,6 +12,7 @@ import DoreCoreAI
 import DoreHairSegment
 //======================
 import AVFoundation
+import CoreML
 
 
 class ImageSegment: UIViewController {
@@ -50,10 +51,11 @@ class ImageSegment: UIViewController {
     func run_segment() {
         
         
-        
+        let inputimage:UIImage = UIImage(pixelBuffer: imgpixelBuffer!)!
         //run model and get result
-        let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: imgpixelBuffer!))! )
+        let outImage:CGImage = (self.modelManager?.run_model(onFrame: inputimage))!
         
+                
         //get random color
         var RGBCode:[Int] = [155, 77, 243]
         var randomColor: UIColor {
@@ -75,21 +77,67 @@ class ImageSegment: UIViewController {
         RGBCode[1] = Int(green * 256)
         RGBCode[2] = Int(blue * 256)
         
+        let maskImage:UIImage = UIImage(cgImage: outImage)
         
-        let ciImage:UIImage = getColorMask(result.semanticPredictions,R: RGBCode[0], G: RGBCode[1], B: RGBCode[2], A: 255)!
+         
         
+        let ciImage:UIImage = ColorMask(maskImage.preprocess(image: maskImage)!,R: RGBCode[0], G: RGBCode[1], B: RGBCode[2], A: 255)!
+
         let rgbCIimage:CIImage = CIImage.init(cvPixelBuffer: imgpixelBuffer!)
         let img:UIImage = convertCItoUIimage(cmage: rgbCIimage)
-        
+
         //you can change BlendMode and adjust alpha value (0.1 to 1)
         let outputImage:UIImage = maskblendImage(backgroundImage: img, maskImage: ciImage, maskblendMode: CGBlendMode.multiply, blendAlpha: 0.8)!
-        
+
         DispatchQueue.main.async {
             self.segmentView.image = outputImage
-            //self.btnSegment.isEnabled = false
-        }
+
+       }
         
     }
+    
+    
+    func ColorMask(_ softmax: MLMultiArray, R:Int, G:Int, B:Int, A:Int)-> UIImage?  {
+        
+        
+            let label_map = [
+                0:  [R, G, B, A],
+                1:  [0, 0, 0, 0]
+            ]
+        
+        let codes = MultiArray<Double>(softmax)
+        // get the shape information from the probs
+        let height = codes.shape[1]
+        let width = codes.shape[2]
+            // initialize some bytes to store the image in
+            var bytes = [UInt8](repeating: 255, count: height * width * 4 )
+            // iterate over the pixels in the output probs
+            for h in 0 ..< height {
+                for w in 0 ..< width {
+                    let offset = h * width * 4 + w  * 4
+                    let pCode1:Double =  (codes[0, h, w])
+                    
+                    var rgb = label_map[0]
+                    if(pCode1 < 0.5){
+                       rgb = label_map[1]
+                    }
+                    // set the bytes to the RGB value and alpha of 1.0 (255)
+                    bytes[offset + 0] =  UInt8(rgb![0])
+                    bytes[offset + 1] =  UInt8(rgb![1])
+                    bytes[offset + 2] =  UInt8(rgb![2])
+                    bytes[offset + 3] = UInt8(rgb![3])
+                }
+            }
+            // create a UIImage from the byte array
+            return UIImage.fromByteArray(bytes, width: width, height: height,
+                                         scale: 0, orientation: .up,
+                                         bytesPerRow: width * 4,
+                                         colorSpace: CGColorSpaceCreateDeviceRGB(),
+                                         alphaInfo: .premultipliedLast)
+
+    }
+    
+     
     
     func buffer(from image: UIImage) -> CVPixelBuffer? {
         let attrs = [kCVPixelBufferCGImageCompatibilityKey: kCFBooleanTrue, kCVPixelBufferCGBitmapContextCompatibilityKey: kCFBooleanTrue] as CFDictionary
@@ -153,6 +201,50 @@ extension UIImage {
         let img = UIGraphicsGetImageFromCurrentImageContext()
         UIGraphicsEndImageContext()
         return img
+    }
+    
+    func resize(to newSize: CGSize) -> UIImage {
+                    UIGraphicsBeginImageContextWithOptions(CGSize(width: newSize.width, height: newSize.height), true, 1.0)
+            self.draw(in: CGRect(x: 0, y: 0, width: newSize.width, height: newSize.height))
+            let resizedImage = UIGraphicsGetImageFromCurrentImageContext()!
+            UIGraphicsEndImageContext()
+            
+            return resizedImage
+    }
+    
+    func pixelData() -> [UInt8]? {
+            let dataSize = size.width * size.height * 4
+            var pixelData = [UInt8](repeating: 0, count: Int(dataSize))
+            let colorSpace = CGColorSpaceCreateDeviceRGB()
+            let context = CGContext(data: &pixelData, width: Int(size.width), height: Int(size.height), bitsPerComponent: 8, bytesPerRow: 4 * Int(size.width), space: colorSpace, bitmapInfo: CGImageAlphaInfo.noneSkipLast.rawValue)
+            
+            guard let cgImage = self.cgImage else { return nil }
+            context?.draw(cgImage, in: CGRect(x: 0, y: 0, width: size.width, height: size.height))
+            
+            return pixelData
+    }
+    func preprocess(image: UIImage) -> MLMultiArray? {
+        let size = CGSize(width: 224, height: 224)
+        
+        
+        guard let pixels = image.resize(to: size).pixelData()?.map({ (Double($0) / 255.0 - 0.5) * 2 }) else {
+            return nil
+        }
+
+        guard let array = try? MLMultiArray(shape: [3, 224, 224], dataType: .double) else {
+            return nil
+        }
+        
+        let r = pixels.enumerated().filter { $0.offset % 4 == 0 }.map { $0.element }
+        let g = pixels.enumerated().filter { $0.offset % 4 == 1 }.map { $0.element }
+        let b = pixels.enumerated().filter { $0.offset % 4 == 2 }.map { $0.element }
+
+        let combination = r + g + b
+        for (index, element) in combination.enumerated() {
+            array[index] = NSNumber(value: element)
+        }
+
+        return array
     }
     
 }

@@ -12,6 +12,7 @@ import DoreCoreAI
 import DoreHairSegment
 //======================
 import AVFoundation
+import CoreML
 
 
 class HairColor : UIViewController, CameraFeedManagerDelegate {
@@ -64,20 +65,22 @@ class HairColor : UIViewController, CameraFeedManagerDelegate {
     
     func didOutput(pixelBuffer: CVPixelBuffer) {
       
-        
+        let inputimage:UIImage = UIImage(pixelBuffer: pixelBuffer)!
         //run model and get result
-        let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: pixelBuffer))! )
+        let outImage:CGImage = (self.modelManager?.run_model(onFrame: inputimage))!
+        let maskImage:UIImage = UIImage(cgImage: outImage)
+         
+       
         
-        //get color mask (you can adjust RGBA value)
-        let ciImage:UIImage = getColorMask(result.semanticPredictions,R: RGBCode[0], G: RGBCode[1], B: RGBCode[2], A: 255)!
-        
+        let ciImage:UIImage = ColorMask(maskImage.preprocess(image: maskImage)!,R: RGBCode[0], G: RGBCode[1], B: RGBCode[2], A: 255)!
+
         let rgbCIimage:CIImage = CIImage.init(cvPixelBuffer: pixelBuffer)
         let img:UIImage = convertCItoUIimage(cmage: rgbCIimage)
-        
+
         //you can change BlendMode and adjust alpha value (0.1 to 1)
-        let outputImage:UIImage = maskblendImage(backgroundImage: img, maskImage: ciImage, maskblendMode: CGBlendMode.multiply, blendAlpha: 0.8)!
-        
-        
+        let outputImage:UIImage = maskblendImage(backgroundImage: img, maskImage: ciImage , maskblendMode: CGBlendMode.multiply, blendAlpha: 0.8)!
+
+
         DispatchQueue.main.async {
             self.maskoutView.image = outputImage
         }
@@ -86,6 +89,44 @@ class HairColor : UIViewController, CameraFeedManagerDelegate {
     }
     
     
+    func ColorMask(_ softmax: MLMultiArray, R:Int, G:Int, B:Int, A:Int)-> UIImage?  {
+                
+            let label_map = [
+                0:  [R, G, B, A],
+                1:  [0, 0, 0, 0]
+            ]
+        
+        let codes = MultiArray<Double>(softmax)
+        // get the shape information from the probs
+        let height = codes.shape[1]
+        let width = codes.shape[2]
+            // initialize some bytes to store the image in
+            var bytes = [UInt8](repeating: 255, count: height * width * 4 )
+            // iterate over the pixels in the output probs
+            for h in 0 ..< height {
+                for w in 0 ..< width {
+                    let offset = h * width * 4 + w  * 4
+                    let pCode1:Double =  (codes[0, h, w])
+                    
+                    var rgb = label_map[0]
+                    if(pCode1 < 0.5){
+                       rgb = label_map[1]
+                    }
+                    // set the bytes to the RGB value and alpha of 1.0 (255)
+                    bytes[offset + 0] =  UInt8(rgb![0])
+                    bytes[offset + 1] =  UInt8(rgb![1])
+                    bytes[offset + 2] =  UInt8(rgb![2])
+                    bytes[offset + 3] = UInt8(rgb![3])
+                }
+            }
+            // create a UIImage from the byte array
+            return UIImage.fromByteArray(bytes, width: width, height: height,
+                                         scale: 0, orientation: .up,
+                                         bytesPerRow: width * 4,
+                                         colorSpace: CGColorSpaceCreateDeviceRGB(),
+                                         alphaInfo: .premultipliedLast)
+
+    }
     
     
     func ipMaskedImageNamed(image:UIImage, color:UIColor) -> UIImage {

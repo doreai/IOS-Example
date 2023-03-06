@@ -63,18 +63,14 @@ class MaskView: UIViewController, CameraFeedManagerDelegate {
         
         
         //run model and get result
-        let result:segmentOut  = segmentOut ( features: (self.modelManager?.run_model(onFrame: pixelBuffer))! )
-        
-        
-        //mask image Black - bacground, White - foreground
-        let ciImage:UIImage = getMaskBW(result.semanticPredictions)!
-        
-        
-        
+        let inputimage:UIImage = UIImage(pixelBuffer: pixelBuffer)!
+        //run model and get result
+        let outImage:CGImage = (self.modelManager?.run_model(onFrame: inputimage))!
+                
         
         
         DispatchQueue.main.async {
-            self.segmentView.image =  ciImage
+            self.segmentView.image = UIImage(cgImage: outImage)
         }
         
     }

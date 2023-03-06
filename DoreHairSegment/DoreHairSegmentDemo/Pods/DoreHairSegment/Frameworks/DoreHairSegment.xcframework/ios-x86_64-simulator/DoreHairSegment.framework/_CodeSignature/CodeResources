@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DoreHairSegment-Swift.h</key>
 		<data>
-		Ahtanv75bius2OEyC0theAiJu5Y=
+		qD90NFS0YV3xRKBjbObfH7Hue6M=
 		</data>
 		<key>Headers/DoreHairSegment.h</key>
 		<data>
@@ -14,39 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OdExib+caOt/ZeRv5opv6zQU3kE=
+		yIAgOpUQHG41+PIToxFodVUy/p4=
 		</data>
 		<key>Modules/DoreHairSegment.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		ofvvzolZRdNysd6jdafwv6tkoLk=
-		</data>
-		<key>Modules/DoreHairSegment.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<data>
-		ofvvzolZRdNysd6jdafwv6tkoLk=
+		kZIq1K3XsxhGQ3NxarbiATRmxRY=
 		</data>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		hNJ0NTuBKWNYQOk9FW/ayRLy15A=
+		a5imjcACHjMQXKRWmIe7VtN4Nw4=
 		</data>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2LfPdTe4Oc1Vo39yN1CtrUGHh9M=
+		xAaQwLJ2tsvQtCpDenK1EgpasE0=
 		</data>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LmCuiyaI2g9AkFWUzjiG5HBTvp0=
-		</data>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		hNJ0NTuBKWNYQOk9FW/ayRLy15A=
-		</data>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		2LfPdTe4Oc1Vo39yN1CtrUGHh9M=
-		</data>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		LmCuiyaI2g9AkFWUzjiG5HBTvp0=
+		1YpsRf2xW0hLaER/NCuEtALmaGo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -54,7 +38,7 @@
 		</data>
 		<key>data.dat</key>
 		<data>
-		kau/bi+Xqu1iFDIQM34WwiEgTxM=
+		IuJr8TZfS82rx+E2nHiP//i5HJI=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -63,7 +47,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ohS33dcfyQ7+9118cRW1zbPxWbs6avJ7rmH7X5WmENA=
+			QOV4NIo48GlHu8oy/5Bz6rMB3tdOY638wNnsfiTjc98=
 			</data>
 		</dict>
 		<key>Headers/DoreHairSegment.h</key>
@@ -77,56 +61,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			q4DH+sZeZ/cgw4FOapxdj9mOpT7nZc88r1uhafHo/fU=
-			</data>
-		</dict>
-		<key>Modules/DoreHairSegment.swiftmodule/Project/x86_64.swiftsourceinfo</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			q4DH+sZeZ/cgw4FOapxdj9mOpT7nZc88r1uhafHo/fU=
+			StKRL+50c1fP7cR/Ptfa3BLgqu0jSmuCYsbIcDo8hOw=
 			</data>
 		</dict>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			okhKOVq8wzucABRt8PCcLTiPbRBTlxJ3e3QGOBL2TYU=
+			xgNusHKOD0/8x8w0wPMHvmbzUdxNsmSqYr4EQEGrXoE=
 			</data>
 		</dict>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dUcbv/OwbSaK31mGcKwrwIanBEMBoDoglLyOr4TiOPs=
+			mBtlr+Giu6bIEFaS223P9n5OPGI/9VFlZgH4yQLX9QM=
 			</data>
 		</dict>
 		<key>Modules/DoreHairSegment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ymg2UOw4by5yghTsxq8N+QIHvpY0mbNyCBgsWqz92n8=
-			</data>
-		</dict>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			okhKOVq8wzucABRt8PCcLTiPbRBTlxJ3e3QGOBL2TYU=
-			</data>
-		</dict>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dUcbv/OwbSaK31mGcKwrwIanBEMBoDoglLyOr4TiOPs=
-			</data>
-		</dict>
-		<key>Modules/DoreHairSegment.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Ymg2UOw4by5yghTsxq8N+QIHvpY0mbNyCBgsWqz92n8=
+			UtU/uddxAuodd0FkgUedAV7wqpEVgfCj1TUo2gXIL0E=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -140,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l0Ws6omyDhb1SUXhlXpN0FyN5DFHFbjVT9NZwz1+eVY=
+			ig1Aq6Zvv7/1l7wZWMc/adad/iMlIsJYkyeKq53G83E=
 			</data>
 		</dict>
 	</dict>
