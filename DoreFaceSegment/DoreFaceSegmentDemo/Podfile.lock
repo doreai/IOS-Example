@@ -1,0 +1,20 @@
+PODS:
+  - DoreCoreAI (1.0.17)
+  - DoreFaceSegment (1.0.1):
+    - DoreCoreAI
+
+DEPENDENCIES:
+  - DoreFaceSegment
+
+SPEC REPOS:
+  trunk:
+    - DoreCoreAI
+    - DoreFaceSegment
+
+SPEC CHECKSUMS:
+  DoreCoreAI: b5cdb2a1b0a9befe8f945ad9d8e69ccd478985bb
+  DoreFaceSegment: 5c8960f07c4de929582999d18d31c421f3e3e206
+
+PODFILE CHECKSUM: 7562f4c5de505367031c138cb6219a913d3c319c
+
+COCOAPODS: 1.12.0

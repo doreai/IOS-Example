@@ -1,0 +1,110 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DoreFaceSegment
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Accelerate
+import CoreGraphics
+import CoreImage
+import CoreML
+import DoreCoreAI
+@_exported import DoreFaceSegment
+import Foundation
+import Swift
+import UIKit
+import Vision
+import _Concurrency
+import _StringProcessing
+public protocol MultiArrayType : Swift.Comparable {
+  static var multiArrayDataType: CoreML.MLMultiArrayDataType { get }
+  static func + (lhs: Self, rhs: Self) -> Self
+  static func - (lhs: Self, rhs: Self) -> Self
+  static func * (lhs: Self, rhs: Self) -> Self
+  static func / (lhs: Self, rhs: Self) -> Self
+  init(_: Swift.Int)
+  var toUInt8: Swift.UInt8 { get }
+}
+extension Swift.Double : DoreFaceSegment.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Swift.Float : DoreFaceSegment.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension Swift.Int32 : DoreFaceSegment.MultiArrayType {
+  public static var multiArrayDataType: CoreML.MLMultiArrayDataType {
+    get
+  }
+  public var toUInt8: Swift.UInt8 {
+    get
+  }
+}
+extension CoreML.MLMultiArray {
+  public func cgImage(min: Swift.Double = 0, max: Swift.Double = 255, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil, outputType: [Swift.Int]) -> CoreGraphics.CGImage?
+  public func toRawBytes<T>(min: T, max: T, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil, outputType: Swift.Int) -> (bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, channels: Swift.Int)? where T : DoreFaceSegment.MultiArrayType
+  public func toGroupRawBytes<T>(min: T, max: T, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil, outputType: [Swift.Int]) -> (bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, channels: Swift.Int)? where T : DoreFaceSegment.MultiArrayType
+}
+public func createCGImage(fromFloatArray features: CoreML.MLMultiArray, min: Swift.Float = 0, max: Swift.Float = 255) -> CoreGraphics.CGImage?
+extension CoreML.MLMultiArray {
+  public func image(min: Swift.Double = 0, max: Swift.Double = 255, channel: Swift.Int? = nil, axes: (Swift.Int, Swift.Int, Swift.Int)? = nil, outputType: [Swift.Int] = [17]) -> UIKit.UIImage?
+}
+public func createUIImage(fromFloatArray features: CoreML.MLMultiArray, min: Swift.Float = 0, max: Swift.Float = 255) -> UIKit.UIImage?
+public func clamp<T>(_ x: T, min: T, max: T) -> T where T : Swift.Comparable
+extension CoreGraphics.CGImage {
+  @nonobjc public func toByteArrayRGBA() -> [Swift.UInt8]
+  @nonobjc public class func fromByteArrayRGBA(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int) -> CoreGraphics.CGImage?
+  @nonobjc public class func fromByteArrayGray(_ bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int) -> CoreGraphics.CGImage?
+}
+public class FaceSegmentManager {
+  public init()
+  public enum FaceSegmentType : Swift.String {
+    case FACE
+    case BODY
+    case HAIR
+    case SKIN
+    public init?(rawValue: Swift.String)
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public func init_data(licKey: Swift.String) -> Swift.Bool
+  public func resizeBuffer(pixelBuffer: CoreVideo.CVPixelBuffer) -> CoreVideo.CVPixelBuffer?
+  public func run_model(onFrame inputImage: UIKit.UIImage, faceSegmentType facesegmentType: DoreFaceSegment.FaceSegmentManager.FaceSegmentType) -> CoreGraphics.CGImage?
+  @objc deinit
+}
+public struct Result {
+}
+public class segmentInput : CoreML.MLFeatureProvider {
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  public init(image: CoreVideo.CVPixelBuffer)
+  @objc deinit
+}
+public class segmentOut : CoreML.MLFeatureProvider {
+  final public let provider: any CoreML.MLFeatureProvider
+  public var semanticPredictions: CoreML.MLMultiArray {
+    get
+    set
+  }
+  @objc public var featureNames: Swift.Set<Swift.String> {
+    @objc get
+  }
+  @objc public func featureValue(for featureName: Swift.String) -> CoreML.MLFeatureValue?
+  public init(semanticPredictions: CoreML.MLMultiArray)
+  public init(features: any CoreML.MLFeatureProvider)
+  @objc deinit
+}
+extension DoreFaceSegment.FaceSegmentManager.FaceSegmentType : Swift.Equatable {}
+extension DoreFaceSegment.FaceSegmentManager.FaceSegmentType : Swift.Hashable {}
+extension DoreFaceSegment.FaceSegmentManager.FaceSegmentType : Swift.RawRepresentable {}
