@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DoreSoundPlayDemo/Pods-DoreSoundPlayDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCoreAI/DoreCoreAI.framework/DoreCoreAI
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreSoundPlay/DoreSoundPlay.framework/DoreSoundPlay

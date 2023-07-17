@@ -6,6 +6,6 @@ framework module DoreCoreAI {
 }
 
 module DoreCoreAI.Swift {
-    header "DoreCoreAI-Swift.h"
-    requires objc
+  header "DoreCoreAI-Swift.h"
+  requires objc
 }

@@ -6,6 +6,6 @@ framework module DoreCartoon {
 }
 
 module DoreCartoon.Swift {
-    header "DoreCartoon-Swift.h"
-    requires objc
+  header "DoreCartoon-Swift.h"
+  requires objc
 }

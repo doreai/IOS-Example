@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226BBE632549CE6E0059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE622549CE6E0059666C /* DoreCoreAI.xcframework */; };
-		226BBE642549CE6E0059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE622549CE6E0059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22A40EC623CDACD000800FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EC523CDACD000800FCB /* AppDelegate.swift */; };
 		22A40ECF23CDACD200800FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A40ECE23CDACD200800FCB /* Assets.xcassets */; };
 		22A40ED223CDACD200800FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A40ED023CDACD200800FCB /* LaunchScreen.storyboard */; };
@@ -18,20 +16,6 @@
 		22A40EE923CDB07C00800FCB /* RealtimeTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EE423CDB07C00800FCB /* RealtimeTrack.swift */; };
 		54F82CD264EDA6BBB4880B67 /* Pods_DoreEmotionRecognitionDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F004E3F05050C36B728D7852 /* Pods_DoreEmotionRecognitionDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		22C5E0462549AB51003A1FA5 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				226BBE642549CE6E0059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1BA914327C0D32937852D108 /* Pods-DoreEmotionRecognitionDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreEmotionRecognitionDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreEmotionRecognitionDemo/Pods-DoreEmotionRecognitionDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -54,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226BBE632549CE6E0059666C /* DoreCoreAI.xcframework in Frameworks */,
 				54F82CD264EDA6BBB4880B67 /* Pods_DoreEmotionRecognitionDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +115,6 @@
 				22A40EBE23CDACD000800FCB /* Sources */,
 				22A40EBF23CDACD000800FCB /* Frameworks */,
 				22A40EC023CDACD000800FCB /* Resources */,
-				22C5E0462549AB51003A1FA5 /* Embed Frameworks */,
 				B44FFCA9295BF38B783C2246 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (

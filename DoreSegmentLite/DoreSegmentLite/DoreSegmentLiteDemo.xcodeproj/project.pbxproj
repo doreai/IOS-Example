@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,24 +18,8 @@
 		2262AF6B23C75D8100D85296 /* logo_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF6823C75D8000D85296 /* logo_white.png */; };
 		2262AF6C23C75D8100D85296 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF6923C75D8000D85296 /* photo.jpg */; };
 		2262AF6D23C75D8100D85296 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2262AF6A23C75D8000D85296 /* video1.mp4 */; };
-		226BBEDD2549D68D0059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBEDC2549D68D0059666C /* DoreCoreAI.xcframework */; };
-		226BBEDE2549D68D0059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBEDC2549D68D0059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		868A6D29AEE15B6B118C5328 /* Pods_DoreSegmentLiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3F4A0A6EB8589D948822A39 /* Pods_DoreSegmentLiteDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		226BBE272549C78E0059666C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				226BBEDE2549D68D0059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		2262AF4423C75B9800D85296 /* DoreSegmentLiteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreSegmentLiteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -62,7 +46,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226BBEDD2549D68D0059666C /* DoreCoreAI.xcframework in Frameworks */,
 				868A6D29AEE15B6B118C5328 /* Pods_DoreSegmentLiteDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,7 +127,6 @@
 				2262AF4023C75B9800D85296 /* Sources */,
 				2262AF4123C75B9800D85296 /* Frameworks */,
 				2262AF4223C75B9800D85296 /* Resources */,
-				226BBE272549C78E0059666C /* Embed Frameworks */,
 				0C5069F1E0059EECB23FB333 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (

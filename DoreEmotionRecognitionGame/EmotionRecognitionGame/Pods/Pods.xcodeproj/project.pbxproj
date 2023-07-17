@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -42,20 +42,34 @@
 /* Begin PBXBuildFile section */
 		0337DF5045EA05B6F4B06FD68F84B082 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		1394AB8CC0676E4DF402CED18EDC5A1A /* TensorFlowLiteSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F21F28228442F5A36933D8DBEB408B47 /* TensorFlowLiteSwift-dummy.m */; };
-		26C5346E7471224101AFFAA5DCCAADA7 /* Pods-EmotionRecognitionGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F58A825CDD7600E21622C086DF429CA /* Pods-EmotionRecognitionGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		298CCFAC72BB1E3CF396A175BD72231D /* TensorFlowLiteSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CBEFCABF5BC3B684CFBD552128CE33F /* TensorFlowLiteSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3CBBB0920CF22AD6E39DFFF49567BA0F /* InterpreterError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6867A0CE32C6D37DEC34D30325DFEF69 /* InterpreterError.swift */; };
 		4CFCD8227C026CB23B640B0D3C8B03D4 /* TensorFlowLite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480B9C2DB00CAB2CC9321B50F20B4E36 /* TensorFlowLite.swift */; };
+		5115C0E5E229F30F74581C5AA7196E50 /* Pods-EmotionRecognitionGame-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F58A825CDD7600E21622C086DF429CA /* Pods-EmotionRecognitionGame-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		670C73036992399B907285A9F5486478 /* Interpreter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 021A77865408F4E93A3E395657D21C3C /* Interpreter.swift */; };
-		770AC52461F25FA7CC75D0D806619182 /* Pods-EmotionRecognitionGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC55E22A8C4A0B9AA3BC43851C8FD578 /* Pods-EmotionRecognitionGame-dummy.m */; };
-		8603B35A3C36DB1F3E420684129C7B8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9D4BBEBFAB8D1BC05233B57CA803DE58 /* QuantizationParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 479567448FA4A22442D19B4CB3933AE7 /* QuantizationParameters.swift */; };
 		B45C01FA505DD16B7EF3EFDFBB15AFC9 /* InterpreterOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF803141AE882875BD2A5F9F1C525D5B /* InterpreterOptions.swift */; };
+		BD48D5CB9F05B14E9627E1A31F035780 /* Pods-EmotionRecognitionGame-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AC55E22A8C4A0B9AA3BC43851C8FD578 /* Pods-EmotionRecognitionGame-dummy.m */; };
 		C99D7FA8E223F3C619DFEA5960C1B1DB /* Tensor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EAB04D1D841A17462E34BCF40655F14 /* Tensor.swift */; };
+		DB63214B6E292CC339AAEABE6698BD2D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		EFEA9118D9AF17FD035F10ABA867A7D9 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEBDFE9EECE4F283734FD57539F84B6 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		0032C907D5FEFB7790C7EFDF844907F5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43D4543C2152474CB554B7252BDF2159;
+			remoteInfo = DoreEmotionRecognition;
+		};
+		0E8D9195A346610AC8EA7581A0C4EDE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
+			remoteInfo = DoreCoreAI;
+		};
 		1090B7539D0AB1409E874AAAAB2DE583 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -63,19 +77,12 @@
 			remoteGlobalIDString = AC559E53E13B6FBEF4F5CC310A73AFE6;
 			remoteInfo = TensorFlowLiteC;
 		};
-		4EA9285654C4D3BAB4FA0E979E212C6A /* PBXContainerItemProxy */ = {
+		5B6CFCF14786C0B6A43D2E6ED0E73036 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 43D4543C2152474CB554B7252BDF2159;
-			remoteInfo = DoreEmotionRecognition;
-		};
-		55A1415F06FAC67BDD7AE682E457AE81 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
-			remoteInfo = DoreCoreAI;
+			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
+			remoteInfo = TensorFlowLiteSwift;
 		};
 		623ACACD70F3A57999EADFFAC3116FBA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -84,13 +91,6 @@
 			remoteGlobalIDString = 28FC7062FEDBBF2B8D377820C5385694;
 			remoteInfo = DoreCoreAI;
 		};
-		7A446C736C19C1FF61F0746CAF1D505F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
-			remoteInfo = TensorFlowLiteSwift;
-		};
 		DDA4DD2B1FBE245EA0E74C9D39816261 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -98,7 +98,7 @@
 			remoteGlobalIDString = 10418167F619D6DA72BADAD10F9EC02B;
 			remoteInfo = TensorFlowLiteSwift;
 		};
-		F222E12EC104DE2466CB685095A017BA /* PBXContainerItemProxy */ = {
+		F92C064AE15BA6BBEC3D51B89415053A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -132,11 +132,11 @@
 		AC55E22A8C4A0B9AA3BC43851C8FD578 /* Pods-EmotionRecognitionGame-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EmotionRecognitionGame-dummy.m"; sourceTree = "<group>"; };
 		B422DB3F93B61B305D557FA7D7914AB2 /* DoreEmotionRecognition.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreEmotionRecognition.debug.xcconfig; sourceTree = "<group>"; };
 		B93FE8846922A6CC6CCAA3C85C24EED8 /* DoreCoreAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.release.xcconfig; sourceTree = "<group>"; };
-		C6B48CDA69E50851B603406C81353389 /* Pods_EmotionRecognitionGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EmotionRecognitionGame.framework; path = "Pods-EmotionRecognitionGame.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6B48CDA69E50851B603406C81353389 /* Pods-EmotionRecognitionGame */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-EmotionRecognitionGame"; path = Pods_EmotionRecognitionGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8186B74FBBABC0A148FC122B3AA4D7 /* TensorFlowLiteSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TensorFlowLiteSwift.modulemap; sourceTree = "<group>"; };
 		D21A585B97791026CB1F5A1F84313167 /* TensorFlowLiteSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.debug.xcconfig; sourceTree = "<group>"; };
 		D7052653A7B3F912CE9C94B89FE52994 /* TensorFlowLiteSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TensorFlowLiteSwift.release.xcconfig; sourceTree = "<group>"; };
-		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLite.framework; path = TensorFlowLiteSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TensorFlowLiteSwift; path = TensorFlowLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E14E138EE36FE12572D8084F666E5AC0 /* TensorFlowLiteSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TensorFlowLiteSwift-prefix.pch"; sourceTree = "<group>"; };
 		E503ADD20F83F6C143CFE61EF57F99C4 /* DoreCoreAI-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DoreCoreAI-xcframeworks.sh"; sourceTree = "<group>"; };
 		F21F28228442F5A36933D8DBEB408B47 /* TensorFlowLiteSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TensorFlowLiteSwift-dummy.m"; sourceTree = "<group>"; };
@@ -156,11 +156,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFB08C6B14621DCFAFC17C7E912909D7 /* Frameworks */ = {
+		3A63B4107517A379FFD0F625D03EE335 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8603B35A3C36DB1F3E420684129C7B8E /* Foundation.framework in Frameworks */,
+				DB63214B6E292CC339AAEABE6698BD2D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,15 +186,6 @@
 				76D3CE577E7DF45A532741E5EBA624D9 /* TensorFlowLiteSwift */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		26A2D74B6C9A3C4C15E8043482B65B5D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C6B48CDA69E50851B603406C81353389 /* Pods_EmotionRecognitionGame.framework */,
-				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		285D40BF5EFC69BC159C141D303B0EBA /* DoreCoreAI */ = {
@@ -332,7 +323,7 @@
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				17662C92BF6D1388CE1B10394957A21D /* Pods */,
-				26A2D74B6C9A3C4C15E8043482B65B5D /* Products */,
+				F1FD2B8013C685E387BE168DEBF912A9 /* Products */,
 				9D0707FC4E3005B1B4286A332FA5E290 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -355,22 +346,31 @@
 			path = TensorFlowLiteC;
 			sourceTree = "<group>";
 		};
+		F1FD2B8013C685E387BE168DEBF912A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6B48CDA69E50851B603406C81353389 /* Pods-EmotionRecognitionGame */,
+				E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		629BEE365C1BAE7860E95686AD4DB6A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5115C0E5E229F30F74581C5AA7196E50 /* Pods-EmotionRecognitionGame-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7654100059E31CE3741DC3EA3CED1277 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				298CCFAC72BB1E3CF396A175BD72231D /* TensorFlowLiteSwift-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D936BEC38C51BB25DD9976ED808EBE2E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				26C5346E7471224101AFFAA5DCCAADA7 /* Pods-EmotionRecognitionGame-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,30 +392,30 @@
 				D6AA2EF8E3E69AFD8BE47FF808FE8773 /* PBXTargetDependency */,
 			);
 			name = TensorFlowLiteSwift;
-			productName = TensorFlowLiteSwift;
-			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLite.framework */;
+			productName = TensorFlowLite;
+			productReference = E0B71FE13AA6B05010059EB4B8D87919 /* TensorFlowLiteSwift */;
 			productType = "com.apple.product-type.framework";
 		};
 		4E046255FD659B09073038394AFCFD4C /* Pods-EmotionRecognitionGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C435A5522ECA9E08637E591843DED4AC /* Build configuration list for PBXNativeTarget "Pods-EmotionRecognitionGame" */;
+			buildConfigurationList = 159DB5D7B210EBCBD94428E819C65692 /* Build configuration list for PBXNativeTarget "Pods-EmotionRecognitionGame" */;
 			buildPhases = (
-				D936BEC38C51BB25DD9976ED808EBE2E /* Headers */,
-				FDDA7C7734A9B6E5C05E32127C801AA1 /* Sources */,
-				BFB08C6B14621DCFAFC17C7E912909D7 /* Frameworks */,
-				9FA5AE3E557D6916AC82940828D7ED2A /* Resources */,
+				629BEE365C1BAE7860E95686AD4DB6A2 /* Headers */,
+				E586D809D43600023EA885EBCD74C956 /* Sources */,
+				3A63B4107517A379FFD0F625D03EE335 /* Frameworks */,
+				548668CF5E0D31D7C9F084CBBCEDEFB6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A70D9DE57D2E933C53CB8DB7BADA7BC0 /* PBXTargetDependency */,
-				E68BBBD6E3DFFE456646CE017FCC6124 /* PBXTargetDependency */,
-				8455F11988D394AE0E780B34338A4ECE /* PBXTargetDependency */,
-				DC3AEAE128A188EAFD2E90DB9C5F57CB /* PBXTargetDependency */,
+				3BD558F02F7C630D0261857D59474960 /* PBXTargetDependency */,
+				041A103C1E9B93A4969939CBBB1A3155 /* PBXTargetDependency */,
+				A6A6BF1E440B3B911273935650E53D2D /* PBXTargetDependency */,
+				81A5B22753B8C32FCB4A64E5753EFC1C /* PBXTargetDependency */,
 			);
 			name = "Pods-EmotionRecognitionGame";
-			productName = "Pods-EmotionRecognitionGame";
-			productReference = C6B48CDA69E50851B603406C81353389 /* Pods_EmotionRecognitionGame.framework */;
+			productName = Pods_EmotionRecognitionGame;
+			productReference = C6B48CDA69E50851B603406C81353389 /* Pods-EmotionRecognitionGame */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -424,19 +424,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 26A2D74B6C9A3C4C15E8043482B65B5D /* Products */;
+			productRefGroup = F1FD2B8013C685E387BE168DEBF912A9 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -450,14 +450,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		67AB68F68D5BC581FBDAA8C0A913C033 /* Resources */ = {
+		548668CF5E0D31D7C9F084CBBCEDEFB6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9FA5AE3E557D6916AC82940828D7ED2A /* Resources */ = {
+		67AB68F68D5BC581FBDAA8C0A913C033 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -502,22 +502,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDDA7C7734A9B6E5C05E32127C801AA1 /* Sources */ = {
+		E586D809D43600023EA885EBCD74C956 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				770AC52461F25FA7CC75D0D806619182 /* Pods-EmotionRecognitionGame-dummy.m in Sources */,
+				BD48D5CB9F05B14E9627E1A31F035780 /* Pods-EmotionRecognitionGame-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		041A103C1E9B93A4969939CBBB1A3155 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreEmotionRecognition;
+			target = 43D4543C2152474CB554B7252BDF2159 /* DoreEmotionRecognition */;
+			targetProxy = 0032C907D5FEFB7790C7EFDF844907F5 /* PBXContainerItemProxy */;
+		};
 		33EB1867E2ED526A5EA4C437A2B4977D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TensorFlowLiteSwift;
 			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
 			targetProxy = DDA4DD2B1FBE245EA0E74C9D39816261 /* PBXContainerItemProxy */;
+		};
+		3BD558F02F7C630D0261857D59474960 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DoreCoreAI;
+			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
+			targetProxy = 0E8D9195A346610AC8EA7581A0C4EDE1 /* PBXContainerItemProxy */;
 		};
 		45757D2B3E5CC13B2680E290FFB5B59F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -525,17 +537,17 @@
 			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
 			targetProxy = 623ACACD70F3A57999EADFFAC3116FBA /* PBXContainerItemProxy */;
 		};
-		8455F11988D394AE0E780B34338A4ECE /* PBXTargetDependency */ = {
+		81A5B22753B8C32FCB4A64E5753EFC1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TensorFlowLiteSwift;
+			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
+			targetProxy = 5B6CFCF14786C0B6A43D2E6ED0E73036 /* PBXContainerItemProxy */;
+		};
+		A6A6BF1E440B3B911273935650E53D2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = TensorFlowLiteC;
 			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
-			targetProxy = F222E12EC104DE2466CB685095A017BA /* PBXContainerItemProxy */;
-		};
-		A70D9DE57D2E933C53CB8DB7BADA7BC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreCoreAI;
-			target = 28FC7062FEDBBF2B8D377820C5385694 /* DoreCoreAI */;
-			targetProxy = 55A1415F06FAC67BDD7AE682E457AE81 /* PBXContainerItemProxy */;
+			targetProxy = F92C064AE15BA6BBEC3D51B89415053A /* PBXContainerItemProxy */;
 		};
 		D6AA2EF8E3E69AFD8BE47FF808FE8773 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -543,38 +555,10 @@
 			target = AC559E53E13B6FBEF4F5CC310A73AFE6 /* TensorFlowLiteC */;
 			targetProxy = 1090B7539D0AB1409E874AAAAB2DE583 /* PBXContainerItemProxy */;
 		};
-		DC3AEAE128A188EAFD2E90DB9C5F57CB /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = TensorFlowLiteSwift;
-			target = 10418167F619D6DA72BADAD10F9EC02B /* TensorFlowLiteSwift */;
-			targetProxy = 7A446C736C19C1FF61F0746CAF1D505F /* PBXContainerItemProxy */;
-		};
-		E68BBBD6E3DFFE456646CE017FCC6124 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DoreEmotionRecognition;
-			target = 43D4543C2152474CB554B7252BDF2159 /* DoreEmotionRecognition */;
-			targetProxy = 4EA9285654C4D3BAB4FA0E979E212C6A /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		5B8558D79567AE53E6C90B9F8133555F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83B3B1903DA827C42571D7483C8A8E00 /* TensorFlowLiteC.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		699E4041880AF3CA4D0AA0B474C05283 /* Release */ = {
+		35DDD5159F5713384058243116D07245 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 17F01A8CDDB9F66EC480DE4AF3422822 /* Pods-EmotionRecognitionGame.release.xcconfig */;
 			buildSettings = {
@@ -611,6 +595,22 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		5B8558D79567AE53E6C90B9F8133555F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83B3B1903DA827C42571D7483C8A8E00 /* TensorFlowLiteC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
 		};
 		748F85EF210DBB70E01C6F89DAB9F4FA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -662,6 +662,43 @@
 				);
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89277D8231DB13D47A27DE72789CC6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 730249B9E2027EFC72FCD6AB6CD22F3C /* Pods-EmotionRecognitionGame.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -898,46 +935,18 @@
 			};
 			name = Debug;
 		};
-		FA787ECBF71933FCAAB6E096D766BF7F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 730249B9E2027EFC72FCD6AB6CD22F3C /* Pods-EmotionRecognitionGame.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EmotionRecognitionGame/Pods-EmotionRecognitionGame.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		159DB5D7B210EBCBD94428E819C65692 /* Build configuration list for PBXNativeTarget "Pods-EmotionRecognitionGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89277D8231DB13D47A27DE72789CC6EC /* Debug */,
+				35DDD5159F5713384058243116D07245 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -979,15 +988,6 @@
 			buildConfigurations = (
 				5B8558D79567AE53E6C90B9F8133555F /* Debug */,
 				D5305568B024FE1BE20A27629517DA95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C435A5522ECA9E08637E591843DED4AC /* Build configuration list for PBXNativeTarget "Pods-EmotionRecognitionGame" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				FA787ECBF71933FCAAB6E096D766BF7F /* Debug */,
-				699E4041880AF3CA4D0AA0B474C05283 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

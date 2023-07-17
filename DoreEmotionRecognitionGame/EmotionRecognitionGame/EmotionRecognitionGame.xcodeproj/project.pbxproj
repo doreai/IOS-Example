@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226BBE6B2549CEBF0059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE6A2549CEBF0059666C /* DoreCoreAI.xcframework */; };
-		226BBE6C2549CEBF0059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE6A2549CEBF0059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		229287C124128D9E00C3E60A /* FaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287B824128D9E00C3E60A /* FaveButton.swift */; };
 		229287C224128D9E00C3E60A /* FaveIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287B924128D9E00C3E60A /* FaveIcon.swift */; };
 		229287C324128D9E00C3E60A /* Constraints+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229287BB24128D9E00C3E60A /* Constraints+.swift */; };
@@ -25,20 +23,6 @@
 		B00E880823FD425F00016110 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B00E880723FD425F00016110 /* Assets.xcassets */; };
 		B00E880B23FD425F00016110 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B00E880923FD425F00016110 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		226BBDE62549C2990059666C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				226BBE6C2549CEBF0059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		226BBE6A2549CEBF0059666C /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCoreAI.xcframework; path = Pods/DoreCoreAI/Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
@@ -68,7 +52,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226BBE6B2549CEBF0059666C /* DoreCoreAI.xcframework in Frameworks */,
 				6E0D070E710AC2BC19012C91 /* Pods_EmotionRecognitionGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -161,7 +144,6 @@
 				B00E87F723FD425C00016110 /* Sources */,
 				B00E87F823FD425C00016110 /* Frameworks */,
 				B00E87F923FD425C00016110 /* Resources */,
-				226BBDE62549C2990059666C /* Embed Frameworks */,
 				88DA7A5553795D6A7B89C028 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (

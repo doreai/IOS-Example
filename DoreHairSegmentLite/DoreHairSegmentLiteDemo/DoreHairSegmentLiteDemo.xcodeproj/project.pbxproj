@@ -3,14 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226BBE872549D0760059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE852549D0760059666C /* DoreCoreAI.xcframework */; };
-		226BBE882549D0760059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE852549D0760059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		226BBE892549D0760059666C /* DoreHairSegmentLite.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE862549D0760059666C /* DoreHairSegmentLite.xcframework */; };
-		226BBE8A2549D0760059666C /* DoreHairSegmentLite.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE862549D0760059666C /* DoreHairSegmentLite.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22A40E6223CC70C500800FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40E6123CC70C500800FCB /* AppDelegate.swift */; };
 		22A40E6B23CC70C800800FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E6A23CC70C800800FCB /* Assets.xcassets */; };
 		22A40E6E23CC70C800800FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E6C23CC70C800800FCB /* LaunchScreen.storyboard */; };
@@ -23,21 +19,6 @@
 		22A40E8323CC725600800FCB /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22A40E8123CC725600800FCB /* sample.jpg */; };
 		B041CA27D5D157D3893B8429 /* Pods_DoreHairSegmentLiteDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FDED7B10738AD10A2DA28C7 /* Pods_DoreHairSegmentLiteDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		226BBDFC2549C4560059666C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				226BBE882549D0760059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
-				226BBE8A2549D0760059666C /* DoreHairSegmentLite.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		226BBE852549D0760059666C /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCoreAI.xcframework; path = Pods/DoreCoreAI/Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
@@ -64,9 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226BBE872549D0760059666C /* DoreCoreAI.xcframework in Frameworks */,
 				B041CA27D5D157D3893B8429 /* Pods_DoreHairSegmentLiteDemo.framework in Frameworks */,
-				226BBE892549D0760059666C /* DoreHairSegmentLite.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,7 +126,7 @@
 				22A40E5A23CC70C500800FCB /* Sources */,
 				22A40E5B23CC70C500800FCB /* Frameworks */,
 				22A40E5C23CC70C500800FCB /* Resources */,
-				226BBDFC2549C4560059666C /* Embed Frameworks */,
+				5F27254CD942524C563BFA53 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,6 +186,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		5F27254CD942524C563BFA53 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentLiteDemo/Pods-DoreHairSegmentLiteDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentLiteDemo/Pods-DoreHairSegmentLiteDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreHairSegmentLiteDemo/Pods-DoreHairSegmentLiteDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DAE53C129A029AD0F664F2AB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

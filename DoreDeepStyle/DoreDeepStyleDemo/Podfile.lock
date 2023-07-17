@@ -1,11 +1,11 @@
 PODS:
-  - DoreCoreAI (1.0.17)
+  - DoreCoreAI (1.0.18)
   - DoreDeepStyle (1.0.17):
     - DoreCoreAI
 
 DEPENDENCIES:
-  - DoreCoreAI
-  - DoreDeepStyle
+  - DoreCoreAI (= 1.0.18)
+  - DoreDeepStyle (= 1.0.17)
 
 SPEC REPOS:
   trunk:
@@ -13,9 +13,9 @@ SPEC REPOS:
     - DoreDeepStyle
 
 SPEC CHECKSUMS:
-  DoreCoreAI: b5cdb2a1b0a9befe8f945ad9d8e69ccd478985bb
+  DoreCoreAI: fc6afd16ebafab3d9f0631d9ed06a807fcb09176
   DoreDeepStyle: 3d4c22ac574b9f8cbf154dcdbed0cbab67a9f9c0
 
-PODFILE CHECKSUM: 717222e8482ab92fa287adb97c50f2569e0d6a78
+PODFILE CHECKSUM: 6045cef2b4c58483f50a0e0b0da3db16eb1e24a6
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.12.1

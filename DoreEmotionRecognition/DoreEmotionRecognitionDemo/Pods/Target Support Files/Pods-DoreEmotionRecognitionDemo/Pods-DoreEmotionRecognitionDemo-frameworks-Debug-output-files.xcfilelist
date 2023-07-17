@@ -1,1 +1,2 @@
 ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoreEmotionRecognition.framework
+${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoreCoreAI.framework

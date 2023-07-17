@@ -5,7 +5,7 @@ FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DoreCartoon/Frameworks" "${P
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LD_RUNPATH_SEARCH_PATHS = $(inherited) /usr/lib/swift '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -ObjC -framework "AVFoundation" -framework "Accelerate" -framework "CoreImage" -framework "DoreCartoon" -framework "DoreCoreAI" -framework "Foundation" -framework "UIKit" -framework "VideoToolbox" -weak_framework "CoreML" -weak_framework "Vision"
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accelerate" -framework "CoreImage" -framework "DoreCartoon" -framework "DoreCoreAI" -framework "Foundation" -framework "UIKit" -framework "VideoToolbox" -weak_framework "CoreML" -weak_framework "Vision"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)

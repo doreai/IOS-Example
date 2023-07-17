@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/DoreCartoon-Swift.h</key>
 		<data>
-		ftlV1a6j92CCCkmAtI73MOWn/oE=
+		X7KJShQOvM7J6EHxdkhX/iiQioQ=
 		</data>
 		<key>Headers/DoreCartoon.h</key>
 		<data>
@@ -14,43 +14,35 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U9JV66sdRTYy62Gv+C8TyvB2/dI=
+		9w2pY0J2GvE445lM45DwyNSWmRw=
 		</data>
 		<key>Modules/DoreCartoon.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		yBZBS1orgTOu0Y44S4FdGvtjXHY=
+		BaUPUFYslmckjr1KKMqSFmoRIuk=
 		</data>
-		<key>Modules/DoreCartoon.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		yBZBS1orgTOu0Y44S4FdGvtjXHY=
+		UBG69kwSMHrIsu4ppR5jbzNAz3k=
+		</data>
+		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		5a0TVCbcU2FPjMv9pS+iu/dJTAw=
 		</data>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		IJF3+brJhyp4sk5If5cJ0SdpL+s=
+		mhaPKkRmfyheiuAPy4ZlaV0gWAc=
 		</data>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		w+YAFtyPTGjYjy36w5GcmfHkHHo=
+		5a0TVCbcU2FPjMv9pS+iu/dJTAw=
 		</data>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0YI3ERmLudcAaWsU9kSJe1i+bKQ=
-		</data>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		IJF3+brJhyp4sk5If5cJ0SdpL+s=
-		</data>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		w+YAFtyPTGjYjy36w5GcmfHkHHo=
-		</data>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		0YI3ERmLudcAaWsU9kSJe1i+bKQ=
+		M0rTho2vKK3IIC6vCCCcPvTBZjY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		DjWGXai8zYWxUQ3wT5EqhWzpqIw=
+		f7mZ/toI3PadDsjuox6n2UyCBpM=
 		</data>
 		<key>data.dat</key>
 		<data>
@@ -63,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NKwY41cf0wKFKESTDUrbCEVsyZcpYeZSdLXRkIr/DHs=
+			scp6TEat/f+eoBWVdkiqdYKrwyBSnlGUpLT35CUW9VQ=
 			</data>
 		</dict>
 		<key>Headers/DoreCartoon.h</key>
@@ -77,63 +69,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CRAdaVLNwXX3pV6iLjW12wEnVdAFBdUc3K0ayrgEWk=
+			5N0QPul6GyA8s+l7c/eEtokGxZS4gq2y9VJBm2aNWFY=
 			</data>
 		</dict>
-		<key>Modules/DoreCartoon.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1CRAdaVLNwXX3pV6iLjW12wEnVdAFBdUc3K0ayrgEWk=
+			W7IlIOwEkNXm77cUJOdK7/guhWj1HQ9N6b/8/u2QKj4=
+			</data>
+		</dict>
+		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bixJbG5+ZDvkkPhXApauXnU56kPCtkQPuLeLEDHfxK4=
 			</data>
 		</dict>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tg9VL3xxojR6bifFdTkM1pvSzGFZZxnIGtuSoQg/9tI=
+			Dy2mC4Tz544vo8155Z+5J6xumfZn3U4f++IrO4E9eZw=
 			</data>
 		</dict>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3kyQKlxnbg0y8VBpB9UHXNNm/fPT3QSbxfBmNHESxOk=
+			bixJbG5+ZDvkkPhXApauXnU56kPCtkQPuLeLEDHfxK4=
 			</data>
 		</dict>
 		<key>Modules/DoreCartoon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MmRx9vd/eba/5egd8hJ7chR4WFyWqm/MJ+NiijGhV2c=
-			</data>
-		</dict>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tg9VL3xxojR6bifFdTkM1pvSzGFZZxnIGtuSoQg/9tI=
-			</data>
-		</dict>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3kyQKlxnbg0y8VBpB9UHXNNm/fPT3QSbxfBmNHESxOk=
-			</data>
-		</dict>
-		<key>Modules/DoreCartoon.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MmRx9vd/eba/5egd8hJ7chR4WFyWqm/MJ+NiijGhV2c=
+			mFtx4Vkn78upPbQGYks2xf7xxCimjkr+UGj5FUNI8SE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TD6imwWP7w4OYlmJPphcoudYxxI+WGGLyR2qoCrtzc=
+			TvmmRkDOVp+t3EG3M/up2tECTLGKYVfSR4QCAh0PXcA=
 			</data>
 		</dict>
 		<key>data.dat</key>

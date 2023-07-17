@@ -3,12 +3,10 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		226BBE912549D0D20059666C /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE902549D0D20059666C /* DoreCoreAI.xcframework */; };
-		226BBE922549D0D20059666C /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 226BBE902549D0D20059666C /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22A40EC623CDACD000800FCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EC523CDACD000800FCB /* AppDelegate.swift */; };
 		22A40ECF23CDACD200800FCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A40ECE23CDACD200800FCB /* Assets.xcassets */; };
 		22A40ED223CDACD200800FCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A40ED023CDACD200800FCB /* LaunchScreen.storyboard */; };
@@ -18,20 +16,6 @@
 		22A40EE923CDB07C00800FCB /* RealtimeTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A40EE423CDB07C00800FCB /* RealtimeTrack.swift */; };
 		948F4605DF33F5960CFC3025 /* Pods_DoreHandTrackDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 684521ADF00F04012466E2FA /* Pods_DoreHandTrackDemo.framework */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		226BBE062549C4DF0059666C /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				226BBE922549D0D20059666C /* DoreCoreAI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		226BBE902549D0D20059666C /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCoreAI.xcframework; path = Pods/DoreCoreAI/Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
@@ -54,7 +38,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				226BBE912549D0D20059666C /* DoreCoreAI.xcframework in Frameworks */,
 				948F4605DF33F5960CFC3025 /* Pods_DoreHandTrackDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -132,7 +115,6 @@
 				22A40EBE23CDACD000800FCB /* Sources */,
 				22A40EBF23CDACD000800FCB /* Frameworks */,
 				22A40EC023CDACD000800FCB /* Resources */,
-				226BBE062549C4DF0059666C /* Embed Frameworks */,
 				0B2E782608494536FC1892F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (

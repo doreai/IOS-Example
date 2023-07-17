@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/DoreCoreAI-Swift.h</key>
 		<data>
-		9xiLE/jquq5ZLlrqG40pqiFmwi0=
+		DG79kaCbeid/qBeMF/hroi5V0YQ=
 		</data>
 		<key>Headers/DoreCoreAI.h</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UEPN+WJh29nI1751TatFC0Yfl7c=
+		oMXyUZaxs1RIM9PiNImZHepO2eI=
 		</data>
 		<key>LICENSE</key>
 		<data>
@@ -34,39 +34,31 @@
 		</data>
 		<key>Modules/DoreCoreAI.swiftmodule/Project/x86_64-apple-ios-simulator.swiftsourceinfo</key>
 		<data>
-		LJWJHM+1aYB2Uvz36OFO4EG9DT0=
+		j8nxfacoTM/7CMrIet7AQRSwwwM=
 		</data>
-		<key>Modules/DoreCoreAI.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		LJWJHM+1aYB2Uvz36OFO4EG9DT0=
+		IKsddq55zo/QFMm1UqVnZHILrVE=
+		</data>
+		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		mvcnSthbfPRTViHGN8Mt31n+1wg=
 		</data>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		99el3TK17A2qKWb9ZUsP0OBtZZM=
+		1LcxU3DnBZYF7bx9X0i7lU7pRHc=
 		</data>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mHskOVrXtz5RwSNPibf1/si+hc0=
+		mvcnSthbfPRTViHGN8Mt31n+1wg=
 		</data>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kZXrjMOPe2dGET6fSPatY8e1dvk=
-		</data>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftdoc</key>
-		<data>
-		99el3TK17A2qKWb9ZUsP0OBtZZM=
-		</data>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftinterface</key>
-		<data>
-		mHskOVrXtz5RwSNPibf1/si+hc0=
-		</data>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftmodule</key>
-		<data>
-		kZXrjMOPe2dGET6fSPatY8e1dvk=
+		YejMaJqKzcGQmGWo9k7gccbu8kM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		IdqvtYVKYKIufI6kjZulUTKftpg=
+		BnOed/AZDxmsujjIYUk8iNAPQYo=
 		</data>
 		<key>strip-frameworks.sh</key>
 		<data>
@@ -86,7 +78,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7h6Pkv0MH424pxWWSI6uUp+SAu/ZfWi2azdZFRdEC+Y=
+			oLFoaLf79RmIR3gJmadZnEtV/qS8r71BJXKQX5EhEvE=
 			</data>
 		</dict>
 		<key>Headers/DoreCoreAI.h</key>
@@ -121,63 +113,49 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			azRvVQzrTkaDRMS8d6hGh8aHr3frLtR/CkWzduN6Pt0=
+			pfHNg9Ud+dl/LtmyZKzT9jEGxlsp+m2/WK8Z7Lcg+BI=
 			</data>
 		</dict>
-		<key>Modules/DoreCoreAI.swiftmodule/Project/x86_64.swiftsourceinfo</key>
+		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			azRvVQzrTkaDRMS8d6hGh8aHr3frLtR/CkWzduN6Pt0=
+			SUtyjnNmjSbY0JGEjpncNRiMIQo8S/gOwwfPc7Ox/0k=
+			</data>
+		</dict>
+		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			BQ8d0kOFJ3WAFvgjZnrUH2ZbmU8KMpVY3YRqIsjYIwY=
 			</data>
 		</dict>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9dj67geyBEqt+57ee1q3UekwYXd52L58L2PARlG9x/s=
+			Je6tL8XGxYahVaX7yZQ5nGm/qdpN4pvbKOMZa11IWI4=
 			</data>
 		</dict>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZHHBR++nY4V0DGcbrV5O/q+5xeSYDjuM8d+lDjJkZiQ=
+			BQ8d0kOFJ3WAFvgjZnrUH2ZbmU8KMpVY3YRqIsjYIwY=
 			</data>
 		</dict>
 		<key>Modules/DoreCoreAI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RkOqibmpzPF1IX0WmQV3oGtD7wlH5a6uMQPJOvntA9U=
-			</data>
-		</dict>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9dj67geyBEqt+57ee1q3UekwYXd52L58L2PARlG9x/s=
-			</data>
-		</dict>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZHHBR++nY4V0DGcbrV5O/q+5xeSYDjuM8d+lDjJkZiQ=
-			</data>
-		</dict>
-		<key>Modules/DoreCoreAI.swiftmodule/x86_64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RkOqibmpzPF1IX0WmQV3oGtD7wlH5a6uMQPJOvntA9U=
+			uOlcKsVJxk4w4jbEznlELaocpKM6PwrxDoRYwVAhy2Y=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0AjOhUaaMieta/RozRQkQQjMDbkjs1Rwv2kIvkZjklU=
+			diQp2YmsqJexRKQ3b7+rEd19lRekZbsZI8w4ezX9GkM=
 			</data>
 		</dict>
 		<key>strip-frameworks.sh</key>

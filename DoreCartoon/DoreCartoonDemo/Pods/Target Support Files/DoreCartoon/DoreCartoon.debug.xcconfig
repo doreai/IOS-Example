@@ -4,10 +4,11 @@ EXCLUDED_ARCHS[sdk=iphonesimulator*] = arm64
 FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/DoreCartoon/Frameworks" "${PODS_ROOT}/DoreCoreAI/Frameworks" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCartoon" "${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCoreAI"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 LIBRARY_SEARCH_PATHS = $(inherited) "${DT_TOOLCHAIN_DIR}/usr/lib/swift/${PLATFORM_NAME}" /usr/lib/swift
-OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accelerate" -framework "CoreImage" -framework "Foundation" -framework "UIKit" -framework "VideoToolbox" -weak_framework "CoreML" -weak_framework "Vision"
+OTHER_LDFLAGS = $(inherited) -framework "AVFoundation" -framework "Accelerate" -framework "CoreImage" -framework "DoreCoreAI" -framework "Foundation" -framework "UIKit" -framework "VideoToolbox" -weak_framework "CoreML" -weak_framework "Vision"
 OTHER_SWIFT_FLAGS = $(inherited) -D COCOAPODS
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_DEVELOPMENT_LANGUAGE = ${DEVELOPMENT_LANGUAGE}
 PODS_ROOT = ${SRCROOT}
 PODS_TARGET_SRCROOT = ${PODS_ROOT}/DoreCartoon
 PODS_XCFRAMEWORKS_BUILD_DIR = $(PODS_CONFIGURATION_BUILD_DIR)/XCFrameworkIntermediates

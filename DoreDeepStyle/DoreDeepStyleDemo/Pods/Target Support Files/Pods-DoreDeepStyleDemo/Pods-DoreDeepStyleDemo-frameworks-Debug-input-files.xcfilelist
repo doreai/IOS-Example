@@ -1,2 +1,3 @@
 ${PODS_ROOT}/Target Support Files/Pods-DoreDeepStyleDemo/Pods-DoreDeepStyleDemo-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreCoreAI/DoreCoreAI.framework/DoreCoreAI
 ${PODS_XCFRAMEWORKS_BUILD_DIR}/DoreDeepStyle/DoreDeepStyle.framework/DoreDeepStyle

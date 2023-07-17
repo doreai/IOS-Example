@@ -1,0 +1,4080 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "DoreCoreAI",
+        "printedName": "DoreCoreAI",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CartoonManager",
+        "printedName": "CartoonManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CartoonManager",
+                "printedName": "DoreCartoon.CartoonManager",
+                "usr": "s:11DoreCartoon0B7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DoreCartoon0B7ManagerCACycfc",
+            "mangledName": "$s11DoreCartoon0B7ManagerCACycfc",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "CartoonVariantType",
+            "printedName": "CartoonVariantType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "Standard",
+                "printedName": "Standard",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DoreCartoon.CartoonManager.CartoonVariantType.Type) -> DoreCartoon.CartoonManager.CartoonVariantType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CartoonVariantType",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                        "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CartoonVariantType",
+                            "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                            "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO8StandardyA2EmF",
+                "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO8StandardyA2EmF",
+                "moduleName": "DoreCartoon"
+              },
+              {
+                "kind": "Var",
+                "name": "Medium",
+                "printedName": "Medium",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DoreCartoon.CartoonManager.CartoonVariantType.Type) -> DoreCartoon.CartoonManager.CartoonVariantType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CartoonVariantType",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                        "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CartoonVariantType",
+                            "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                            "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO6MediumyA2EmF",
+                "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO6MediumyA2EmF",
+                "moduleName": "DoreCartoon"
+              },
+              {
+                "kind": "Var",
+                "name": "High",
+                "printedName": "High",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(DoreCartoon.CartoonManager.CartoonVariantType.Type) -> DoreCartoon.CartoonManager.CartoonVariantType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CartoonVariantType",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                        "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "CartoonVariantType",
+                            "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                            "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO4HighyA2EmF",
+                "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO4HighyA2EmF",
+                "moduleName": "DoreCartoon"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DoreCartoon.CartoonManager.CartoonVariantType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CartoonVariantType",
+                        "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                        "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueAESgSS_tcfc",
+                "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueAESgSS_tcfc",
+                "moduleName": "DoreCartoon",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueSSvp",
+                "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueSSvp",
+                "moduleName": "DoreCartoon",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueSSvg",
+                    "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO8rawValueSSvg",
+                    "moduleName": "DoreCartoon",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO",
+            "mangledName": "$s11DoreCartoon0B7ManagerC0B11VariantTypeO",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "String",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "init_data",
+            "printedName": "init_data(licKey:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon0B7ManagerC9init_data6licKeySbSS_tF",
+            "mangledName": "$s11DoreCartoon0B7ManagerC9init_data6licKeySbSS_tF",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "run_model",
+            "printedName": "run_model(onFrame:variantType:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DoreCartoon.cartoonOutput?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "cartoonOutput",
+                    "printedName": "DoreCartoon.cartoonOutput",
+                    "usr": "s:11DoreCartoon13cartoonOutputC"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CartoonVariantType",
+                "printedName": "DoreCartoon.CartoonManager.CartoonVariantType",
+                "hasDefaultArg": true,
+                "usr": "s:11DoreCartoon0B7ManagerC0B11VariantTypeO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon0B7ManagerC9run_model7onFrame11variantTypeAA13cartoonOutputCSgSo11CVBufferRefa_AC0b7VariantI0OtF",
+            "mangledName": "$s11DoreCartoon0B7ManagerC9run_model7onFrame11variantTypeAA13cartoonOutputCSgSo11CVBufferRefa_AC0b7VariantI0OtF",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DoreCartoon0B7ManagerC",
+        "mangledName": "$s11DoreCartoon0B7ManagerC",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreImage",
+        "printedName": "CoreImage",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "Import",
+        "name": "DoreCoreAI",
+        "printedName": "DoreCoreAI",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "cartoonOutput",
+        "printedName": "cartoonOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "featureNames",
+            "printedName": "featureNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DoreCartoon13cartoonOutputC12featureNamesShySSGvp",
+            "mangledName": "$s11DoreCartoon13cartoonOutputC12featureNamesShySSGvp",
+            "moduleName": "DoreCartoon",
+            "objc_name": "featureNames",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DoreCartoon13cartoonOutputC12featureNamesShySSGvg",
+                "mangledName": "$s11DoreCartoon13cartoonOutputC12featureNamesShySSGvg",
+                "moduleName": "DoreCartoon",
+                "objc_name": "featureNames",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "featureValue",
+            "printedName": "featureValue(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLFeatureValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLFeatureValue",
+                    "printedName": "CoreML.MLFeatureValue",
+                    "usr": "c:objc(cs)MLFeatureValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon13cartoonOutputC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "mangledName": "$s11DoreCartoon13cartoonOutputC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "moduleName": "DoreCartoon",
+            "objc_name": "featureValueForName:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "GeneratedImage",
+            "printedName": "GeneratedImage(Width:Height:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon13cartoonOutputC14GeneratedImage5Width6HeightSo7UIImageCSi_SitF",
+            "mangledName": "$s11DoreCartoon13cartoonOutputC14GeneratedImage5Width6HeightSo7UIImageCSi_SitF",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DoreCartoon13cartoonOutputC",
+        "mangledName": "$s11DoreCartoon13cartoonOutputC",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "cartoonInput",
+        "printedName": "cartoonInput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "featureNames",
+            "printedName": "featureNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DoreCartoon12cartoonInputC12featureNamesShySSGvp",
+            "mangledName": "$s11DoreCartoon12cartoonInputC12featureNamesShySSGvp",
+            "moduleName": "DoreCartoon",
+            "objc_name": "featureNames",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DoreCartoon12cartoonInputC12featureNamesShySSGvg",
+                "mangledName": "$s11DoreCartoon12cartoonInputC12featureNamesShySSGvg",
+                "moduleName": "DoreCartoon",
+                "objc_name": "featureNames",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "featureValue",
+            "printedName": "featureValue(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLFeatureValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLFeatureValue",
+                    "printedName": "CoreML.MLFeatureValue",
+                    "usr": "c:objc(cs)MLFeatureValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon12cartoonInputC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "mangledName": "$s11DoreCartoon12cartoonInputC12featureValue3forSo09MLFeatureF0CSgSS_tF",
+            "moduleName": "DoreCartoon",
+            "objc_name": "featureValueForName:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:11DoreCartoon12cartoonInputC",
+        "mangledName": "$s11DoreCartoon12cartoonInputC",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Accelerate",
+        "printedName": "Accelerate",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MultiArrayType",
+        "printedName": "MultiArrayType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "multiArrayDataType",
+            "printedName": "multiArrayDataType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLMultiArrayDataType",
+                "printedName": "CoreML.MLMultiArrayDataType",
+                "usr": "c:@E@MLMultiArrayDataType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP05multid4DataE0So07MLMultidgE0VvpZ",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP05multid4DataE0So07MLMultidgE0VvpZ",
+            "moduleName": "DoreCartoon",
+            "static": true,
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLMultiArrayDataType",
+                    "printedName": "CoreML.MLMultiArrayDataType",
+                    "usr": "c:@E@MLMultiArrayDataType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DoreCartoon14MultiArrayTypeP05multid4DataE0So07MLMultidgE0VvgZ",
+                "mangledName": "$s11DoreCartoon14MultiArrayTypeP05multid4DataE0So07MLMultidgE0VvgZ",
+                "moduleName": "DoreCartoon",
+                "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+                "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "+",
+            "printedName": "+(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP1poiyxx_xtFZ",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP1poiyxx_xtFZ",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "-",
+            "printedName": "-(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP1soiyxx_xtFZ",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP1soiyxx_xtFZ",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "*",
+            "printedName": "*(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP1moiyxx_xtFZ",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP1moiyxx_xtFZ",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "\/",
+            "printedName": "\/(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP1doiyxx_xtFZ",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP1doiyxx_xtFZ",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+            "static": true,
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:11DoreCartoon14MultiArrayTypePyxSicfc",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypePyxSicfc",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "toUInt8",
+            "printedName": "toUInt8",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP7toUInt8s0G0Vvp",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP7toUInt8s0G0Vvp",
+            "moduleName": "DoreCartoon",
+            "protocolReq": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11DoreCartoon14MultiArrayTypeP7toUInt8s0G0Vvg",
+                "mangledName": "$s11DoreCartoon14MultiArrayTypeP7toUInt8s0G0Vvg",
+                "moduleName": "DoreCartoon",
+                "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+                "sugared_genericSig": "<Self where Self : DoreCartoon.MultiArrayType>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:11DoreCartoon14MultiArrayTypeP",
+        "mangledName": "$s11DoreCartoon14MultiArrayTypeP",
+        "moduleName": "DoreCartoon",
+        "genericSig": "<τ_0_0 : Swift.Comparable>",
+        "sugared_genericSig": "<Self : Swift.Comparable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          }
+        ]
+      },
+      {
+        "kind": "Function",
+        "name": "cartclamp",
+        "printedName": "cartclamp(_:min:max:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "GenericTypeParam",
+            "printedName": "τ_0_0"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11DoreCartoon9cartclamp_3min3maxxx_xxtSLRzlF",
+        "mangledName": "$s11DoreCartoon9cartclamp_3min3maxxx_xxtSLRzlF",
+        "moduleName": "DoreCartoon",
+        "genericSig": "<τ_0_0 where τ_0_0 : Swift.Comparable>",
+        "sugared_genericSig": "<T where T : Swift.Comparable>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Function",
+        "name": "createCGImage",
+        "printedName": "createCGImage(fromFloatArray:min:max:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "CoreGraphics.CGImage?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "MLMultiArray",
+            "printedName": "CoreML.MLMultiArray",
+            "usr": "c:objc(cs)MLMultiArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "hasDefaultArg": true,
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "hasDefaultArg": true,
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11DoreCartoon13createCGImage14fromFloatArray3min3maxSo0D3RefaSgSo07MLMultiG0C_S2ftF",
+        "mangledName": "$s11DoreCartoon13createCGImage14fromFloatArray3min3maxSo0D3RefaSgSo07MLMultiG0C_S2ftF",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DoreCartoon"
+      },
+      {
+        "kind": "Function",
+        "name": "createUIImage",
+        "printedName": "createUIImage(fromFloatArray:min:max:)",
+        "children": [
+          {
+            "kind": "TypeNominal",
+            "name": "Optional",
+            "printedName": "UIKit.UIImage?",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "usr": "s:Sq"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "MLMultiArray",
+            "printedName": "CoreML.MLMultiArray",
+            "usr": "c:objc(cs)MLMultiArray"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "hasDefaultArg": true,
+            "usr": "s:Sf"
+          },
+          {
+            "kind": "TypeNominal",
+            "name": "Float",
+            "printedName": "Swift.Float",
+            "hasDefaultArg": true,
+            "usr": "s:Sf"
+          }
+        ],
+        "declKind": "Func",
+        "usr": "s:11DoreCartoon13createUIImage14fromFloatArray3min3maxSo0D0CSgSo07MLMultiG0C_S2ftF",
+        "mangledName": "$s11DoreCartoon13createUIImage14fromFloatArray3min3maxSo0D0CSgSo07MLMultiG0C_S2ftF",
+        "moduleName": "DoreCartoon",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "funcSelfKind": "NonMutating"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Double",
+        "printedName": "Double",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "multiArrayDataType",
+            "printedName": "multiArrayDataType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLMultiArrayDataType",
+                "printedName": "CoreML.MLMultiArrayDataType",
+                "usr": "c:@E@MLMultiArrayDataType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sd11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvpZ",
+            "mangledName": "$sSd11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvpZ",
+            "moduleName": "DoreCartoon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLMultiArrayDataType",
+                    "printedName": "CoreML.MLMultiArrayDataType",
+                    "usr": "c:@E@MLMultiArrayDataType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sd11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvgZ",
+                "mangledName": "$sSd11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvgZ",
+                "moduleName": "DoreCartoon",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toUInt8",
+            "printedName": "toUInt8",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sd11DoreCartoonE7toUInt8s0D0Vvp",
+            "mangledName": "$sSd11DoreCartoonE7toUInt8s0D0Vvp",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sd11DoreCartoonE7toUInt8s0D0Vvg",
+                "mangledName": "$sSd11DoreCartoonE7toUInt8s0D0Vvg",
+                "moduleName": "DoreCartoon",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sd",
+        "mangledName": "$sSd",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryFloatingPoint",
+            "printedName": "BinaryFloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawSignificand",
+                "printedName": "RawSignificand",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt64",
+                    "printedName": "Swift.UInt64",
+                    "usr": "s:s6UInt64V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RawExponent",
+                "printedName": "RawExponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SB",
+            "mangledName": "$sSB"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinFloatLiteral",
+            "printedName": "_ExpressibleByBuiltinFloatLiteral",
+            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
+            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Double.SIMD2Storage",
+                    "usr": "s:Sd12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Double.SIMD4Storage",
+                    "usr": "s:Sd12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Double.SIMD8Storage",
+                    "usr": "s:Sd12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Double.SIMD16Storage",
+                    "usr": "s:Sd13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Double.SIMD32Storage",
+                    "usr": "s:Sd13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Double.SIMD64Storage",
+                    "usr": "s:Sd13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointConvertable",
+            "printedName": "vDSP_FloatingPointConvertable",
+            "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
+            "mangledName": "$s10Accelerate29vDSP_FloatingPointConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_DiscreteFourierTransformable",
+            "printedName": "vDSP_DiscreteFourierTransformable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DiscreteFourierTransformFunctions",
+                "printedName": "DiscreteFourierTransformFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFTDoublePrecisionSplitComplexFunctions",
+                    "printedName": "Accelerate.vDSP.DFTDoublePrecisionSplitComplexFunctions",
+                    "usr": "s:10Accelerate4vDSPO39DFTDoublePrecisionSplitComplexFunctionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate33vDSP_DiscreteFourierTransformableP",
+            "mangledName": "$s10Accelerate33vDSP_DiscreteFourierTransformableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointDiscreteFourierTransformable",
+            "printedName": "vDSP_FloatingPointDiscreteFourierTransformable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DFTFunctions",
+                "printedName": "DFTFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VectorizableDouble",
+                    "printedName": "Accelerate.vDSP.VectorizableDouble",
+                    "usr": "s:10Accelerate4vDSPO18VectorizableDoubleV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP",
+            "mangledName": "$s10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointBiquadFilterable",
+            "printedName": "vDSP_FloatingPointBiquadFilterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BiquadFunctions",
+                "printedName": "BiquadFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VectorizableDouble",
+                    "printedName": "Accelerate.vDSP.VectorizableDouble",
+                    "usr": "s:10Accelerate4vDSPO18VectorizableDoubleV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate34vDSP_FloatingPointBiquadFilterableP",
+            "mangledName": "$s10Accelerate34vDSP_FloatingPointBiquadFilterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointGeneratable",
+            "printedName": "vDSP_FloatingPointGeneratable",
+            "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
+            "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLShapedArrayScalar",
+            "printedName": "MLShapedArrayScalar",
+            "usr": "s:6CoreML19MLShapedArrayScalarP",
+            "mangledName": "$s6CoreML19MLShapedArrayScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:10DoreCoreAI14MultiArrayTypeP",
+            "mangledName": "$s10DoreCoreAI14MultiArrayTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Float",
+        "printedName": "Float",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "multiArrayDataType",
+            "printedName": "multiArrayDataType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLMultiArrayDataType",
+                "printedName": "CoreML.MLMultiArrayDataType",
+                "usr": "c:@E@MLMultiArrayDataType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sf11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvpZ",
+            "mangledName": "$sSf11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvpZ",
+            "moduleName": "DoreCartoon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLMultiArrayDataType",
+                    "printedName": "CoreML.MLMultiArrayDataType",
+                    "usr": "c:@E@MLMultiArrayDataType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sf11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvgZ",
+                "mangledName": "$sSf11DoreCartoonE18multiArrayDataTypeSo07MLMultideF0VvgZ",
+                "moduleName": "DoreCartoon",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toUInt8",
+            "printedName": "toUInt8",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:Sf11DoreCartoonE7toUInt8s0D0Vvp",
+            "mangledName": "$sSf11DoreCartoonE7toUInt8s0D0Vvp",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:Sf11DoreCartoonE7toUInt8s0D0Vvg",
+                "mangledName": "$sSf11DoreCartoonE7toUInt8s0D0Vvg",
+                "moduleName": "DoreCartoon",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:Sf",
+        "mangledName": "$sSf",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgPassedAsDouble",
+            "printedName": "_CVarArgPassedAsDouble",
+            "usr": "s:s22_CVarArgPassedAsDoubleP",
+            "mangledName": "$ss22_CVarArgPassedAsDoubleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CVarArgAligned",
+            "printedName": "_CVarArgAligned",
+            "usr": "s:s15_CVarArgAlignedP",
+            "mangledName": "$ss15_CVarArgAlignedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "TextOutputStreamable",
+            "printedName": "TextOutputStreamable",
+            "usr": "s:s20TextOutputStreamableP",
+            "mangledName": "$ss20TextOutputStreamableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryFloatingPoint",
+            "printedName": "BinaryFloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawSignificand",
+                "printedName": "RawSignificand",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "RawExponent",
+                "printedName": "RawExponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SB",
+            "mangledName": "$sSB"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByFloatLiteral",
+            "printedName": "ExpressibleByFloatLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "FloatLiteralType",
+                "printedName": "FloatLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByFloatLiteralP",
+            "mangledName": "$ss25ExpressibleByFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "FloatingPoint",
+            "printedName": "FloatingPoint",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Exponent",
+                "printedName": "Exponent",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SF",
+            "mangledName": "$sSF"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int64",
+                    "printedName": "Swift.Int64",
+                    "usr": "s:s5Int64V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinFloatLiteral",
+            "printedName": "_ExpressibleByBuiltinFloatLiteral",
+            "usr": "s:s33_ExpressibleByBuiltinFloatLiteralP",
+            "mangledName": "$ss33_ExpressibleByBuiltinFloatLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Float.SIMD2Storage",
+                    "usr": "s:Sf12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Float.SIMD4Storage",
+                    "usr": "s:Sf12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Float.SIMD8Storage",
+                    "usr": "s:Sf12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Float.SIMD16Storage",
+                    "usr": "s:Sf13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Float.SIMD32Storage",
+                    "usr": "s:Sf13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Float.SIMD64Storage",
+                    "usr": "s:Sf13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Float",
+                    "printedName": "Swift.Float",
+                    "usr": "s:Sf"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointConvertable",
+            "printedName": "vDSP_FloatingPointConvertable",
+            "usr": "s:10Accelerate29vDSP_FloatingPointConvertableP",
+            "mangledName": "$s10Accelerate29vDSP_FloatingPointConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_DiscreteFourierTransformable",
+            "printedName": "vDSP_DiscreteFourierTransformable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DiscreteFourierTransformFunctions",
+                "printedName": "DiscreteFourierTransformFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DFTSinglePrecisionSplitComplexFunctions",
+                    "printedName": "Accelerate.vDSP.DFTSinglePrecisionSplitComplexFunctions",
+                    "usr": "s:10Accelerate4vDSPO39DFTSinglePrecisionSplitComplexFunctionsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate33vDSP_DiscreteFourierTransformableP",
+            "mangledName": "$s10Accelerate33vDSP_DiscreteFourierTransformableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointDiscreteFourierTransformable",
+            "printedName": "vDSP_FloatingPointDiscreteFourierTransformable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "DFTFunctions",
+                "printedName": "DFTFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VectorizableFloat",
+                    "printedName": "Accelerate.vDSP.VectorizableFloat",
+                    "usr": "s:10Accelerate4vDSPO17VectorizableFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP",
+            "mangledName": "$s10Accelerate46vDSP_FloatingPointDiscreteFourierTransformableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointBiquadFilterable",
+            "printedName": "vDSP_FloatingPointBiquadFilterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "BiquadFunctions",
+                "printedName": "BiquadFunctions",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VectorizableFloat",
+                    "printedName": "Accelerate.vDSP.VectorizableFloat",
+                    "usr": "s:10Accelerate4vDSPO17VectorizableFloatV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Accelerate34vDSP_FloatingPointBiquadFilterableP",
+            "mangledName": "$s10Accelerate34vDSP_FloatingPointBiquadFilterableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_FloatingPointGeneratable",
+            "printedName": "vDSP_FloatingPointGeneratable",
+            "usr": "s:10Accelerate29vDSP_FloatingPointGeneratableP",
+            "mangledName": "$s10Accelerate29vDSP_FloatingPointGeneratableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLShapedArrayScalar",
+            "printedName": "MLShapedArrayScalar",
+            "usr": "s:6CoreML19MLShapedArrayScalarP",
+            "mangledName": "$s6CoreML19MLShapedArrayScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:10DoreCoreAI14MultiArrayTypeP",
+            "mangledName": "$s10DoreCoreAI14MultiArrayTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Int32",
+        "printedName": "Int32",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "multiArrayDataType",
+            "printedName": "multiArrayDataType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLMultiArrayDataType",
+                "printedName": "CoreML.MLMultiArrayDataType",
+                "usr": "c:@E@MLMultiArrayDataType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5Int32V11DoreCartoonE18multiArrayDataTypeSo07MLMultiefG0VvpZ",
+            "mangledName": "$ss5Int32V11DoreCartoonE18multiArrayDataTypeSo07MLMultiefG0VvpZ",
+            "moduleName": "DoreCartoon",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLMultiArrayDataType",
+                    "printedName": "CoreML.MLMultiArrayDataType",
+                    "usr": "c:@E@MLMultiArrayDataType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5Int32V11DoreCartoonE18multiArrayDataTypeSo07MLMultiefG0VvgZ",
+                "mangledName": "$ss5Int32V11DoreCartoonE18multiArrayDataTypeSo07MLMultiefG0VvgZ",
+                "moduleName": "DoreCartoon",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "toUInt8",
+            "printedName": "toUInt8",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt8",
+                "printedName": "Swift.UInt8",
+                "usr": "s:s5UInt8V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:s5Int32V11DoreCartoonE7toUInt8s0E0Vvp",
+            "mangledName": "$ss5Int32V11DoreCartoonE7toUInt8s0E0Vvp",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt8",
+                    "printedName": "Swift.UInt8",
+                    "usr": "s:s5UInt8V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:s5Int32V11DoreCartoonE7toUInt8s0E0Vvg",
+                "mangledName": "$ss5Int32V11DoreCartoonE7toUInt8s0E0Vvg",
+                "moduleName": "DoreCartoon",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:s5Int32V",
+        "mangledName": "$ss5Int32V",
+        "moduleName": "Swift",
+        "declAttributes": [
+          "Frozen"
+        ],
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FixedWidthInteger",
+            "printedName": "FixedWidthInteger",
+            "usr": "s:s17FixedWidthIntegerP",
+            "mangledName": "$ss17FixedWidthIntegerP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedInteger",
+            "printedName": "SignedInteger",
+            "usr": "s:SZ",
+            "mangledName": "$sSZ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ExpressibleByBuiltinIntegerLiteral",
+            "printedName": "_ExpressibleByBuiltinIntegerLiteral",
+            "usr": "s:s35_ExpressibleByBuiltinIntegerLiteralP",
+            "mangledName": "$ss35_ExpressibleByBuiltinIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BinaryInteger",
+            "printedName": "BinaryInteger",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Words",
+                "printedName": "Words",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Words",
+                    "printedName": "Swift.Int32.Words",
+                    "usr": "s:s5Int32V5WordsV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sz",
+            "mangledName": "$sSz"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LosslessStringConvertible",
+            "printedName": "LosslessStringConvertible",
+            "usr": "s:s25LosslessStringConvertibleP",
+            "mangledName": "$ss25LosslessStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SignedNumeric",
+            "printedName": "SignedNumeric",
+            "usr": "s:s13SignedNumericP",
+            "mangledName": "$ss13SignedNumericP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Numeric",
+            "printedName": "Numeric",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Magnitude",
+                "printedName": "Magnitude",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sj",
+            "mangledName": "$sSj"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Strideable",
+            "printedName": "Strideable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Stride",
+                "printedName": "Stride",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:Sx",
+            "mangledName": "$sSx"
+          },
+          {
+            "kind": "Conformance",
+            "name": "AdditiveArithmetic",
+            "printedName": "AdditiveArithmetic",
+            "usr": "s:s18AdditiveArithmeticP",
+            "mangledName": "$ss18AdditiveArithmeticP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByIntegerLiteral",
+            "printedName": "ExpressibleByIntegerLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "IntegerLiteralType",
+                "printedName": "IntegerLiteralType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s27ExpressibleByIntegerLiteralP",
+            "mangledName": "$ss27ExpressibleByIntegerLiteralP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Comparable",
+            "printedName": "Comparable",
+            "usr": "s:SL",
+            "mangledName": "$sSL"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:11DoreCartoon14MultiArrayTypeP",
+            "mangledName": "$s11DoreCartoon14MultiArrayTypeP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomReflectable",
+            "printedName": "CustomReflectable",
+            "usr": "s:s17CustomReflectableP",
+            "mangledName": "$ss17CustomReflectableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_CustomPlaygroundQuickLookable",
+            "printedName": "_CustomPlaygroundQuickLookable",
+            "usr": "s:s30_CustomPlaygroundQuickLookableP",
+            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_HasCustomAnyHashableRepresentation",
+            "printedName": "_HasCustomAnyHashableRepresentation",
+            "usr": "s:s35_HasCustomAnyHashableRepresentationP",
+            "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SIMDScalar",
+            "printedName": "SIMDScalar",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "SIMDMaskScalar",
+                "printedName": "SIMDMaskScalar",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD2Storage",
+                "printedName": "SIMD2Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD2Storage",
+                    "printedName": "Swift.Int32.SIMD2Storage",
+                    "usr": "s:s5Int32V12SIMD2StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD4Storage",
+                "printedName": "SIMD4Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD4Storage",
+                    "printedName": "Swift.Int32.SIMD4Storage",
+                    "usr": "s:s5Int32V12SIMD4StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD8Storage",
+                "printedName": "SIMD8Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD8Storage",
+                    "printedName": "Swift.Int32.SIMD8Storage",
+                    "usr": "s:s5Int32V12SIMD8StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD16Storage",
+                "printedName": "SIMD16Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD16Storage",
+                    "printedName": "Swift.Int32.SIMD16Storage",
+                    "usr": "s:s5Int32V13SIMD16StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD32Storage",
+                "printedName": "SIMD32Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD32Storage",
+                    "printedName": "Swift.Int32.SIMD32Storage",
+                    "usr": "s:s5Int32V13SIMD32StorageV"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeWitness",
+                "name": "SIMD64Storage",
+                "printedName": "SIMD64Storage",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SIMD64Storage",
+                    "printedName": "Swift.Int32.SIMD64Storage",
+                    "usr": "s:s5Int32V13SIMD64StorageV"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SIMDScalarP",
+            "mangledName": "$ss10SIMDScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_FormatSpecifiable",
+            "printedName": "_FormatSpecifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_Arg",
+                "printedName": "_Arg",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:10Foundation18_FormatSpecifiableP",
+            "mangledName": "$s10Foundation18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_ObjectiveCBridgeable",
+            "printedName": "_ObjectiveCBridgeable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "_ObjectiveCType",
+                "printedName": "_ObjectiveCType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NSNumber",
+                    "printedName": "Foundation.NSNumber",
+                    "usr": "c:objc(cs)NSNumber"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s21_ObjectiveCBridgeableP",
+            "mangledName": "$ss21_ObjectiveCBridgeableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "vDSP_IntegerConvertable",
+            "printedName": "vDSP_IntegerConvertable",
+            "usr": "s:10Accelerate23vDSP_IntegerConvertableP",
+            "mangledName": "$s10Accelerate23vDSP_IntegerConvertableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BNNSScalar",
+            "printedName": "BNNSScalar",
+            "usr": "s:10Accelerate10BNNSScalarP",
+            "mangledName": "$s10Accelerate10BNNSScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MLShapedArrayScalar",
+            "printedName": "MLShapedArrayScalar",
+            "usr": "s:6CoreML19MLShapedArrayScalarP",
+            "mangledName": "$s6CoreML19MLShapedArrayScalarP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "MultiArrayType",
+            "printedName": "MultiArrayType",
+            "usr": "s:10DoreCoreAI14MultiArrayTypeP",
+            "mangledName": "$s10DoreCoreAI14MultiArrayTypeP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MLMultiArray",
+        "printedName": "MLMultiArray",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cgImage",
+            "printedName": "cgImage(min:max:channel:axes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGImage",
+                    "printedName": "CoreGraphics.CGImage",
+                    "usr": "c:@T@CGImageRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Swift.Int, Swift.Int, Swift.Int)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Int, Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12MLMultiArrayC11DoreCartoonE7cgImage3min3max7channel4axesSo10CGImageRefaSgSd_SdSiSgSi_S2itSgtF",
+            "mangledName": "$sSo12MLMultiArrayC11DoreCartoonE7cgImage3min3max7channel4axesSo10CGImageRefaSgSd_SdSiSgSi_S2itSgtF",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "toRawBytes",
+            "printedName": "toRawBytes(min:max:channel:axes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, channels: Swift.Int)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(bytes: [Swift.UInt8], width: Swift.Int, height: Swift.Int, channels: Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.UInt8]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UInt8",
+                            "printedName": "Swift.UInt8",
+                            "usr": "s:s5UInt8V"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "GenericTypeParam",
+                "printedName": "τ_0_0"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Swift.Int, Swift.Int, Swift.Int)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Int, Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12MLMultiArrayC11DoreCartoonE10toRawBytes3min3max7channel4axesSays5UInt8VG5bytes_Si5widthSi6heightSi8channelstSgx_xSiSgSi_S2itSgtAC05MultiB4TypeRzlF",
+            "mangledName": "$sSo12MLMultiArrayC11DoreCartoonE10toRawBytes3min3max7channel4axesSays5UInt8VG5bytes_Si5widthSi6heightSi8channelstSgx_xSiSgSi_S2itSgtAC05MultiB4TypeRzlF",
+            "moduleName": "DoreCartoon",
+            "genericSig": "<τ_0_0 where τ_0_0 : DoreCartoon.MultiArrayType>",
+            "sugared_genericSig": "<T where T : DoreCartoon.MultiArrayType>",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "image",
+            "printedName": "image(min:max:channel:axes:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Int?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(Swift.Int, Swift.Int, Swift.Int)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.Int, Swift.Int, Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:So12MLMultiArrayC11DoreCartoonE5image3min3max7channel4axesSo7UIImageCSgSd_SdSiSgSi_S2itSgtF",
+            "mangledName": "$sSo12MLMultiArrayC11DoreCartoonE5image3min3max7channel4axesSo7UIImageCSgSd_SdSiSgSi_S2itSgtF",
+            "moduleName": "DoreCartoon",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)MLMultiArray",
+        "moduleName": "CoreML",
+        "isOpen": true,
+        "intro_iOS": "11.0",
+        "objc_name": "MLMultiArray",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 9,
+      "value": "\"cartoon\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 513,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 3,
+      "value": "\"S\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 3,
+      "value": "\"M\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 3,
+      "value": "\"H\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 667,
+      "length": 3,
+      "value": "\"S\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 693,
+      "length": 3,
+      "value": "\"M\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 3,
+      "value": "\"H\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 820,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 28,
+      "value": "\"DoreAI: model load start..\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1297,
+      "length": 11,
+      "value": "\"\/data.dat\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1440,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1633,
+      "length": 3,
+      "value": "\"\/\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1885,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2013,
+      "length": 54,
+      "value": "\"Unable to create directory \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2066,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2347,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 54,
+      "value": "\"Unable to create directory \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2528,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2765,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2777,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2842,
+      "length": 48,
+      "value": "\"DoreAI - DoreCartoon: Unable to extract model!\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3227,
+      "length": 60,
+      "value": "\"Unable to remove model directory \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3286,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3360,
+      "length": 29,
+      "value": "\"DoreAI: Load data error...!\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3505,
+      "length": 21,
+      "value": "\"Model set up failed\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3999,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4012,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4036,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4049,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4291,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4304,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4328,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4341,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4494,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4507,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4531,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4544,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/CartoonManager.swift",
+      "kind": "StringLiteral",
+      "offset": 4680,
+      "length": 31,
+      "value": "\"DoreAI: License not loaded..!\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 404,
+      "length": 40,
+      "value": "\"generator__G_MODEL__out_layer__Tanh__0\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 819,
+      "length": 40,
+      "value": "\"generator__G_MODEL__out_layer__Tanh__0\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1128,
+      "length": 40,
+      "value": "\"generator__G_MODEL__out_layer__Tanh__0\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1253,
+      "length": 4,
+      "value": "-1.1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "FloatLiteral",
+      "offset": 1264,
+      "length": 3,
+      "value": "0.7"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "Array",
+      "offset": 1668,
+      "length": 11,
+      "value": "[\"test__0\"]"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 1803,
+      "length": 9,
+      "value": "\"test__0\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2288,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2311,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2337,
+      "length": 3,
+      "value": "256"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2573,
+      "length": 38,
+      "value": "\"DoreAI: DoreCartoon model loaded...!\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2743,
+      "length": 76,
+      "value": "\"Failed to create the interpreter with error: \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 2818,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/ModelDataHandler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3411,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2239,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2278,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 2750,
+      "length": 44,
+      "value": "\"Unsupported data type \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 2793,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3280,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4341,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 4357,
+      "length": 56,
+      "value": "\"Cannot convert MLMultiArray of shape \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 4403,
+      "length": 2,
+      "value": "\" to image\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4720,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4780,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4838,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 4888,
+      "length": 41,
+      "value": "\"Invalid axes \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 4909,
+      "length": 3,
+      "value": "\" for shape \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 4928,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4987,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5067,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5087,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5109,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5225,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5246,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5266,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5711,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5732,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5750,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5774,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5798,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6001,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 6046,
+      "length": 56,
+      "value": "\"Channel must be -1, or between 0 and \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6099,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 6101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6154,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6180,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6244,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6267,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6293,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6319,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6361,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6380,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 6400,
+      "length": 75,
+      "value": "\"Expected channel dimension to have 1, 3, or 4 channels, got \""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "StringLiteral",
+      "offset": 6474,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6562,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6881,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7164,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7194,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7224,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7338,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7404,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7415,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8359,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8401,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8607,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8648,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8699,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8746,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9401,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9620,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9651,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9687,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10252,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10494,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10737,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10774,
+      "length": 3,
+      "value": "255"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11120,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sam\/SamData\/SamAI\/libproject\/IOS\/segmentDetect\/dorelib\/DoreCartoon\/controller\/MLMultiArray+Image.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11162,
+      "length": 3,
+      "value": "255"
+    }
+  ]
+}

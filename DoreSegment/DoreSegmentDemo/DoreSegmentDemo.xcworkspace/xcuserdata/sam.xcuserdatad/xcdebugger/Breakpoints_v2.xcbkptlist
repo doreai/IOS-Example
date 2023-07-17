@@ -97,6 +97,36 @@
                   endingLineNumber = "124"
                   offsetFromSymbolStart = "56">
                </Location>
+               <Location
+                  uuid = "96445CCF-1DA3-4FC7-A6E5-3AB40B0411F7 - abcf4813a905a9a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "DoreSegmentDemo.VideoSegment.run_segment(__C.UIImage) -&gt; ()"
+                  moduleName = "DoreSegmentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sam/SamData/SamAI/ExampleCode/IOS/DoreSegment/DoreSegmentDemo/DoreSegmentDemo/VideoSegment.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+               <Location
+                  uuid = "96445CCF-1DA3-4FC7-A6E5-3AB40B0411F7 - abca0f593e01bc86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "function signature specialization &lt;Arg[1] = Value Promoted from Box&gt; of closure #1 @Swift.MainActor () -&gt; () in DoreSegmentDemo.VideoSegment.run_segment(__C.UIImage) -&gt; ()"
+                  moduleName = "DoreSegmentDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sam/SamData/SamAI/ExampleCode/IOS/DoreSegment/DoreSegmentDemo/DoreSegmentDemo/VideoSegment.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "84">
+               </Location>
             </Locations>
          </BreakpointContent>
       </BreakpointProxy>

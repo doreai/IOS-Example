@@ -32,8 +32,8 @@
 
 /* Begin PBXBuildFile section */
 		1603F8D4FD9998CFB10CB59CC6B14E50 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		1DAD33AD451D25ECA03BA62AE441A2FA /* Pods-DoreCartoonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BEA9C75C394C9B1A700D18E46A9B483 /* Pods-DoreCartoonDemo-dummy.m */; };
-		A1FD930EDEE3521D15DE839EBAEC1286 /* Pods-DoreCartoonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0813C06F90B5A69BF97844970F08BF27 /* Pods-DoreCartoonDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DAD33AD451D25ECA03BA62AE441A2FA /* Pods-DoreCartoonDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5608621CE651AE155C41C253733B911 /* Pods-DoreCartoonDemo-dummy.m */; };
+		A1FD930EDEE3521D15DE839EBAEC1286 /* Pods-DoreCartoonDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E4A737C74BC27D3A47EB780E71FA84C6 /* Pods-DoreCartoonDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,25 +61,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0813C06F90B5A69BF97844970F08BF27 /* Pods-DoreCartoonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoreCartoonDemo-umbrella.h"; sourceTree = "<group>"; };
-		0A402863D7B7D76913DA80609D93ADB5 /* Pods-DoreCartoonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreCartoonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		0BEA9C75C394C9B1A700D18E46A9B483 /* Pods-DoreCartoonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoreCartoonDemo-dummy.m"; sourceTree = "<group>"; };
-		1C61BDB0AF8C0669733DD0130C031EFD /* Pods-DoreCartoonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoreCartoonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		33ACC189742DB8000C13716D9DF5E1A1 /* DoreCartoon.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DoreCartoon.xcframework; path = Frameworks/DoreCartoon.xcframework; sourceTree = "<group>"; };
-		463EA0891BC01E7E058F28F989CE90EA /* Pods-DoreCartoonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreCartoonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		35E038E2E7435B5630CCB71492C0AA9A /* Pods-DoreCartoonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreCartoonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		413AF1F8BFB7B8D088F16ABE2D193F19 /* Pods-DoreCartoonDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DoreCartoonDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		50DA83ECC3FFD5A3B2105AE34FB70F6F /* Pods-DoreCartoonDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreCartoonDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		54A23B4D278289D5AE4F8C2D0AEFF0EA /* DoreCartoon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCartoon.debug.xcconfig; sourceTree = "<group>"; };
 		55D0D965B1286D7FF16C138A5D2575C2 /* DoreCoreAI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.debug.xcconfig; sourceTree = "<group>"; };
 		6BB581E3E0B74B5B1D095140464A222D /* DoreCartoon-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DoreCartoon-xcframeworks.sh"; sourceTree = "<group>"; };
+		6F1A697F85FB7435F8EF54F3632D7178 /* Pods-DoreCartoonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreCartoonDemo.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		75B3FDD022F09F02C9748A1103072E68 /* Pods-DoreCartoonDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreCartoonDemo-Info.plist"; sourceTree = "<group>"; };
+		8645BF76F3727576C0E7C5F3C8D87B6E /* Pods-DoreCartoonDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DoreCartoonDemo-frameworks.sh"; sourceTree = "<group>"; };
 		8CA5C3A814A8AEA32AC290097136336C /* DoreCartoon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCartoon.release.xcconfig; sourceTree = "<group>"; };
-		911C712EFEBBD222A6647D8059B7471B /* Pods-DoreCartoonDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DoreCartoonDemo-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A7CD85C8A750AA45147FAF92B9922379 /* Pods-DoreCartoonDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-DoreCartoonDemo"; path = Pods_DoreCartoonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B96CB566AD297F95CFADD7C2D4469691 /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = DoreCoreAI.xcframework; path = Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
 		D4206811DC5A5DE096FE025C0A761DB7 /* DoreCoreAI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DoreCoreAI.release.xcconfig; sourceTree = "<group>"; };
+		D5608621CE651AE155C41C253733B911 /* Pods-DoreCartoonDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DoreCartoonDemo-dummy.m"; sourceTree = "<group>"; };
+		D801062FD2581DC04F8C78A804EDA05E /* Pods-DoreCartoonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoreCartoonDemo.modulemap"; sourceTree = "<group>"; };
 		DD7369F0FBBEDF0B4F3E820B47D34309 /* DoreCoreAI-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "DoreCoreAI-xcframeworks.sh"; sourceTree = "<group>"; };
-		F06AF64B93CC59E07DB3759A3F017523 /* Pods-DoreCartoonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DoreCartoonDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		F7D1DDEB8AACDC95ADE3DA7E1B0DA2D4 /* Pods-DoreCartoonDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DoreCartoonDemo.modulemap"; sourceTree = "<group>"; };
+		E4A737C74BC27D3A47EB780E71FA84C6 /* Pods-DoreCartoonDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DoreCartoonDemo-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,20 +95,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0600EDF35724B62B986DB97F8041D973 /* Pods-DoreCartoonDemo */ = {
+		131015BB35446B3DE5D138FB0C6D9FC6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7D1DDEB8AACDC95ADE3DA7E1B0DA2D4 /* Pods-DoreCartoonDemo.modulemap */,
-				1C61BDB0AF8C0669733DD0130C031EFD /* Pods-DoreCartoonDemo-acknowledgements.markdown */,
-				463EA0891BC01E7E058F28F989CE90EA /* Pods-DoreCartoonDemo-acknowledgements.plist */,
-				0BEA9C75C394C9B1A700D18E46A9B483 /* Pods-DoreCartoonDemo-dummy.m */,
-				911C712EFEBBD222A6647D8059B7471B /* Pods-DoreCartoonDemo-Info.plist */,
-				0813C06F90B5A69BF97844970F08BF27 /* Pods-DoreCartoonDemo-umbrella.h */,
-				F06AF64B93CC59E07DB3759A3F017523 /* Pods-DoreCartoonDemo.debug.xcconfig */,
-				0A402863D7B7D76913DA80609D93ADB5 /* Pods-DoreCartoonDemo.release.xcconfig */,
+				A39472BA032FD6A399E778B2ADA76586 /* Pods-DoreCartoonDemo */,
 			);
-			name = "Pods-DoreCartoonDemo";
-			path = "Target Support Files/Pods-DoreCartoonDemo";
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		318A601C9A9C07B556A80BE66552812F /* Support Files */ = {
@@ -166,6 +159,23 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		A39472BA032FD6A399E778B2ADA76586 /* Pods-DoreCartoonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D801062FD2581DC04F8C78A804EDA05E /* Pods-DoreCartoonDemo.modulemap */,
+				413AF1F8BFB7B8D088F16ABE2D193F19 /* Pods-DoreCartoonDemo-acknowledgements.markdown */,
+				50DA83ECC3FFD5A3B2105AE34FB70F6F /* Pods-DoreCartoonDemo-acknowledgements.plist */,
+				D5608621CE651AE155C41C253733B911 /* Pods-DoreCartoonDemo-dummy.m */,
+				8645BF76F3727576C0E7C5F3C8D87B6E /* Pods-DoreCartoonDemo-frameworks.sh */,
+				75B3FDD022F09F02C9748A1103072E68 /* Pods-DoreCartoonDemo-Info.plist */,
+				E4A737C74BC27D3A47EB780E71FA84C6 /* Pods-DoreCartoonDemo-umbrella.h */,
+				35E038E2E7435B5630CCB71492C0AA9A /* Pods-DoreCartoonDemo.debug.xcconfig */,
+				6F1A697F85FB7435F8EF54F3632D7178 /* Pods-DoreCartoonDemo.release.xcconfig */,
+			);
+			name = "Pods-DoreCartoonDemo";
+			path = "Target Support Files/Pods-DoreCartoonDemo";
+			sourceTree = "<group>";
+		};
 		AA4EE6B204A4E40005FF55C9E096E023 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -192,7 +202,7 @@
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				76EA1EB4A3B76446462DD24ADCFB97D7 /* Pods */,
 				A00D73C9E2DAD00EABA80D510227AD0E /* Products */,
-				EC1D539A8A5A15EACC094EBDC0303B1A /* Targets Support Files */,
+				131015BB35446B3DE5D138FB0C6D9FC6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -210,14 +220,6 @@
 				B96CB566AD297F95CFADD7C2D4469691 /* DoreCoreAI.xcframework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EC1D539A8A5A15EACC094EBDC0303B1A /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0600EDF35724B62B986DB97F8041D973 /* Pods-DoreCartoonDemo */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +262,8 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1240;
-				LastUpgradeCheck = 1240;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 13.0";
@@ -365,7 +367,7 @@
 /* Begin XCBuildConfiguration section */
 		07EC977B0201EB6DC2BBC195B7E22E6F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0A402863D7B7D76913DA80609D93ADB5 /* Pods-DoreCartoonDemo.release.xcconfig */;
+			baseConfigurationReference = 6F1A697F85FB7435F8EF54F3632D7178 /* Pods-DoreCartoonDemo.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -403,7 +405,7 @@
 		};
 		229D981AFEB869AC23EECECB05C69260 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F06AF64B93CC59E07DB3759A3F017523 /* Pods-DoreCartoonDemo.debug.xcconfig */;
+			baseConfigurationReference = 35E038E2E7435B5630CCB71492C0AA9A /* Pods-DoreCartoonDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;

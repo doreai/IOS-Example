@@ -11,10 +11,6 @@
 		22FA1BCD276A46B400E07258 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BCB276A46B400E07258 /* Main.storyboard */; };
 		22FA1BCF276A46B500E07258 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BCE276A46B500E07258 /* Assets.xcassets */; };
 		22FA1BD2276A46B500E07258 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BD0276A46B500E07258 /* LaunchScreen.storyboard */; };
-		22FA1BDA276A47B800E07258 /* DoreCoreAI.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA1BD9276A47B800E07258 /* DoreCoreAI.xcframework */; };
-		22FA1BDB276A47B800E07258 /* DoreCoreAI.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA1BD9276A47B800E07258 /* DoreCoreAI.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		22FA1BDE276A47BC00E07258 /* DoreCartoon.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA1BDD276A47BC00E07258 /* DoreCartoon.xcframework */; };
-		22FA1BDF276A47BC00E07258 /* DoreCartoon.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 22FA1BDD276A47BC00E07258 /* DoreCartoon.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		22FA1BE6276A48B800E07258 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BE1276A48B800E07258 /* video1.mp4 */; };
 		22FA1BE7276A48B800E07258 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BE2276A48B800E07258 /* video2.mp4 */; };
 		22FA1BE8276A48B800E07258 /* photo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 22FA1BE3276A48B800E07258 /* photo.jpg */; };
@@ -24,32 +20,17 @@
 		22FA1BF0276A48D500E07258 /* Videocartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA1BEC276A48D500E07258 /* Videocartoon.swift */; };
 		22FA1BF1276A48D500E07258 /* Picturecartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA1BED276A48D500E07258 /* Picturecartoon.swift */; };
 		22FA1BF2276A48D500E07258 /* Livecartoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FA1BEE276A48D500E07258 /* Livecartoon.swift */; };
-		8C6954530E266D3431BF93F9 /* Pods_DoreCartoonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC104260A781125A90990CF5 /* Pods_DoreCartoonDemo.framework */; };
+		A5D12BED2B406F5E15C2A8ED /* Pods_DoreCartoonDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 964B514BFDE26F3B01E9DCFC /* Pods_DoreCartoonDemo.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		22FA1BDC276A47B800E07258 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				22FA1BDF276A47BC00E07258 /* DoreCartoon.xcframework in Embed Frameworks */,
-				22FA1BDB276A47B800E07258 /* DoreCoreAI.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
+		22E8DE062A64CF79002FF9EA /* DoreCartoon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DoreCartoon.xcframework; sourceTree = "<group>"; };
+		22E8DE1A2A64D5BA002FF9EA /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = DoreCoreAI.xcframework; sourceTree = "<group>"; };
 		22FA1BC2276A46B400E07258 /* DoreCartoonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoreCartoonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22FA1BC5276A46B400E07258 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22FA1BCC276A46B400E07258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22FA1BCE276A46B500E07258 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22FA1BD1276A46B500E07258 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		22FA1BD9276A47B800E07258 /* DoreCoreAI.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCoreAI.xcframework; path = Pods/DoreCoreAI/Frameworks/DoreCoreAI.xcframework; sourceTree = "<group>"; };
-		22FA1BDD276A47BC00E07258 /* DoreCartoon.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = DoreCartoon.xcframework; path = Pods/DoreCartoon/Frameworks/DoreCartoon.xcframework; sourceTree = "<group>"; };
 		22FA1BE1276A48B800E07258 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
 		22FA1BE2276A48B800E07258 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		22FA1BE3276A48B800E07258 /* photo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = photo.jpg; sourceTree = "<group>"; };
@@ -60,9 +41,9 @@
 		22FA1BED276A48D500E07258 /* Picturecartoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picturecartoon.swift; sourceTree = "<group>"; };
 		22FA1BEE276A48D500E07258 /* Livecartoon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Livecartoon.swift; sourceTree = "<group>"; };
 		22FA1BF7276A51A400E07258 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C9991A998EFAFEF4651EBBA0 /* Pods-DoreCartoonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreCartoonDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo.release.xcconfig"; sourceTree = "<group>"; };
-		CA9293BC735D9B37E5E21659 /* Pods-DoreCartoonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreCartoonDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		DC104260A781125A90990CF5 /* Pods_DoreCartoonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreCartoonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2908A046C11987CB71E6C431 /* Pods-DoreCartoonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreCartoonDemo.debug.xcconfig"; path = "Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		84CE55C82CB3E207690C933C /* Pods-DoreCartoonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoreCartoonDemo.release.xcconfig"; path = "Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		964B514BFDE26F3B01E9DCFC /* Pods_DoreCartoonDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoreCartoonDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,31 +51,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22FA1BDA276A47B800E07258 /* DoreCoreAI.xcframework in Frameworks */,
-				22FA1BDE276A47BC00E07258 /* DoreCartoon.xcframework in Frameworks */,
-				8C6954530E266D3431BF93F9 /* Pods_DoreCartoonDemo.framework in Frameworks */,
+				A5D12BED2B406F5E15C2A8ED /* Pods_DoreCartoonDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		110E3E04D503E95AE253420B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				CA9293BC735D9B37E5E21659 /* Pods-DoreCartoonDemo.debug.xcconfig */,
-				C9991A998EFAFEF4651EBBA0 /* Pods-DoreCartoonDemo.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		22FA1BB9276A46B300E07258 = {
 			isa = PBXGroup;
 			children = (
 				22FA1BC4276A46B400E07258 /* DoreCartoonDemo */,
 				22FA1BC3276A46B400E07258 /* Products */,
-				110E3E04D503E95AE253420B /* Pods */,
-				A76E4EB3E78E2DA1765B4436 /* Frameworks */,
+				797F34BCBB00B6A7B76C12C3 /* Pods */,
+				27F50AF14BCFE9995D6FD612 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +79,8 @@
 		22FA1BC4276A46B400E07258 /* DoreCartoonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				22E8DE1A2A64D5BA002FF9EA /* DoreCoreAI.xcframework */,
+				22E8DE062A64CF79002FF9EA /* DoreCartoon.xcframework */,
 				22FA1BE0276A48B800E07258 /* assets */,
 				22FA1BEB276A48D500E07258 /* HomePage.swift */,
 				22FA1BEE276A48D500E07258 /* Livecartoon.swift */,
@@ -135,14 +107,22 @@
 			path = assets;
 			sourceTree = "<group>";
 		};
-		A76E4EB3E78E2DA1765B4436 /* Frameworks */ = {
+		27F50AF14BCFE9995D6FD612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				22FA1BDD276A47BC00E07258 /* DoreCartoon.xcframework */,
-				22FA1BD9276A47B800E07258 /* DoreCoreAI.xcframework */,
-				DC104260A781125A90990CF5 /* Pods_DoreCartoonDemo.framework */,
+				964B514BFDE26F3B01E9DCFC /* Pods_DoreCartoonDemo.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		797F34BCBB00B6A7B76C12C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2908A046C11987CB71E6C431 /* Pods-DoreCartoonDemo.debug.xcconfig */,
+				84CE55C82CB3E207690C933C /* Pods-DoreCartoonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,11 +132,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22FA1BD6276A46B500E07258 /* Build configuration list for PBXNativeTarget "DoreCartoonDemo" */;
 			buildPhases = (
-				0F8751290F9155A821FA7402 /* [CP] Check Pods Manifest.lock */,
+				15553511511E9AF42746ED6A /* [CP] Check Pods Manifest.lock */,
 				22FA1BBE276A46B400E07258 /* Sources */,
 				22FA1BBF276A46B400E07258 /* Frameworks */,
 				22FA1BC0276A46B400E07258 /* Resources */,
-				22FA1BDC276A47B800E07258 /* Embed Frameworks */,
+				852EC5E97E5389152DDD8C0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -219,7 +199,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0F8751290F9155A821FA7402 /* [CP] Check Pods Manifest.lock */ = {
+		15553511511E9AF42746ED6A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,6 +219,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		852EC5E97E5389152DDD8C0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DoreCartoonDemo/Pods-DoreCartoonDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -396,10 +393,11 @@
 		};
 		22FA1BD7276A46B500E07258 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA9293BC735D9B37E5E21659 /* Pods-DoreCartoonDemo.debug.xcconfig */;
+			baseConfigurationReference = 2908A046C11987CB71E6C431 /* Pods-DoreCartoonDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DC3Y7G9T2N;
@@ -421,6 +419,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dore.cartoondemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -429,10 +430,11 @@
 		};
 		22FA1BD8276A46B500E07258 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9991A998EFAFEF4651EBBA0 /* Pods-DoreCartoonDemo.release.xcconfig */;
+			baseConfigurationReference = 84CE55C82CB3E207690C933C /* Pods-DoreCartoonDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = DC3Y7G9T2N;
@@ -454,6 +456,9 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dore.cartoondemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
